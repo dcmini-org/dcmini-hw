@@ -1,5 +1,9 @@
 # 🧠 DCMini — Miniaturized Biopotential Amplifier & Multi-Sensor Suite
 
+__Copyright 2025\
+Johns Hopkins University Applied Physics Laboratory__
+
+
 DCMini is a **miniaturized biopotential amplifier and multi-sensor system** designed for research applications in **brain-computer interfaces (BCI)**, **muscular interfaces**, and **closed-loop biofeedback**. It combines a flexible set of sensors with powerful wireless telemetry and SD logging — in a package you can stick on your head.
 
 > ⚠️ This hardware is for **research and development only**. It is **not certified** for medical use and **must not** be used for medical diagnostic purposes.
@@ -42,8 +46,6 @@ dcmini-org-dcmini-hw/
 └── README.md     → You're reading it!
 ```
 
----
-
 ## 🪛 Assembly Notes
 
 - Designed for **2-layer fabrication** with **6mil/6mil** trace/spacing rules (some **4mil spacing** on single-side areas).
@@ -54,8 +56,6 @@ dcmini-org-dcmini-hw/
 - OSH Park has been used successfully for fabrication.
 
 Use the [`ibom_SR4.html`](dcmini/bom/ibom_SR4.html) file for a helpful interactive assembly reference.
-
----
 
 ## ⚡ Power Architecture
 
@@ -68,8 +68,6 @@ DCMini includes:
 
 ![Power Delivery Network](docs/images/pdn.png) 
 
----
-
 ## 🔌 Connector Interfaces
 
 | Interface       | Connector Type     | Notes                               |
@@ -80,7 +78,6 @@ DCMini includes:
 
 📎 _Pinout tables coming soon_
 
----
 
 ## 📦 Getting Started
 
@@ -94,7 +91,6 @@ DCMini includes:
 
 3. Generate Gerbers and manufacturing files via KiCad’s **Plot** tool.
 
----
 
 ## 📄 License: CERN-OHL-P v2
 
@@ -105,12 +101,11 @@ This hardware is licensed under the **CERN Open Hardware License v2 – Permissi
 - ✅ You can **use**, **modify**, **make**, and **sell** this hardware
 - ✅ You can **incorporate it** into commercial projects
 - 🧾 If you distribute modified versions, include the original license and note your changes
-- ❌ Don't use "CERN" or contributor names for marketing without permission
+- ❌ Don't use "CERN", "JHUAPL" or contributor names for marketing without permission
 - 🩹 This project comes with **no warranties** — it’s experimental
 
 See [`LICENSE.txt`](LICENSE.txt) for full details.
 
----
 
 ## 🧪 Project Status
 
@@ -118,8 +113,6 @@ See [`LICENSE.txt`](LICENSE.txt) for full details.
 - 🧪 Not for clinical or medical use
 - 🔬 Used in closed-loop neuroscience, BCI, and sensor fusion prototyping
 - 📦 3D-printable case design in progress
-
----
 
 ## 🤝 Acknowledgments
 
@@ -130,16 +123,3 @@ If you use this hardware in a project or publication, we’d love to hear about 
 ```
 Coon, W. G., Peranich, P., & Milsap, G. (2025). StARS DCM: A Sleep Stage-Decoding Forehead EEG Patch for Real-time Modulation of Sleep Physiology. arXiv preprint arXiv:2506.03442.
 ```
-
----
-
-## 🧩 Related Repos (Coming Soon)
-
-- 🧠 DCMini firmware / BLE stack
-- 📊 Data streaming + decoding tools
-- 🖨️ Printable enclosure
-- 🧰 Headgear and accessories
-
----
-
-**Made with caffeine and copper.**
