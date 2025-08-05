@@ -1,0 +1,223 @@
+(footprint "73415-3981"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "BNC Dual Jack, 75 Ohms")
+	(tags "BNC, Connector, Coax")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b673aaca-2a26-4134-a19b-d771a9006567")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "73415-3981"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2fd0ea22-27f1-4c12-a533-73262596ff51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a47e2db0-61e3-482c-832b-076329ba78b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/734153980?display=pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a523dfe-8b63-41aa-97db-9a1bbb07e2fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "BNC Dual Jack, 75 Ohms"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "662fce2c-5abd-42a0-ab14-fee1680d6936")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -10 -7.5)
+		(end -10 7.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c2c85363-88e2-4993-834e-0deb9eb102a9")
+	)
+	(fp_line
+		(start -10 7.5)
+		(end 10 7.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5c9bab00-2fe8-4595-95eb-e1853f8b60b2")
+	)
+	(fp_line
+		(start -2 -12.5)
+		(end -2 -7.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "92098d48-ec39-40db-a718-b56a437df165")
+	)
+	(fp_line
+		(start -2 -7.5)
+		(end -10 -7.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "141502c8-3e33-4885-8cf8-dda05b7cf503")
+	)
+	(fp_line
+		(start 2 -12.5)
+		(end -2 -12.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e2850f68-4677-4bac-ba00-88abadb0c1ae")
+	)
+	(fp_line
+		(start 2 -7.5)
+		(end 2 -12.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3aec188b-3ce6-4911-b245-5b68f3dfbc6b")
+	)
+	(fp_line
+		(start 10 -7.5)
+		(end 2 -7.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e3ddb19b-c236-4f30-b928-49e35bdc5eaf")
+	)
+	(fp_line
+		(start 10 7.5)
+		(end 10 -7.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3f86cef6-2cd6-4e9d-9a02-668f15b5276b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b973c6d9-eda4-4240-83a2-e5672c5f3d63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -10.8)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8826b760-090d-42d0-92e6-08918d064d42")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -8.2)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2d133380-7b31-46e3-aa10-1423a9c3d1bd")
+	)
+	(pad "3" thru_hole oval
+		(at -8.5 -5.1)
+		(size 1.5 3.5)
+		(drill oval 1 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a01c0ad9-7476-4c30-bd43-227d2cbfe123")
+	)
+	(pad "3" thru_hole oval
+		(at -8.5 5.1)
+		(size 1.5 3.5)
+		(drill oval 1 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e7e37742-372c-46be-b88c-cf6bba614939")
+	)
+	(pad "3" thru_hole oval
+		(at 8.5 -5.1)
+		(size 1.5 3.5)
+		(drill oval 1 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a70f6d0f-a995-4a53-bf15-e1ed14c2e689")
+	)
+	(pad "3" thru_hole oval
+		(at 8.5 5.1)
+		(size 1.5 3.5)
+		(drill oval 1 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7e23c44a-44e9-4b55-a7da-334ad934accc")
+	)
+	(model "${KIPRJMOD}/../lib/dcmini/dcmini.3dshapes/734153980.stp"
+		(offset
+			(xyz 0 -8.9 6.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
