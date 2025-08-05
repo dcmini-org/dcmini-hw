@@ -6,7 +6,11 @@ DCMini is a **miniaturized biopotential amplifier and multi-sensor system** desi
 
 ---
 
+![DCMini on Forehead](docs/images/dcm_head.png)
+
 ## 🛠️ Features At A Glance
+
+![Populated DCMini PCB](docs/images/dcm_pcb.png)
 
 - **4–16 Channels of EEG/EMG/biopotential** via ADS1299 (DC-coupled)
 - **nRF52840** BLE + USB radio module
@@ -40,19 +44,6 @@ dcmini-org-dcmini-hw/
 
 ---
 
-## 📸 Visuals
-
-(Images/renderings go here)
-
-- 📷 Top/Bottom of DCMini populated board  
-- 🔌 Power Delivery Diagram (DCMini + 4head)  
-- 🔄 Pinout tables for board-to-board & FPC connectors  
-- 🧠 Head-mounted 4-channel EEG layout w/ 4head
-
-> _If you have renders or photos to share, place them in a `/media` folder and reference them here._
-
----
-
 ## 🪛 Assembly Notes
 
 - Designed for **2-layer fabrication** with **6mil/6mil** trace/spacing rules (some **4mil spacing** on single-side areas).
@@ -75,7 +66,7 @@ DCMini includes:
 - **5V boost converter** for peripherals
 - **USB isolation** for noise-sensitive data capture
 
-📐 _Diagram coming soon_
+![Power Delivery Network](docs/images/pdn.png) 
 
 ---
 

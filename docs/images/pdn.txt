@@ -1,0 +1,80 @@
+---
+title: DCMini SR4 Power Network
+---
+flowchart LR
+    %% USB Power Inputs
+    VBUS_EXT["5V USB Input (VBUS_EXT)<br/>Board-Board Connector<br/>500mA MAX"]
+    VBUS_ISO["5V USB Input (VBUS_ISO)<br/>USB Isolator<br/>80mA MAX"]
+
+    %% Priority Mux
+    TPS2116["<b>TPS2116</b><br/>USB Power Mux<br/>(Prioritize VBUS_ISO)"]
+
+    VBUS_EXT -. VBUS_EXT .-> TPS2116
+    VBUS_ISO -. VBUS_ISO .-> TPS2116
+
+    %% USB Data Switch
+    USB_Switch["<b>TS3USB3000</b><br/>USB Data Switch"]
+    USB_Switch -. USB Data .-> MCU["nRF52840<br/>Microcontroller"]
+
+    TPS2116 -. VBUS_SEL .-> VSYS
+    Battery["Rechargeable Battery"] <-. VLIPO .-> VSYS
+
+    BUCK1 -. 1V8 .-> Rail_1V8["<b>1.8V Rail</b>"]
+    
+    subgraph "<b>nPM1300 PMIC</b>"
+        VSYS[<b>VSYS</b><br/>VBUS_SEL: 5V<br/>VBAT: ~3.7V]
+        VSYS --> LDO1["<b>LDO1</b><br/>Firmware enabled<br/>3.3V 50mA MAX"]
+        VSYS --> BUCK1["<b>BUCK1</b><br/>1.8V (always on)"]
+        VSYS --> BUCK2["<b>BUCK2</b><br/>3.3V (always on)"]
+        BUCK2 --> LOADSW2["<b>LOADSW2</b><br/>Power Switch"]
+        VSYS --> VBUS["<b>VBUS_OUT</b><br/>Conditioned 5V"]
+    end
+
+    VBUS -. VBUS .-> MCU
+    LOADSW2 -. 3V3 .-> Rail_3V3["<b>3.3V Rail</b>"]
+    Rail_1V8 --> MCU
+
+    %% Loads for 1.8V
+    subgraph "<b>1.8V Peripherals</b><br/>Always Powered"
+      Rail_1V8 --> APDS9253["<b>APDS-9253</b><br/>Light Sensor "]
+      Rail_1V8 --> MIC["<b>SPK0838HT4H</b><br/>PDM Microphone"]
+
+      Rail_1V8 --> IMU["<b>ICM-45605</b><br/>IMU"]
+    end
+
+    %% Loads for 3.3V
+    subgraph "<b>3.3V Peripherals<b>"
+      Rail_3V3 --> DRV2605["<b>DRV2605</b><br/>Haptic Driver"]
+      Rail_3V3 --> NEOPIXEL["<b>WS2812B</b><br/>Neopixel LED"]
+      Rail_3V3 --> SD["<b>SD Card</b>"]
+      Rail_3V3 --> USB_Switch
+    end
+
+    subgraph "<b>Analog Frontend</b>"
+      Inverter["<b>LM2664M6</b><br/>Charge Pump Inverter"]
+      NEG2V5["<b>MAX1735EUK25</b><br/>-2.5V LDO"]
+      POS2V5["<b>TLV70025</b><br/>+2.5V LDO"]
+      LDO1 -. VDDA .-> Inverter
+      Inverter -. "-3V3" .-> NEG2V5
+      Rail_3V3 --> POS2V5
+
+      subgraph "<b>ADS1299</b>"
+        ADS1299_IF["Digital Interface"]
+        ADS1299_AFE["Analog Interface"]
+        Rail_1V8 --> ADS1299_IF
+      end 
+    
+      NEG2V5 -. "-2V5" .-> ADS1299_AFE 
+      POS2V5 -. "+2V5" .-> ADS1299_AFE
+    end
+
+    ADS1299_IF -. "SPI" .-> MCU
+
+    %% 5V Output Boost
+    TPS61030["<b>TPS61030</b><br/>5V Boost Converter<br/>P0.29 enable (active low)"] 
+    VSYS --> TPS61030
+    TPS61030 --> Out5V["<b>5V Rail</b><br/>(To Ext Connector)"]
+
+    %% Notes and styling for clarity
+    classDef rail fill:#eec,stroke:#555;
+    class VSYS,Rail_1V8,Rail_3V3,Out5V rail;
