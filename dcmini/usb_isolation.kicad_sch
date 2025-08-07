@@ -950,6 +950,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2135,7 +2296,7 @@
 	)
 	(rectangle
 		(start 148.59 43.18)
-		(end 201.93 147.32)
+		(end 209.55 147.32)
 		(stroke
 			(width 0)
 			(type default)
@@ -2168,7 +2329,7 @@
 	)
 	(text "These should \nboth be placed \nbetween 15/16"
 		(exclude_from_sim no)
-		(at 193.04 123.698 0)
+		(at 196.342 104.394 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2238,7 +2399,7 @@
 	)
 	(text "ADuM6000 provides MAXIMUM 80 mA of current. \nIt gets VERY hot when doing so.\n\nRecommend keeping I_load from VBUS at maximum 50mA.\nExternal hardware connected to supplied power rails should\nbe tuned to keep current draw limited, or else ADuM6000 \ncould get hot enough to damage battery if in proximity"
 		(exclude_from_sim no)
-		(at 203.2 135.89 0)
+		(at 216.916 136.906 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2306,6 +2467,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "395e5ffb-c553-4749-9619-1d240e941991")
+	)
+	(junction
+		(at 196.85 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b66210c-d892-42ad-9d4a-3c63b08fef0f")
 	)
 	(junction
 		(at 125.73 53.34)
@@ -2647,7 +2814,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 135.89) (xy 185.42 135.89)
+			(xy 185.42 135.89) (xy 196.85 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2697,7 +2864,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 139.7) (xy 194.31 135.89)
+			(xy 196.85 139.7) (xy 196.85 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2784,6 +2951,16 @@
 			(type default)
 		)
 		(uuid "49aa1f35-19f0-47df-b4f2-5e0747d6d1f2")
+	)
+	(wire
+		(pts
+			(xy 196.85 123.19) (xy 196.85 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bde1405-f908-4158-bfe2-c868eb19c2cb")
 	)
 	(wire
 		(pts
@@ -3014,6 +3191,16 @@
 			(type default)
 		)
 		(uuid "754a14c9-b6dd-4037-a17f-d0716beaa071")
+	)
+	(wire
+		(pts
+			(xy 196.85 130.81) (xy 196.85 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7926d58b-e3b1-479a-8ce4-2195703c68c0")
 	)
 	(wire
 		(pts
@@ -3384,6 +3571,16 @@
 			(type default)
 		)
 		(uuid "c5e9b813-dd31-4093-9cf1-86c361db57cd")
+	)
+	(wire
+		(pts
+			(xy 196.85 109.22) (xy 185.42 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c61bc9c3-b691-4681-8690-edfbdd0da275")
 	)
 	(wire
 		(pts
@@ -4468,6 +4665,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 196.85 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "536c0f16-a292-466a-ab46-53fd0428fe64")
+		(property "Reference" "C89"
+			(at 193.675 124.841 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 193.675 127.381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
+			(at 195.8848 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tantalum Polymer 10V 20% max 3mm height"
+			(at 196.85 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "TCTOBL1A107M8R-ZS1"
+			(at 196.85 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.digikey.com/en/products/detail/kyocera-avx/TCTOBL1A107M8R-ZS1/17868568"
+			(at 196.85 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4e3dff4-6a00-46ac-8cf6-6d4f3ea18209")
+		)
+		(pin "2"
+			(uuid "60e00e48-d261-4d55-b055-4fa608d38ab1")
+		)
+		(instances
+			(project "dcmini"
+				(path "/d60941e0-00fa-483d-8778-d43646235567/2c08fd65-36b8-45be-956e-7718c494a2ac"
+					(reference "C89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 125.73 87.63 0)
 		(mirror y)
@@ -5385,7 +5670,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 139.7 0)
+		(at 196.85 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5394,7 +5679,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee74d9ab-60a0-48dc-a643-7ef6840b996c")
 		(property "Reference" "#PWR0126"
-			(at 194.31 146.05 0)
+			(at 196.85 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5403,7 +5688,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 144.78 0)
+			(at 196.85 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5411,7 +5696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 139.7 0)
+			(at 196.85 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5420,7 +5705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 139.7 0)
+			(at 196.85 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5429,7 +5714,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 139.7 0)
+			(at 196.85 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)

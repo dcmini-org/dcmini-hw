@@ -2553,7 +2553,7 @@
 			)
 		)
 		(instances
-			(project "dcmini-s"
+			(project "dcmini"
 				(path "/d60941e0-00fa-483d-8778-d43646235567"
 					(page "2")
 				)
@@ -2835,7 +2835,7 @@
 			)
 		)
 		(instances
-			(project "dcmini-s"
+			(project "dcmini"
 				(path "/d60941e0-00fa-483d-8778-d43646235567"
 					(page "7")
 				)
@@ -2907,7 +2907,7 @@
 			)
 		)
 		(instances
-			(project "dcmini-s"
+			(project "dcmini"
 				(path "/d60941e0-00fa-483d-8778-d43646235567"
 					(page "5")
 				)
@@ -3009,7 +3009,7 @@
 			)
 		)
 		(instances
-			(project "dcmini-s"
+			(project "dcmini"
 				(path "/d60941e0-00fa-483d-8778-d43646235567"
 					(page "6")
 				)
@@ -3381,7 +3381,7 @@
 			)
 		)
 		(instances
-			(project "dcmini-s"
+			(project "dcmini"
 				(path "/d60941e0-00fa-483d-8778-d43646235567"
 					(page "3")
 				)
@@ -3454,7 +3454,7 @@
 			)
 		)
 		(instances
-			(project "dcmini-s"
+			(project "dcmini"
 				(path "/d60941e0-00fa-483d-8778-d43646235567"
 					(page "4")
 				)

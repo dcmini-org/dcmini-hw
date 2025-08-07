@@ -6692,10 +6692,6 @@
 		(uuid "393fdbd4-379c-459b-aa64-f4e576eea1ed")
 	)
 	(no_connect
-		(at 247.65 52.07)
-		(uuid "456bc112-0515-4dda-a600-c54fefcd928a")
-	)
-	(no_connect
 		(at 91.44 107.95)
 		(uuid "4fbe0efd-f81b-4356-9d52-e92210b13e7e")
 	)
@@ -7091,6 +7087,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 52.07) (xy 229.87 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33a973aa-7ec3-402a-b412-cb6da2e1ae04")
+	)
+	(wire
+		(pts
 			(xy 29.21 114.3) (xy 34.29 114.3)
 		)
 		(stroke
@@ -7258,6 +7264,16 @@
 			(type default)
 		)
 		(uuid "4879c033-5002-46e8-a620-eb8e412d6c7e")
+	)
+	(wire
+		(pts
+			(xy 247.65 52.07) (xy 229.87 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c5ce9e-ea64-49e4-b501-07e2ca182e85")
 	)
 	(wire
 		(pts
@@ -11524,6 +11540,73 @@
 			(project "dcmini-s"
 				(path "/d60941e0-00fa-483d-8778-d43646235567/706949da-e6c8-4ead-939f-e6159df64a5c"
 					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 229.87 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b1dedf3-9c0f-4764-999c-bfe95b04d05d")
+		(property "Reference" "#PWR0125"
+			(at 229.87 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51fe29ef-ccb3-4bda-83cd-3bd601bbf8cd")
+		)
+		(instances
+			(project "dcmini"
+				(path "/d60941e0-00fa-483d-8778-d43646235567/706949da-e6c8-4ead-939f-e6159df64a5c"
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
