@@ -78,15 +78,10 @@ DCMini includes:
 
 ## 📦 Getting Started
 
-1. Open the board in KiCad:
-   ```bash
-   kicad dcmini/dcmini.kicad_pro
-   ```
+[TODO]
 
-2. View or build the board with the interactive BOM:
-   - Open `dcmini/bom/ibom_SR4.html` in your browser.
-
-3. Generate Gerbers and manufacturing files via KiCad’s **Plot** tool.
+### Program device firmware
+Our rust firmware stack is available at the following address: https://github.com/dcmini-org/dcmini-fw
 
 
 ## 📄 License: CERN-OHL-P v2
