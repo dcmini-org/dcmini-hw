@@ -5177,7 +5177,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "DCM_B2B_AFE"
+		(property "Value" "DF40C-60DS-0.4V"
 			(at 0 -2.6 0)
 			(layer "B.SilkS")
 			(hide yes)
@@ -5221,7 +5221,7 @@
 		(sheetname "/")
 		(sheetfile "4head.kicad_sch")
 		(clearance 0.1)
-		(attr smd)
+		(attr smd dnp)
 		(fp_rect
 			(start -6.2 0.4)
 			(end 6.2 -0.4)
@@ -5231,7 +5231,7 @@
 			)
 			(fill no)
 			(layer "B.SilkS")
-			(uuid "4bca19e3-32e2-4cdc-89f1-a79c2f6016c8")
+			(uuid "71835559-99cc-4adc-aa0c-99af83e0d936")
 		)
 		(fp_rect
 			(start 7 1.2)
@@ -5242,7 +5242,7 @@
 			)
 			(fill no)
 			(layer "B.SilkS")
-			(uuid "774b4ba6-f77c-4c7d-9610-7e067f5fe99f")
+			(uuid "62cc71bb-2917-4d94-b7d2-a60a2b4e3381")
 		)
 		(fp_rect
 			(start 7.4 1.6)
@@ -5253,7 +5253,7 @@
 			)
 			(fill no)
 			(layer "B.SilkS")
-			(uuid "11a150a9-5db2-4b63-8a7d-e0656f73950e")
+			(uuid "4a1e8bef-210f-4672-8eb0-bf6f42291e11")
 		)
 		(fp_poly
 			(pts
@@ -5265,7 +5265,7 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(uuid "bf36746e-9346-4f8a-81ae-5a2e6c935937")
+			(uuid "787fd9cf-7e99-4e3b-970e-c93a19363c5f")
 		)
 		(fp_poly
 			(pts
@@ -5277,7 +5277,7 @@
 			)
 			(fill yes)
 			(layer "Dwgs.User")
-			(uuid "d2e90501-a129-4ccc-a66d-078259792125")
+			(uuid "9efde093-3d2c-41de-ac99-7277ce1ee00b")
 		)
 		(fp_poly
 			(pts
@@ -5289,7 +5289,7 @@
 			)
 			(fill yes)
 			(layer "Dwgs.User")
-			(uuid "b3d3774c-f111-417d-b69c-d3c6c1e677ba")
+			(uuid "41bf5a7b-a3f4-41c8-852c-e667476e53c5")
 		)
 		(fp_line
 			(start -14.5 33)
@@ -5299,7 +5299,7 @@
 				(type default)
 			)
 			(layer "Cmts.User")
-			(uuid "6a5b785a-384b-48f2-8984-ebfd0747c2e6")
+			(uuid "c119c33c-a570-45c3-bc88-25f710649be8")
 		)
 		(fp_line
 			(start 11.5 -10.000001)
@@ -5309,7 +5309,7 @@
 				(type default)
 			)
 			(layer "Cmts.User")
-			(uuid "fa293a55-9d4c-4a77-bb39-038badb7d00e")
+			(uuid "63016400-4e08-4b84-ae11-74d99dbd4e6e")
 		)
 		(fp_line
 			(start 11.6 35.999999)
@@ -5319,7 +5319,7 @@
 				(type default)
 			)
 			(layer "Cmts.User")
-			(uuid "0113914d-3d01-4fc5-b8e4-8116cb4ae877")
+			(uuid "bab8c79f-cd47-4b0f-ba91-87aacfd47c0a")
 		)
 		(fp_line
 			(start 14.5 33)
@@ -5329,7 +5329,7 @@
 				(type default)
 			)
 			(layer "Cmts.User")
-			(uuid "aa2b2924-889e-4a77-ab03-9728cfd5fc92")
+			(uuid "3f04bd9d-5166-429b-9338-ab15c64b7b37")
 		)
 		(fp_arc
 			(start -14.5 -7)
@@ -5340,7 +5340,7 @@
 				(type default)
 			)
 			(layer "Cmts.User")
-			(uuid "35f02aa3-cc87-40b2-aecf-aed8162fb483")
+			(uuid "b385130e-08ea-4809-a206-c1e330d00b1e")
 		)
 		(fp_arc
 			(start -11.5 36)
@@ -5351,7 +5351,7 @@
 				(type default)
 			)
 			(layer "Cmts.User")
-			(uuid "013b0613-2090-4d6b-9f6c-66c46aae8898")
+			(uuid "ab24f60b-c8c0-47db-8389-0047820c478c")
 		)
 		(fp_arc
 			(start 11.5 -10)
@@ -5362,7 +5362,7 @@
 				(type default)
 			)
 			(layer "Cmts.User")
-			(uuid "daeb90f8-a11e-4f42-8863-3868959c1069")
+			(uuid "f66c2b9a-177e-4c75-b1ab-3d8533bd3ea3")
 		)
 		(fp_arc
 			(start 14.5 33)
@@ -5373,7 +5373,7 @@
 				(type default)
 			)
 			(layer "Cmts.User")
-			(uuid "d3926e64-3328-41f4-9d40-5007ed02bc2e")
+			(uuid "0cceb3f2-6244-4257-9cc2-71522502dd44")
 		)
 		(fp_circle
 			(center -11.5 -7)
@@ -5384,7 +5384,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "340b254b-b828-4392-ba5e-d653bf81d72f")
+			(uuid "d327eb0c-4580-4585-a41d-ed36d368d81b")
 		)
 		(fp_circle
 			(center -11.5 -7)
@@ -5395,7 +5395,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "d4f3aeae-5acd-44ee-9092-18ddb1b4a3b9")
+			(uuid "df03a84c-6a2c-4f89-b012-febfe33e4c75")
 		)
 		(fp_circle
 			(center -11.5 33)
@@ -5406,7 +5406,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "9fec3c08-e411-4e02-a482-2be089a4f85d")
+			(uuid "f57149bc-b84d-43e3-bc84-5849d474f5fd")
 		)
 		(fp_circle
 			(center -11.5 33)
@@ -5417,7 +5417,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "19d337af-525a-4184-bce7-70439f49249a")
+			(uuid "93a1771a-ea65-4bc6-8291-402cfded5a2c")
 		)
 		(fp_circle
 			(center 11.5 -7)
@@ -5428,7 +5428,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "ebc159bf-39fb-490b-aebb-aea79acb9048")
+			(uuid "41bca120-9179-45a5-84fb-66e7bd2a1fd5")
 		)
 		(fp_circle
 			(center 11.5 -7)
@@ -5439,7 +5439,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "df66b0f6-55b5-4453-baab-eb5f0231f956")
+			(uuid "41469a2f-3e05-48e1-9334-87a06e1c253d")
 		)
 		(fp_circle
 			(center 11.5 33)
@@ -5450,7 +5450,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "61d5e88a-337a-4bf3-8a75-28984028281f")
+			(uuid "ff3d26ef-2c84-4b46-b59e-12fe401af11e")
 		)
 		(fp_circle
 			(center 11.5 33)
@@ -5461,7 +5461,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "7a48a43d-e9bf-4b21-8d47-2e82259dc125")
+			(uuid "e98f4ab0-b29f-4145-90d3-6bb27240b087")
 		)
 		(fp_rect
 			(start -7.4 1.6)
@@ -5472,7 +5472,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "1f806d0a-c29f-4312-9197-eaa61b59a00b")
+			(uuid "1b9913db-0698-490b-8111-d28f31ec9cd1")
 		)
 		(pad "1" smd roundrect
 			(at 5.8 1.6)
@@ -6135,15 +6135,15 @@
 			(uuid "1e9e75f1-1530-4c54-ad14-af7ec4a67e4e")
 		)
 		(embedded_fonts no)
-		(model "$KISYS3DMOD/walter/conn_df40.3dshapes/df40c-60ds-0.4v.wrl"
+		(model "/Users/milsagw1/repos/dcmini-hw-public/lib/dcmini/dcmini.3dshapes/DF40C-60DS.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 2.1 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -90)
 			)
 		)
 	)

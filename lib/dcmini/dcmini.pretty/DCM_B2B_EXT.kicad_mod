@@ -785,15 +785,15 @@
 		(uuid "dbad4963-3962-44e2-be7b-77111840b8e8")
 	)
 	(embedded_fonts no)
-	(model "$KISYS3DMOD/walter/conn_df40.3dshapes/df40c-60ds-0.4v.wrl"
+	(model "/Users/milsagw1/repos/dcmini-hw-public/lib/dcmini/dcmini.3dshapes/DF40C-60DS.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 2.1 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -90)
 		)
 	)
 )

@@ -1,8 +1,6 @@
 # 🧠 DCMini — Miniaturized Biopotential Amplifier & Multi-Sensor Suite
 
-__Copyright 2025\
-Johns Hopkins University Applied Physics Laboratory__
-
+© 2025 The Johns Hopkins University Applied Physics Laboratory LLC
 
 DCMini is a **miniaturized biopotential amplifier and multi-sensor system** designed for research applications in **brain-computer interfaces (BCI)**, **muscular interfaces**, and **closed-loop biofeedback**. It combines a flexible set of sensors with powerful wireless telemetry and SD logging — in a package you can stick on your head.
 
@@ -62,7 +60,6 @@ Use the [`ibom_SR4.html`](dcmini/bom/ibom_SR4.html) file for a helpful interacti
 DCMini includes:
 
 - **nPM1300** battery management (charge + monitor)
-- **3.3V system rail** (from nPM)
 - **5V boost converter** for peripherals
 - **USB isolation** for noise-sensitive data capture
 
@@ -70,14 +67,14 @@ DCMini includes:
 
 ## 🔌 Connector Interfaces
 
-| Interface       | Connector Type     | Notes                               |
+| Interface       | Connector     | Notes                               |
 |-----------------|--------------------|-------------------------------------|
-| Analog Frontend | FPC (0.3mm pitch)  | 4head connector for 4-channel EEG   |
-| Expansion       | DF40 board-to-board| Exposes digital + AFE interface     |
-| Debug/Flash     | TagConnect         | SWD + UART                          |
+| __EXT__: Expansion       | DF40C-60DP (0.4mm pitch) | Exposes digital interface  |
+| __AFE__: Analog Frontend | DF40C-60DP (0.4mm pitch) | Exposes analog interface  |
+| __FPC__: Analog Frontend   | FH35C-45S (0.3mm pitch)        | Exposes analog interface + I2C                        |
 
-📎 _Pinout tables coming soon_
-
+![Connector Interfaces](docs/images/connectors.png)
+![Connector Pinouts](docs/images/pinouts.png)
 
 ## 📦 Getting Started
 
@@ -115,8 +112,11 @@ See [`LICENSE.txt`](LICENSE.txt) for full details.
 - 📦 3D-printable case design in progress
 
 ## 🤝 Acknowledgments
+This work was supported in part by intramural research funding from [Johns Hopkins University Applied Physics Lab (JHU APL)](https://www.jhuapl.edu/).
 
-DCMini is developed by [Griffin Milsap](mailto:griffin.milsap@jhuapl.edu), [Preston Peranich](mailto:preston.peranich@jhuapl.edu), and [Will Coon](mailto:will.coon@jhuapl.edu) amongst other collaborators at [Johns Hopkins University Applied Physics Lab (JHU APL)](https://www.jhuapl.edu/).
+* [Griffin Milsap](mailto:griffin.milsap@jhuapl.edu): Hardware design
+* [Preston Peranich](mailto:preston.peranich@jhuapl.edu): Firmware implementation
+* [Will Coon](mailto:will.coon@jhuapl.edu): Device validation
 
 If you use this hardware in a project or publication, we’d love to hear about it!  Additionally, please consider citing: 
 

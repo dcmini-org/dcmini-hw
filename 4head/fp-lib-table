@@ -1,5 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "mod_conn_df40")(type "KiCad")(uri "${KIPRJMOD}/../lib/mod_conn_df40/w_conn_df40.pretty")(options "")(descr ""))
   (lib (name "dcmini")(type "KiCad")(uri "${KIPRJMOD}/../lib/dcmini/dcmini.pretty")(options "")(descr ""))
 )
