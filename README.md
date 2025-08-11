@@ -31,19 +31,6 @@ DCMini is a **miniaturized biopotential amplifier and multi-sensor system** desi
 
 ---
 
-## 📁 Repository Structure
-
-```
-dcmini-org-dcmini-hw/
-├── dcmini/       → Main DCMini board (EEG/sensors/MCU)
-│   └── bom/
-│       └── ibom_SR4.html  ← interactive BOM for assembly
-├── 4head/        → EEG breakout board (4-channel scalp layout)
-├── lib/          → Custom KiCad footprints + 3D models
-├── LICENSE.txt   → CERN-OHL-P v2 license
-└── README.md     → You're reading it!
-```
-
 ## 🪛 Assembly Notes
 
 - Designed for **2-layer fabrication** with **6mil/6mil** trace/spacing rules (some **4mil spacing** on single-side areas).
