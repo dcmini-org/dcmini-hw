@@ -80,12 +80,17 @@ DCMini includes:
 
 __This is an advanced DIY PCB project.__  Many components on this board do not have leads for hand soldering, and you will at least need a hot-air rework station to place those.  Additionally, this project is almost entirely built on flex PCBs, which have their own set of challenges, particularly getting them to sit flat on a hot plate.  Many efforts were made to keep components to just one side of the board, but there are some connectors that just have to be on the rear of the board and some of these connectors are fine-pitch and very challenging to hand solder.
 
-You can find a storefront where you can purchase an assembled board [HERE](https://www.todo.todo).
+### Buy a DCMini
+You can find a storefront where you can purchase an assembled board [HERE](https://www.todo.todo).  Maybe someday you'll be able to purchase a fully-constructed DCMini [HERE](https://www.todo.todo).
 
-* [docs/assembly.md](docs/assembly.md): PCB assembly docs
-* [docs/3dprinting.md](docs/3dprinting.md): Case printing
+### Documentation
 
-
+* [docs/assembly.md](docs/assembly.md): PCB assembly documentation
+* [docs/build.md](docs/3dprinting.md): Case print/mechanical build instructions
+* [docs/firmware.md](docs/firmware.md): Instructions for flashing firmware
+* [docs/software.md](docs/software.md): Documentation for companion software and acquisiton APIs
+* [docs/bci.md](docs/bci.md): Tutorial for using the DCMini as a brain-computer-interface
+* [docs/sleep.md](docs/sleep.md): Information for using the DCMini for sleep studies.
 
 ## Device Firmware
 Our rust firmware stack is available at the following address: https://github.com/dcmini-org/dcmini-fw
