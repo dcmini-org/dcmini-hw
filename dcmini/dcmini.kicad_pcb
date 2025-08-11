@@ -36552,29 +36552,27 @@
 		(sheetname "/nrf_micro/")
 		(sheetfile "nrf_micro.kicad_sch")
 		(attr smd)
-		(fp_poly
-			(pts
-				(xy -2.5 -1.5) (xy -2.5 1.5) (xy 2.5 1.5) (xy 2.5 -1.5)
-			)
+		(fp_rect
+			(start -2.5 -1.5)
+			(end 2.5 1.5)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "41d26eee-cf78-493b-b138-65c1643592e7")
+			(uuid "6f84f42c-141e-4986-8c40-73f274da2cd8")
 		)
-		(fp_poly
-			(pts
-				(xy -1.85 -1.4) (xy -1.85 1.4) (xy 1.85 1.4) (xy 1.85 -1.4)
-			)
+		(fp_rect
+			(start -1.85 -1.4)
+			(end 1.85 1.4)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "2514264e-58b1-4671-b764-0d7a1af6438f")
+			(uuid "e1687ac0-2c37-4170-a7bf-a924ba90fbd9")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 4 0)
@@ -36589,7 +36587,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.049999 0.8)
+			(at -2.05 0.8)
 			(size 0.9 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 24 "GND")
@@ -36599,7 +36597,7 @@
 			(uuid "8279a5ad-d488-46ea-9f26-601164f47ad7")
 		)
 		(pad "2" smd rect
-			(at 2.049999 0.8)
+			(at 2.05 0.8)
 			(size 0.9 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 24 "GND")
@@ -36609,7 +36607,7 @@
 			(uuid "fb71e649-fc2c-4649-8e75-57043982c384")
 		)
 		(pad "3" smd rect
-			(at -2.049999 -0.8)
+			(at -2.05 -0.8)
 			(size 0.9 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 224 "/nrf_micro/PWBTN")
@@ -36619,7 +36617,7 @@
 			(uuid "10533b33-c38d-4330-853a-39d5017ae988")
 		)
 		(pad "4" smd rect
-			(at 2.049999 -0.8)
+			(at 2.05 -0.8)
 			(size 0.9 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 224 "/nrf_micro/PWBTN")
@@ -36629,6 +36627,17 @@
 			(uuid "ebaa47fc-c56b-45be-b9f7-ee2c2b8d37d7")
 		)
 		(embedded_fonts no)
+		(model "/Users/milsagw1/repos/dcmini-hw-public/lib/dcmini/dcmini.3dshapes/TL6330AF200Q.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
