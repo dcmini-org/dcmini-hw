@@ -13675,9 +13675,19 @@
 		)
 		(uuid "07f76cc9-9a1e-4eb9-b0cb-ec60447edb0b")
 	)
+	(text "VDDA from LDO can only\nsupply 50ma.  If more\ncurrent is needed,use\nthese jumpers to feed\nAFE from Buck-regulated 3V3\nBeware: more noise"
+		(exclude_from_sim no)
+		(at 170.688 35.052 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "09c75de7-05bd-4a5b-98f4-1c1ee0796a93")
+	)
 	(text "ADSGPIO1 on both chips\nelectrically connected\nto NRFGPIO1 by default"
 		(exclude_from_sim no)
-		(at 170.18 22.86 0)
+		(at 170.18 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13763,7 +13773,7 @@
 		)
 		(uuid "f5ac5cd6-93c9-4473-8d61-47fb1207179a")
 	)
-	(text "ADS1299 Datasheet gives conflicting decoupling advice for a bipolar supply config (+/-2.5V)\nA) suggests (separate?) 1u decoupling caps between AVDD1<->AVSS1 AND AVDD<->AVSS in Pin Functions table on Page 6.\nB) does not show AVDD<->AVSS or AVDD1<->AVSS1 decoupling at all for bipolar supply in Figure 78.\nC) shows 1u/0.1u decoupling cap arrangements for supply decoupling in Figure 78\n\nOpenBCI Cyton Schematics (verified in hardware with bipolar supply)\n* decouple AVDD<->GND supply with 1u/0.1u in TWO separate (nearby) locations (?)\n	pins 54/AVDD1 and 56/AVDD share a dedicated 1u/0.1u decoupling to GND\n	other AVDD pins share separate (physically nearby) 1u/0.1u decoupling to GND\n* decouple AVDD<->AVSS with 1u/0.1u (in agreement with advice A and C, but not B)\n* does NOT decouple AVDD1<->AVSS1 (in agreement with advice B but not advice A)\n* AVSS<->GND decoupling is done with .. 2x1u (2u) caps (in error??)\n\nIn the interest of replicating KNOWN-WORKING design (OpenBCI Cyton) while following advice \n* AVDD<->AVSS 1u/0.1u decoupling is placed between pins 58/59\n* a footprint for a decoupling cap between AVDD1<->AVSS1 is present, but marked DNP. (may improve noise?)\n* AVDD<->GND, AVSS<->GND, and DVDD<->GND are all decoupled exactly once with a 1u and 0.1u cap\n"
+	(text "ADS1299 Datasheet gives conflicting decoupling advice for a bipolar supply config (+/-2.5V)\nA) suggests (separate?) 1u decoupling caps between AVDD1<->AVSS1 AND AVDD<->AVSS in Pin Functions table on Page 6.\nB) does not show AVDD<->AVSS or AVDD1<->AVSS1 decoupling at all for bipolar supply in Figure 78.\nC) shows 1u/0.1u decoupling cap arrangements for supply decoupling in Figure 78\n\nOpenBCI Cyton Schematics (verified in hardware with bipolar supply)\n* decouple AVDD<->GND supply with 1u/0.1u in TWO separate (nearby) locations (?)\n	pins 54/AVDD1 and 56/AVDD share a dedicated 1u/0.1u decoupling to GND\n	other AVDD pins share separate (physically nearby) 1u/0.1u decoupling to GND\n* decouple AVDD<->AVSS with 1u/0.1u (in agreement with advice A and C, but not B)\n* does NOT decouple AVDD1<->AVSS1 (in agreement with advice B but not advice A)\n* AVSS<->GND decoupling is done with .. 2x1u (2u) caps (in error??)\n\nIn the interest of replicating KNOWN-WORKING design (OpenBCI Cyton) while following advice \n* AVDD<->AVSS 1u/0.1u decoupling is placed between pins 58/59\n* A decoupling cap between AVDD1<->AVSS1 is present, may improve noise\n* AVDD<->GND, AVSS<->GND, and DVDD<->GND are all decoupled exactly once with a 1u and 0.1u cap\n"
 		(exclude_from_sim no)
 		(at 190.5 -20.32 0)
 		(effects
@@ -14165,7 +14175,7 @@
 		(uuid "8c1bbe1c-26ba-42a7-9e01-0e535b7b65bf")
 	)
 	(junction
-		(at 170.18 29.21)
+		(at 170.18 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ca12145-7fea-44aa-aa99-6ef1b893530b")
@@ -15208,7 +15218,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 31.75) (xy 170.18 31.75)
+			(xy 167.64 25.4) (xy 170.18 25.4)
 		)
 		(stroke
 			(width 0)
@@ -15355,16 +15365,6 @@
 			(type default)
 		)
 		(uuid "206231de-9fd9-4e13-b3e9-21cc73e8d28f")
-	)
-	(wire
-		(pts
-			(xy 170.18 185.42) (xy 170.18 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2066db81-22f5-4420-968e-d82f75bd1582")
 	)
 	(wire
 		(pts
@@ -15858,6 +15858,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 140.97) (xy 200.66 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38bf3e0c-378d-4b2c-a2b0-4211bf1047aa")
+	)
+	(wire
+		(pts
 			(xy 231.14 19.05) (xy 223.52 19.05)
 		)
 		(stroke
@@ -16018,23 +16028,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 177.8) (xy 157.48 175.26)
+			(xy 162.56 50.8) (xy 162.56 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4260d703-87cf-4acd-a9dd-6c6e05f79a35")
-	)
-	(wire
-		(pts
-			(xy 170.18 177.8) (xy 167.64 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42a46b8e-0275-4e5f-85e9-152da4aeaf8b")
 	)
 	(wire
 		(pts
@@ -16458,7 +16458,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 187.96) (xy 160.02 187.96)
+			(xy 162.56 60.96) (xy 165.1 60.96)
 		)
 		(stroke
 			(width 0)
@@ -16668,7 +16668,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 29.21) (xy 172.72 29.21)
+			(xy 170.18 22.86) (xy 172.72 22.86)
 		)
 		(stroke
 			(width 0)
@@ -17698,7 +17698,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 31.75) (xy 170.18 29.21)
+			(xy 170.18 25.4) (xy 170.18 22.86)
 		)
 		(stroke
 			(width 0)
@@ -17808,7 +17808,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 146.05) (xy 163.83 143.51)
+			(xy 163.83 146.05) (xy 163.83 140.97)
 		)
 		(stroke
 			(width 0)
@@ -18048,7 +18048,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 185.42) (xy 157.48 187.96)
+			(xy 162.56 58.42) (xy 162.56 60.96)
 		)
 		(stroke
 			(width 0)
@@ -18305,16 +18305,6 @@
 			(type default)
 		)
 		(uuid "aa4c50f8-585b-4ecd-8bd7-90badf471b50")
-	)
-	(wire
-		(pts
-			(xy 170.18 175.26) (xy 170.18 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab10c6f6-7ee5-46c3-a401-052482791571")
 	)
 	(wire
 		(pts
@@ -19088,16 +19078,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 144.78) (xy 200.66 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d64e3f59-ac5e-4874-b169-9f3bd3db8be6")
-	)
-	(wire
-		(pts
 			(xy 62.23 102.87) (xy 62.23 100.33)
 		)
 		(stroke
@@ -19168,7 +19148,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 177.8) (xy 157.48 177.8)
+			(xy 165.1 50.8) (xy 162.56 50.8)
 		)
 		(stroke
 			(width 0)
@@ -19758,7 +19738,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 29.21) (xy 170.18 29.21)
+			(xy 167.64 22.86) (xy 170.18 22.86)
 		)
 		(stroke
 			(width 0)
@@ -19988,16 +19968,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 187.96) (xy 167.64 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faab3748-7081-4922-a50b-33992cadd86c")
-	)
-	(wire
-		(pts
 			(xy 59.69 102.87) (xy 62.23 102.87)
 		)
 		(stroke
@@ -20085,6 +20055,16 @@
 			(justify left bottom)
 		)
 		(uuid "0006417a-9781-4284-8dd9-e2ac2ee2bbbf")
+	)
+	(label "VDDA_SEL"
+		(at 172.72 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "024e3aa9-8027-4273-b527-455948eb8654")
 	)
 	(label "10N"
 		(at 109.22 158.75 0)
@@ -20307,7 +20287,7 @@
 		(uuid "1e2b8d04-6198-4f4a-a901-f0858af75445")
 	)
 	(label "ADSGPIO1"
-		(at 167.64 29.21 180)
+		(at 167.64 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20555,6 +20535,16 @@
 			(justify right bottom)
 		)
 		(uuid "31de885a-14c0-469d-bb4c-42b5162ac948")
+	)
+	(label "VDDA_SEL"
+		(at 163.83 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "31e20df7-4464-4284-991d-2d0da6ca3d71")
 	)
 	(label "15N"
 		(at 91.44 52.07 180)
@@ -20926,6 +20916,16 @@
 		)
 		(uuid "5a8241ac-e74f-4bbc-bc19-6e4fd7661919")
 	)
+	(label "VDDA_SEL"
+		(at 172.72 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e1017bb-8434-4d6d-bd94-801e733d5ee0")
+	)
 	(label "16N"
 		(at 180.34 83.82 0)
 		(effects
@@ -21216,8 +21216,18 @@
 		)
 		(uuid "77521dae-788d-4f57-b91d-113f77a6f692")
 	)
+	(label "VDDA_SEL"
+		(at 200.66 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77ccc018-3c94-4a35-80b1-32a0b5cfb98d")
+	)
 	(label "ADSGPIO5"
-		(at 167.64 31.75 180)
+		(at 167.64 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22531,7 +22541,7 @@
 	)
 	(hierarchical_label "NRFGPIO1"
 		(shape passive)
-		(at 172.72 29.21 0)
+		(at 172.72 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23255,7 +23265,7 @@
 	)
 	(symbol
 		(lib_id "power:VDDA")
-		(at 157.48 185.42 0)
+		(at 162.56 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23264,7 +23274,7 @@
 		(fields_autoplaced yes)
 		(uuid "045a459f-4207-41d6-b943-c2dd83f0e7dc")
 		(property "Reference" "#PWR0187"
-			(at 157.48 189.23 0)
+			(at 162.56 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23273,7 +23283,7 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 157.48 180.34 0)
+			(at 162.56 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23281,7 +23291,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 185.42 0)
+			(at 162.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23290,7 +23300,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 185.42 0)
+			(at 162.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23299,7 +23309,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 157.48 185.42 0)
+			(at 162.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23582,76 +23592,6 @@
 				)
 				(path "/d60941e0-00fa-483d-8778-d43646235567/0ee91460-98a9-4c38-ba43-5fce0f2117cd"
 					(reference "#PWR0156")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDDA")
-		(at 170.18 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08e844f7-5c9b-4a44-93ef-374e6d1541eb")
-		(property "Reference" "#PWR0161"
-			(at 170.18 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDDA"
-			(at 170.18 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 170.18 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d66a998f-d1f3-4c62-935a-c30dc2bdf270")
-		)
-		(instances
-			(project "dcmini"
-				(path "/d60941e0-00fa-483d-8778-d43646235567/046caf2a-274e-46d6-919c-5b6f2084b0d1"
-					(reference "#PWR0161")
-					(unit 1)
-				)
-				(path "/d60941e0-00fa-483d-8778-d43646235567/0ee91460-98a9-4c38-ba43-5fce0f2117cd"
-					(reference "#PWR0171")
 					(unit 1)
 				)
 			)
@@ -24173,7 +24113,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 157.48 175.26 0)
+		(at 162.56 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24182,7 +24122,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fc64fcc-ce2f-43f8-9706-3b228cc599a6")
 		(property "Reference" "#PWR0183"
-			(at 157.48 179.07 0)
+			(at 162.56 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24191,7 +24131,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 157.48 170.18 0)
+			(at 162.56 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24199,7 +24139,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 175.26 0)
+			(at 162.56 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24208,7 +24148,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 175.26 0)
+			(at 162.56 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24217,7 +24157,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 175.26 0)
+			(at 162.56 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26898,7 +26838,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "50e9f194-3723-44bc-ae57-d15cbf49d93e")
 		(property "Reference" "C12"
 			(at 229.87 35.56 90)
@@ -27162,16 +27102,15 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 163.83 177.8 0)
+		(at 168.91 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5aee72f5-4a37-4b08-b832-bb22a89696d1")
 		(property "Reference" "JP1"
-			(at 163.83 171.45 0)
+			(at 168.91 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27179,7 +27118,7 @@
 			)
 		)
 		(property "Value" "3V3_VDDA"
-			(at 163.83 173.99 0)
+			(at 168.91 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27187,7 +27126,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 163.83 177.8 0)
+			(at 168.91 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27196,7 +27135,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 177.8 0)
+			(at 168.91 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27205,7 +27144,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 163.83 177.8 0)
+			(at 168.91 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31942,76 +31881,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDDA")
-		(at 200.66 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7a72d6c-6cec-497c-bbf2-4b517808947e")
-		(property "Reference" "#PWR039"
-			(at 200.66 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDDA"
-			(at 200.66 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 200.66 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15b4f66f-28ac-45e2-8f3d-f16725987f0c")
-		)
-		(instances
-			(project "dcmini-s"
-				(path "/d60941e0-00fa-483d-8778-d43646235567/046caf2a-274e-46d6-919c-5b6f2084b0d1"
-					(reference "#PWR039")
-					(unit 1)
-				)
-				(path "/d60941e0-00fa-483d-8778-d43646235567/0ee91460-98a9-4c38-ba43-5fce0f2117cd"
-					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 279.4 176.53 0)
 		(unit 1)
@@ -32451,76 +32320,6 @@
 				)
 				(path "/d60941e0-00fa-483d-8778-d43646235567/0ee91460-98a9-4c38-ba43-5fce0f2117cd"
 					(reference "RN7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDDA")
-		(at 163.83 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d54c24fd-6b21-420e-b97f-df0a67b96eea")
-		(property "Reference" "#PWR029"
-			(at 163.83 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDDA"
-			(at 163.83 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 163.83 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fc706e0-6059-47b7-9543-079295c0a45e")
-		)
-		(instances
-			(project "dcmini-s"
-				(path "/d60941e0-00fa-483d-8778-d43646235567/046caf2a-274e-46d6-919c-5b6f2084b0d1"
-					(reference "#PWR029")
-					(unit 1)
-				)
-				(path "/d60941e0-00fa-483d-8778-d43646235567/0ee91460-98a9-4c38-ba43-5fce0f2117cd"
-					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -33522,76 +33321,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDDA")
-		(at 170.18 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef176518-3493-4cc2-b445-66bbf9bf7a6b")
-		(property "Reference" "#PWR0190"
-			(at 170.18 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDDA"
-			(at 170.18 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 170.18 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c95ad421-a014-4759-800a-44c77b529c8b")
-		)
-		(instances
-			(project "dcmini"
-				(path "/d60941e0-00fa-483d-8778-d43646235567/046caf2a-274e-46d6-919c-5b6f2084b0d1"
-					(reference "#PWR0190")
-					(unit 1)
-				)
-				(path "/d60941e0-00fa-483d-8778-d43646235567/0ee91460-98a9-4c38-ba43-5fce0f2117cd"
-					(reference "#PWR0191")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 63.5 186.69 0)
 		(unit 1)
@@ -33766,16 +33495,16 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 163.83 187.96 0)
+		(at 168.91 60.96 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f324f33c-fe07-4887-8a72-4aaebd0535af")
 		(property "Reference" "JP3"
-			(at 163.83 181.61 0)
+			(at 168.91 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33783,7 +33512,7 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 163.83 184.15 0)
+			(at 168.91 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33791,7 +33520,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 163.83 187.96 0)
+			(at 168.91 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33800,7 +33529,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 187.96 0)
+			(at 168.91 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33809,7 +33538,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 163.83 187.96 0)
+			(at 168.91 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)

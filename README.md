@@ -53,7 +53,7 @@ dcmini-org-dcmini-hw/
 - **Board outline** and **annular ring** design support 10mil drills / 5mil annular rings.
 - OSH Park has been used successfully for fabrication.
 
-Use the [`ibom_SR4.html`](dcmini/bom/ibom_SR4.html) file for a helpful interactive assembly reference.
+Use the [`ibom_SR5.html`](dcmini/bom/ibom_SR5.html) file for a helpful interactive assembly reference.
 
 ## ⚡ Power Architecture
 
@@ -67,22 +67,28 @@ DCMini includes:
 
 ## 🔌 Connector Interfaces
 
-| Interface       | Connector     | Notes                               |
-|-----------------|--------------------|-------------------------------------|
-| __EXT__: Expansion       | DF40C-60DP (0.4mm pitch) | Exposes digital interface  |
-| __AFE__: Analog Frontend | DF40C-60DP (0.4mm pitch) | Exposes analog interface  |
-| __FPC__: Analog Frontend   | FH35C-45S (0.3mm pitch)        | Exposes analog interface + I2C                        |
+| Interface                  | Connector                | Notes                          |
+|----------------------------|--------------------------|--------------------------------|
+| __EXT__: Expansion         | DF40C-60DP (0.4mm pitch) | Exposes digital interface      |
+| __AFE__: Analog Frontend   | DF40C-60DP (0.4mm pitch) | Exposes analog interface       |
+| __FPC__: Analog Frontend   | FH35C-45S (0.3mm pitch)  | Exposes analog interface + I2C |
 
 ![Connector Interfaces](docs/images/connectors.png)
 ![Connector Pinouts](docs/images/pinouts.png)
 
 ## 📦 Getting Started
 
-[TODO]
+__This is an advanced DIY PCB project.__  Many components on this board do not have leads for hand soldering, and you will at least need a hot-air rework station to place those.  Additionally, this project is almost entirely built on flex PCBs, which have their own set of challenges, particularly getting them to sit flat on a hot plate.  Many efforts were made to keep components to just one side of the board, but there are some connectors that just have to be on the rear of the board and some of these connectors are fine-pitch and very challenging to hand solder.
 
-### Program device firmware
+You can find a storefront where you can purchase an assembled board [HERE](https://www.todo.todo).
+
+* [docs/assembly.md](docs/assembly.md): PCB assembly docs
+* [docs/3dprinting.md](docs/3dprinting.md): Case printing
+
+
+
+## Device Firmware
 Our rust firmware stack is available at the following address: https://github.com/dcmini-org/dcmini-fw
-
 
 ## 📄 License: CERN-OHL-P v2
 
