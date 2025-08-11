@@ -1731,7 +1731,7 @@
 		(path "/0ee91460-98a9-4c38-ba43-5fce0f2117cd/e1b2d390-5304-4f96-a464-7edf0299574b")
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 0 -1.56)
 			(end 0.8 -1.56)
@@ -2111,7 +2111,7 @@
 		(path "/0ee91460-98a9-4c38-ba43-5fce0f2117cd/9e997b45-4ba6-4d24-9e58-5a31fc9971c0")
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
@@ -13080,7 +13080,7 @@
 		(path "/0ee91460-98a9-4c38-ba43-5fce0f2117cd/417d5f92-6237-41fa-8728-7c45c65b0f8e")
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -15349,7 +15349,7 @@
 		(path "/0ee91460-98a9-4c38-ba43-5fce0f2117cd/20d8bfe4-288c-4277-9b50-f7c3983af6fb")
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.107836 -0.36)
 			(end 0.107836 -0.36)
@@ -19339,7 +19339,7 @@
 		(path "/0ee91460-98a9-4c38-ba43-5fce0f2117cd/5c18a695-5cf3-4168-99e1-4d5f399cc33f")
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.107836 -0.36)
 			(end 0.107836 -0.36)
@@ -20617,7 +20617,7 @@
 		(path "/0ee91460-98a9-4c38-ba43-5fce0f2117cd/c32092b0-dcf3-4238-b2f4-2e7b0103ed52")
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 0 1.56)
 			(end 0.8 1.56)
@@ -23940,7 +23940,7 @@
 		(path "/0ee91460-98a9-4c38-ba43-5fce0f2117cd/8ae3b3de-df1c-402d-94bf-1dfa57df07e4")
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -6.94 -0.58)
 			(end 6.94 -0.58)
@@ -25371,7 +25371,7 @@
 		(path "/0ee91460-98a9-4c38-ba43-5fce0f2117cd/729c9ab2-99e9-4eb3-873a-429c9e035a01")
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -38103,7 +38103,7 @@
 		(path "/0ee91460-98a9-4c38-ba43-5fce0f2117cd/068c619f-6cc4-4240-b930-0c350dd7a980")
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 0 1.56)
 			(end 0.8 1.56)
@@ -44679,7 +44679,7 @@
 		(path "/0ee91460-98a9-4c38-ba43-5fce0f2117cd/8d27d907-e888-4107-9468-5e96c7e84198")
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -49133,7 +49133,7 @@
 		(path "/0ee91460-98a9-4c38-ba43-5fce0f2117cd/84bed832-5ab2-4007-8680-1b8c69606847")
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -55748,7 +55748,7 @@
 		(path "/0ee91460-98a9-4c38-ba43-5fce0f2117cd/85c963c1-3162-4e1e-8ac6-9d8479b7a3da")
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.107836 -0.36)
 			(end 0.107836 -0.36)
@@ -56316,7 +56316,7 @@
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
 		(clearance 0.1)
-		(attr smd)
+		(attr smd dnp)
 		(fp_rect
 			(start 7.4 1.6)
 			(end -7.4 -1.6)
@@ -62783,7 +62783,7 @@
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
 		(clearance 0.1)
-		(attr smd)
+		(attr smd dnp)
 		(fp_rect
 			(start 7.4 1.6)
 			(end -7.4 -1.6)
