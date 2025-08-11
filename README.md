@@ -46,7 +46,7 @@ You can find a storefront where you can purchase an assembled board [HERE](https
 ### Documentation
 
 * [docs/assembly.md](docs/assembly.md): PCB assembly documentation
-* [docs/build.md](docs/3dprinting.md): Case print/mechanical build instructions
+* [docs/build.md](docs/build.md): Case print/mechanical build instructions
 * [docs/firmware.md](docs/firmware.md): Instructions for flashing firmware
 * [docs/software.md](docs/software.md): Documentation for companion software and acquisiton APIs
 * [docs/bci.md](docs/bci.md): Tutorial for using the DCMini as a brain-computer-interface
