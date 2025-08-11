@@ -40,7 +40,7 @@ DCMini is a **miniaturized biopotential amplifier and multi-sensor system** desi
 
 __This is an advanced DIY PCB project.__  Many components on this board do not have leads for hand soldering, and you will at least need a hot-air rework station to place those.  Additionally, this project is almost entirely built on flex PCBs, which have their own set of challenges, particularly getting them to sit flat on a hot plate.  Many efforts were made to keep components to just one side of the board, but there are some connectors that just have to be on the rear of the board and some of these connectors are fine-pitch and very challenging to hand solder.
 
-### Buy a DCMini
+### Where to Buy
 You can find a storefront where you can purchase an assembled board [HERE](https://www.todo.todo).  Maybe someday you'll be able to purchase a fully-constructed DCMini [HERE](https://www.todo.todo).
 
 ### Documentation
