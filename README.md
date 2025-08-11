@@ -10,6 +10,13 @@ DCMini is a **miniaturized biopotential amplifier and multi-sensor system** desi
 
 ![DCMini on Forehead](docs/images/dcm_head.png)
 
+## 🧪 Project Status
+
+- ✅ In **active development** and **research use**
+- 🧪 Not for clinical or medical use
+- 🔬 Used in closed-loop neuroscience, BCI, and sensor fusion prototyping
+- 📦 3D-printable case design in progress
+
 ## 🛠️ Features At A Glance
 
 ![Populated DCMini PCB](docs/images/dcm_pcb.png)
@@ -29,40 +36,6 @@ DCMini is a **miniaturized biopotential amplifier and multi-sensor system** desi
 - **5V boost rail** to power external modules
 - **Open-source KiCad design** with custom footprints
 
----
-
-## 🪛 Assembly Notes
-
-- Designed for **2-layer fabrication** with **6mil/6mil** trace/spacing rules (some **4mil spacing** on single-side areas).
-- The **4head FPC connector** requires **4mil/4mil**, but an alternate board-to-board interface supports 6/6mil.
-- **Flex PCB recommended** if you want the DCMini to fold onto itself for minimal size.
-- **FR4 also works**, especially for dev or debugging.
-- **Board outline** and **annular ring** design support 10mil drills / 5mil annular rings.
-- OSH Park has been used successfully for fabrication.
-
-Use the [`ibom_SR5.html`](dcmini/bom/ibom_SR5.html) file for a helpful interactive assembly reference.
-
-## ⚡ Power Architecture
-
-DCMini includes:
-
-- **nPM1300** battery management (charge + monitor)
-- **5V boost converter** for peripherals
-- **USB isolation** for noise-sensitive data capture
-
-![Power Delivery Network](docs/images/pdn.png) 
-
-## 🔌 Connector Interfaces
-
-| Interface                  | Connector                | Notes                          |
-|----------------------------|--------------------------|--------------------------------|
-| __EXT__: Expansion         | DF40C-60DP (0.4mm pitch) | Exposes digital interface      |
-| __AFE__: Analog Frontend   | DF40C-60DP (0.4mm pitch) | Exposes analog interface       |
-| __FPC__: Analog Frontend   | FH35C-45S (0.3mm pitch)  | Exposes analog interface + I2C |
-
-![Connector Interfaces](docs/images/connectors.png)
-![Connector Pinouts](docs/images/pinouts.png)
-
 ## 📦 Getting Started
 
 __This is an advanced DIY PCB project.__  Many components on this board do not have leads for hand soldering, and you will at least need a hot-air rework station to place those.  Additionally, this project is almost entirely built on flex PCBs, which have their own set of challenges, particularly getting them to sit flat on a hot plate.  Many efforts were made to keep components to just one side of the board, but there are some connectors that just have to be on the rear of the board and some of these connectors are fine-pitch and very challenging to hand solder.
@@ -78,6 +51,27 @@ You can find a storefront where you can purchase an assembled board [HERE](https
 * [docs/software.md](docs/software.md): Documentation for companion software and acquisiton APIs
 * [docs/bci.md](docs/bci.md): Tutorial for using the DCMini as a brain-computer-interface
 * [docs/sleep.md](docs/sleep.md): Information for using the DCMini for sleep studies.
+
+## ⚡ Power Architecture
+
+DCMini includes:
+
+- **nPM1300** battery management (charge + monitor)
+- **5V boost converter** for peripherals
+- **USB isolation** for noise-sensitive data capture and safe wired operation
+
+![Power Delivery Network](docs/images/pdn.png) 
+
+## 🔌 Connector Interfaces
+
+| Interface                  | Connector                | Notes                          |
+|----------------------------|--------------------------|--------------------------------|
+| __EXT__: Expansion         | DF40C-60DP (0.4mm pitch) | Exposes digital interface      |
+| __AFE__: Analog Frontend   | DF40C-60DP (0.4mm pitch) | Exposes analog interface       |
+| __FPC__: Analog Frontend   | FH35C-45S (0.3mm pitch)  | Exposes analog interface + I2C |
+
+![Connector Interfaces](docs/images/connectors.png)
+![Connector Pinouts](docs/images/pinouts.png)
 
 ## Device Firmware
 Our rust firmware stack is available at the following address: https://github.com/dcmini-org/dcmini-fw
@@ -95,14 +89,6 @@ This hardware is licensed under the **CERN Open Hardware License v2 – Permissi
 - 🩹 This project comes with **no warranties** — it’s experimental
 
 See [`LICENSE.txt`](LICENSE.txt) for full details.
-
-
-## 🧪 Project Status
-
-- ✅ In **active development** and **research use**
-- 🧪 Not for clinical or medical use
-- 🔬 Used in closed-loop neuroscience, BCI, and sensor fusion prototyping
-- 📦 3D-printable case design in progress
 
 ## 🤝 Acknowledgments
 This work was supported in part by intramural research funding from [Johns Hopkins University Applied Physics Lab (JHU APL)](https://www.jhuapl.edu/).
