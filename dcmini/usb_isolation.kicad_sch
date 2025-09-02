@@ -4168,7 +4168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "dcmini:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal_DS"
 			(at 87.63 68.58 0)
 			(effects
 				(font

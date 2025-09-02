@@ -13685,6 +13685,17 @@
 		)
 		(uuid "09c75de7-05bd-4a5b-98f4-1c1ee0796a93")
 	)
+	(text "Daisy:\nDNP R23"
+		(exclude_from_sim no)
+		(at 259.842 43.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14571a3e-8c33-4bb9-b382-dafd7d14196f")
+	)
 	(text "ADSGPIO1 on both chips\nelectrically connected\nto NRFGPIO1 by default"
 		(exclude_from_sim no)
 		(at 170.18 16.51 0)
@@ -13761,6 +13772,17 @@
 			)
 		)
 		(uuid "b917591a-441b-47d0-a70e-67587e44010f")
+	)
+	(text "Base:\nDNP R8"
+		(exclude_from_sim no)
+		(at 274.828 56.388 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e249eb47-7564-4b8a-9a9b-6a17265ea444")
 	)
 	(text "-2.5V Regulator\n"
 		(exclude_from_sim no)
@@ -14461,6 +14483,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f41b1c0a-c564-4f60-bcb2-16b610b37ce9")
+	)
+	(junction
+		(at 252.73 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4bf0bea-bb90-400c-80b8-2c896629677e")
 	)
 	(junction
 		(at 262.89 161.29)
@@ -15448,6 +15476,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 49.53) (xy 252.73 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2318dae5-808a-424c-835d-5e931fc12e1d")
+	)
+	(wire
+		(pts
 			(xy 31.75 52.07) (xy 39.37 52.07)
 		)
 		(stroke
@@ -16375,6 +16413,16 @@
 			(type default)
 		)
 		(uuid "4f372852-3faa-4f2e-9582-b20639d1e3f4")
+	)
+	(wire
+		(pts
+			(xy 267.97 52.07) (xy 267.97 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f4d7e2c-9975-4b11-bff1-1cf5f7dee1bd")
 	)
 	(wire
 		(pts
@@ -19085,6 +19133,16 @@
 			(type default)
 		)
 		(uuid "d65a0f61-6738-458d-9da4-d0bf3ff139df")
+	)
+	(wire
+		(pts
+			(xy 267.97 59.69) (xy 267.97 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6678405-6a55-4bfd-b029-6bc01600f3eb")
 	)
 	(wire
 		(pts
@@ -26236,6 +26294,98 @@
 				)
 				(path "/d60941e0-00fa-483d-8778-d43646235567/0ee91460-98a9-4c38-ba43-5fce0f2117cd"
 					(reference "C75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 267.97 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4747ea7e-8ad1-4576-be94-250e8784e09b")
+		(property "Reference" "R8"
+			(at 270.51 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 270.51 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 269.748 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±5% 0.063W, 1/10W Chip Resistor 0603"
+			(at 267.97 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "AC0603JR-0710KL"
+			(at 267.97 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.digikey.com/en/products/detail/yageo/AC0402JR-0710KL/5895571"
+			(at 267.97 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7d85a09-5444-4ce3-8851-4647cb4e6973")
+		)
+		(pin "2"
+			(uuid "b4093465-f2e0-4e97-96ab-deaa7fb69d84")
+		)
+		(instances
+			(project "dcmini"
+				(path "/d60941e0-00fa-483d-8778-d43646235567/046caf2a-274e-46d6-919c-5b6f2084b0d1"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/d60941e0-00fa-483d-8778-d43646235567/0ee91460-98a9-4c38-ba43-5fce0f2117cd"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -33631,6 +33781,77 @@
 				)
 				(path "/d60941e0-00fa-483d-8778-d43646235567/0ee91460-98a9-4c38-ba43-5fce0f2117cd"
 					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 267.97 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff24a374-b9b0-42db-961d-deee769708bd")
+		(property "Reference" "#PWR029"
+			(at 267.97 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e183321c-a758-44b5-86ad-c4e012fbfb41")
+		)
+		(instances
+			(project "dcmini"
+				(path "/d60941e0-00fa-483d-8778-d43646235567/046caf2a-274e-46d6-919c-5b6f2084b0d1"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/d60941e0-00fa-483d-8778-d43646235567/0ee91460-98a9-4c38-ba43-5fce0f2117cd"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
