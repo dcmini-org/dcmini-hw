@@ -1731,7 +1731,7 @@
 		(path "/0ee91460-98a9-4c38-ba43-5fce0f2117cd/e1b2d390-5304-4f96-a464-7edf0299574b")
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 0 -1.56)
 			(end 0.8 -1.56)
@@ -2111,7 +2111,7 @@
 		(path "/0ee91460-98a9-4c38-ba43-5fce0f2117cd/9e997b45-4ba6-4d24-9e58-5a31fc9971c0")
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
@@ -13305,7 +13305,7 @@
 		(path "/0ee91460-98a9-4c38-ba43-5fce0f2117cd/417d5f92-6237-41fa-8728-7c45c65b0f8e")
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -15574,7 +15574,7 @@
 		(path "/0ee91460-98a9-4c38-ba43-5fce0f2117cd/20d8bfe4-288c-4277-9b50-f7c3983af6fb")
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.107836 -0.36)
 			(end 0.107836 -0.36)
@@ -19789,7 +19789,7 @@
 		(path "/0ee91460-98a9-4c38-ba43-5fce0f2117cd/5c18a695-5cf3-4168-99e1-4d5f399cc33f")
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.107836 -0.36)
 			(end 0.107836 -0.36)
@@ -21067,7 +21067,7 @@
 		(path "/0ee91460-98a9-4c38-ba43-5fce0f2117cd/c32092b0-dcf3-4238-b2f4-2e7b0103ed52")
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 0 1.56)
 			(end 0.8 1.56)
@@ -24317,7 +24317,7 @@
 			(at 0 5.9 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5aa16b0f-ad4e-49f7-978b-04d9e54c9248")
+			(uuid "164c4d60-c600-4f80-b8d6-3667a31b249b")
 			(effects
 				(font
 					(size 1 1)
@@ -24328,7 +24328,7 @@
 		(property "Value" "AFE_FPC"
 			(at 0 7.6 90)
 			(layer "F.Fab")
-			(uuid "9b324298-fcc1-434f-a94e-d28411acf74d")
+			(uuid "13b5dbb0-1235-48e3-9de7-83e0d15c8dc2")
 			(effects
 				(font
 					(size 1 1)
@@ -24340,7 +24340,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e6af9451-f5b8-4fe6-ba77-9d31c311bcf9")
+			(uuid "012a30a3-ae26-4a82-87ce-24556cf1cdf6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24352,7 +24352,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5a4ade5-435c-46ba-93b0-f22809d0315a")
+			(uuid "8bcdd01e-4d8d-4b49-9c65-b1f934b6a881")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24390,7 +24390,7 @@
 		(path "/0ee91460-98a9-4c38-ba43-5fce0f2117cd/8ae3b3de-df1c-402d-94bf-1dfa57df07e4")
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -6.94 -0.58)
 			(end 6.94 -0.58)
@@ -25821,7 +25821,7 @@
 		(path "/0ee91460-98a9-4c38-ba43-5fce0f2117cd/729c9ab2-99e9-4eb3-873a-429c9e035a01")
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -35303,7 +35303,7 @@
 		(path "/706949da-e6c8-4ead-939f-e6159df64a5c/8499929f-6919-4cf3-9c4b-b83adb9a2e11")
 		(sheetname "/nrf_micro/")
 		(sheetfile "nrf_micro.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_bom allow_missing_courtyard dnp)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -38160,7 +38160,7 @@
 		(path "/0ee91460-98a9-4c38-ba43-5fce0f2117cd/068c619f-6cc4-4240-b930-0c350dd7a980")
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 0 1.56)
 			(end 0.8 1.56)
@@ -44736,7 +44736,7 @@
 		(path "/0ee91460-98a9-4c38-ba43-5fce0f2117cd/8d27d907-e888-4107-9468-5e96c7e84198")
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -49190,7 +49190,7 @@
 		(path "/0ee91460-98a9-4c38-ba43-5fce0f2117cd/84bed832-5ab2-4007-8680-1b8c69606847")
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -55804,7 +55804,7 @@
 		(path "/0ee91460-98a9-4c38-ba43-5fce0f2117cd/85c963c1-3162-4e1e-8ac6-9d8479b7a3da")
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.107836 -0.36)
 			(end 0.107836 -0.36)
@@ -56372,7 +56372,7 @@
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
 		(clearance 0.1)
-		(attr smd)
+		(attr smd dnp)
 		(fp_rect
 			(start 7.4 1.6)
 			(end -7.4 -1.6)
@@ -61957,6 +61957,7 @@
 			(at 0 5.5 90)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "502f2b69-5d20-40ef-bb97-e852d1f2bb5d")
 			(effects
 				(font
@@ -62160,7 +62161,7 @@
 			(net 125 "/usb_isolation/EXT_GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "285dd9d4-e3ea-4a6a-af0e-a5a6374f41a3")
+			(uuid "0e3d5268-e5fd-43b1-8f6a-e8cf8e9897c2")
 		)
 		(pad "A4" smd roundrect
 			(at -2.4 3.68 270)
@@ -62180,7 +62181,7 @@
 			(net 14 "Net-(U18-VBUS1)")
 			(pinfunction "VBUS")
 			(pintype "passive")
-			(uuid "09fea3e1-8804-4369-bf1e-f1799cb5b61d")
+			(uuid "a940914e-ba8b-462e-9b0e-3187e6ffc6d3")
 		)
 		(pad "A5" smd roundrect
 			(at -1.25 3.68 270)
@@ -62200,7 +62201,7 @@
 			(net 164 "Net-(J8-CC1)")
 			(pinfunction "CC1")
 			(pintype "bidirectional")
-			(uuid "9b52c818-79ef-4c02-84c6-b995ec56e925")
+			(uuid "5fe77f7b-f71e-4022-913d-1c21d29be571")
 		)
 		(pad "A6" smd roundrect
 			(at -0.25 3.68 270)
@@ -62220,7 +62221,7 @@
 			(net 30 "/usb_isolation/D+")
 			(pinfunction "D+")
 			(pintype "bidirectional")
-			(uuid "3201206e-395c-4cbf-9b78-6ae66fb505a4")
+			(uuid "fbc648ff-504d-4b30-bd60-e42490d0deea")
 		)
 		(pad "A7" smd roundrect
 			(at -0.25 3.675 270)
@@ -62240,7 +62241,7 @@
 			(net 29 "/usb_isolation/D-")
 			(pinfunction "D-")
 			(pintype "bidirectional")
-			(uuid "4b44300b-ea66-47b1-a4aa-7d46ba7e754b")
+			(uuid "d453e6b3-cb89-4a1b-afa9-9d116f5ca1ab")
 		)
 		(pad "A8" smd roundrect
 			(at -1.25 3.675 270)
@@ -62260,7 +62261,7 @@
 			(net 446 "unconnected-(J8-SBU1-PadA8)_1")
 			(pinfunction "SBU1")
 			(pintype "bidirectional+no_connect")
-			(uuid "7ee16869-60ac-4eee-bc04-e21582d32e61")
+			(uuid "20f2d9f9-5728-439c-92c6-d6781e52674b")
 		)
 		(pad "A9" smd roundrect
 			(at -2.4 3.675 270)
@@ -62280,7 +62281,7 @@
 			(net 14 "Net-(U18-VBUS1)")
 			(pinfunction "VBUS")
 			(pintype "passive")
-			(uuid "8e7419f2-af4f-4360-beec-799a5fe2497d")
+			(uuid "8a077c21-b237-46c2-9923-73083b2e7035")
 		)
 		(pad "A12" smd roundrect
 			(at -3.2 3.675 270)
@@ -62300,7 +62301,7 @@
 			(net 125 "/usb_isolation/EXT_GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "a0f98a32-832d-439b-a2da-6ad4dafbaa8b")
+			(uuid "3786e949-e6ba-4a5d-9e00-4a1900243a25")
 		)
 		(pad "B1" smd roundrect
 			(at -3.2 3.675 270)
@@ -62320,7 +62321,7 @@
 			(net 125 "/usb_isolation/EXT_GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "aa4efeb9-963c-45c9-b70f-37dda0e1c505")
+			(uuid "e353143a-a442-431f-9d8e-dcf80e124d77")
 		)
 		(pad "B4" smd roundrect
 			(at -2.4 3.675 270)
@@ -62340,7 +62341,7 @@
 			(net 14 "Net-(U18-VBUS1)")
 			(pinfunction "VBUS")
 			(pintype "passive")
-			(uuid "1a54dc49-955a-40ad-be41-d58586e8dcad")
+			(uuid "61242ea4-d019-4286-8eae-4277f52fa77c")
 		)
 		(pad "B5" smd roundrect
 			(at -1.75 3.675 270)
@@ -62360,7 +62361,7 @@
 			(net 204 "Net-(J8-CC2)")
 			(pinfunction "CC2")
 			(pintype "bidirectional")
-			(uuid "de8a701e-103c-40f9-aae4-950ca9599606")
+			(uuid "80217eb4-1a9b-40f5-bab3-e9c93e3d4165")
 		)
 		(pad "B6" smd roundrect
 			(at -0.75 3.675 270)
@@ -62380,7 +62381,7 @@
 			(net 30 "/usb_isolation/D+")
 			(pinfunction "D+")
 			(pintype "bidirectional")
-			(uuid "a52d5a2b-877d-42c8-aa74-8e90c3ff667a")
+			(uuid "8c7a1d92-939d-4bb5-96cb-1e9d3f8d7568")
 		)
 		(pad "B7" smd roundrect
 			(at -0.75 3.68 270)
@@ -62400,7 +62401,7 @@
 			(net 29 "/usb_isolation/D-")
 			(pinfunction "D-")
 			(pintype "bidirectional")
-			(uuid "bca252dd-b3c9-4722-a3b8-693df3faf4da")
+			(uuid "ed881957-fd92-4d86-8820-cfb51c4176b8")
 		)
 		(pad "B8" smd roundrect
 			(at -1.75 3.68 270)
@@ -62420,7 +62421,7 @@
 			(net 161 "unconnected-(J8-SBU2-PadB8)")
 			(pinfunction "SBU2")
 			(pintype "bidirectional+no_connect")
-			(uuid "28969dd6-3c50-43f8-838e-f5fada4461e5")
+			(uuid "3a2c4dfc-53b2-46ad-a062-68864a3949bc")
 		)
 		(pad "B9" smd roundrect
 			(at -2.4 3.68 270)
@@ -62440,7 +62441,7 @@
 			(net 14 "Net-(U18-VBUS1)")
 			(pinfunction "VBUS")
 			(pintype "passive")
-			(uuid "5712b361-5636-4442-9f4e-c6cb4c3a1601")
+			(uuid "93c50f30-af7b-4cb9-b760-b59fbc5d1682")
 		)
 		(pad "B12" smd roundrect
 			(at -3.2 3.68 270)
@@ -62460,7 +62461,7 @@
 			(net 125 "/usb_isolation/EXT_GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "b1557993-6563-4e70-8481-6c12c1050110")
+			(uuid "fceed326-0bb8-4bce-8497-28f6d3906e5c")
 		)
 		(pad "S1" thru_hole oval
 			(at -4.32 -1.075 270)
@@ -62484,7 +62485,7 @@
 			(net 125 "/usb_isolation/EXT_GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "51fa7f57-1f14-4f46-8ce5-d13e15cd8a1b")
+			(uuid "28798bbe-3a7c-45a0-a872-d459a49b9726")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -1.075 270)
@@ -62496,7 +62497,7 @@
 			(net 125 "/usb_isolation/EXT_GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "51fa7f57-1f14-4f46-8ce5-d13e15cd8a1b")
+			(uuid "a67da6df-c672-47a6-977b-ebb30e50fe50")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 3.105 270)
@@ -62508,7 +62509,7 @@
 			(net 125 "/usb_isolation/EXT_GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "51fa7f57-1f14-4f46-8ce5-d13e15cd8a1b")
+			(uuid "6b50fbd5-1fd0-4eb6-a121-fc3f3f3b5c0c")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
@@ -63415,7 +63416,7 @@
 		(sheetname "/daisy/")
 		(sheetfile "analog.kicad_sch")
 		(clearance 0.1)
-		(attr smd)
+		(attr smd dnp)
 		(fp_rect
 			(start 7.4 1.6)
 			(end -7.4 -1.6)
@@ -65518,6 +65519,28 @@
 		(locked yes)
 		(layer "F.SilkS")
 		(uuid "bdb6b05f-942c-40c6-a091-0e73600b4837")
+	)
+	(gr_rect
+		(start 123 64)
+		(end 127.25 65.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "cd976b38-560a-4830-b378-ce8bd5b4d4a6")
+	)
+	(gr_rect
+		(start 123.7 101.2)
+		(end 128.4 102.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d366902e-51ef-4e2a-af8d-5b3880f7c658")
 	)
 	(gr_rect
 		(start 127 100.4)
@@ -117942,10 +117965,10 @@
 				(xy 190.793627 74.863074) (xy 190.81808 74.879229) (xy 190.82255 74.886382) (xy 190.825206 74.888522)
 				(xy 190.836786 74.909159) (xy 190.844931 74.927606) (xy 190.854002 74.996884) (xy 190.834598 75.046581)
 				(xy 190.807584 75.08701) (xy 190.7945 75.15279) (xy 190.7945 75.347207) (xy 190.807583 75.412986)
-				(xy 190.807584 75.412987) (xy 190.819693 75.43111) (xy 190.84057 75.497788) (xy 190.822085 75.565168)
-				(xy 190.819694 75.568889) (xy 190.807584 75.587012) (xy 190.800573 75.622264) (xy 190.797104 75.639705)
-				(xy 190.794501 75.65279) (xy 190.794501 75.852983) (xy 190.774816 75.920022) (xy 190.722012 75.965777)
-				(xy 190.695895 75.974212) (xy 190.623599 76.004158) (xy 190.593941 76.016442) (xy 190.488382 76.122003)
+				(xy 190.807584 75.412988) (xy 190.819692 75.431108) (xy 190.84057 75.497785) (xy 190.822086 75.565165)
+				(xy 190.819693 75.568889) (xy 190.807583 75.587012) (xy 190.800572 75.622264) (xy 190.797103 75.639705)
+				(xy 190.7945 75.65279) (xy 190.7945 75.852983) (xy 190.774815 75.920022) (xy 190.722011 75.965777)
+				(xy 190.695891 75.974213) (xy 190.623599 76.004158) (xy 190.593941 76.016442) (xy 190.488382 76.122003)
 				(xy 190.427059 76.155488) (xy 190.357367 76.150504) (xy 190.301433 76.108633) (xy 190.277016 76.043169)
 				(xy 190.2767 76.034322) (xy 190.2767 75.641056) (xy 190.296385 75.574017) (xy 190.313019 75.553375)
 				(xy 190.317623 75.548771) (xy 190.37048 75.495914) (xy 190.423207 75.404588) (xy 190.4505 75.302728)
