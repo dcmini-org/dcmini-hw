@@ -23398,7 +23398,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "068c619f-6cc4-4240-b930-0c350dd7a980")
 		(property "Reference" "U2"

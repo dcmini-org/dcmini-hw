@@ -6394,7 +6394,7 @@
 	)
 	(text "SWD (1.8V!)"
 		(exclude_from_sim no)
-		(at 148.59 125.222 0)
+		(at 151.13 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6676,16 +6676,20 @@
 		(uuid "016a69e4-3fa0-467c-b186-9702f348bdbb")
 	)
 	(no_connect
-		(at 91.44 85.09)
-		(uuid "03fac351-dc9d-49d3-9d0e-df3c446c6575")
-	)
-	(no_connect
 		(at 116.84 29.21)
 		(uuid "0ff041ea-d502-4372-ad65-d65e09f56d97")
 	)
 	(no_connect
+		(at 91.44 113.03)
+		(uuid "19587380-25ec-40d7-b0b9-9106cea797a6")
+	)
+	(no_connect
 		(at 273.05 41.91)
 		(uuid "206b5814-d1db-4ca9-933b-42b781388b95")
+	)
+	(no_connect
+		(at 91.44 115.57)
+		(uuid "340b10d7-721a-47b6-b3b4-cbe39b845b97")
 	)
 	(no_connect
 		(at 91.44 102.87)
@@ -6706,10 +6710,6 @@
 	(no_connect
 		(at 91.44 110.49)
 		(uuid "97ebec9a-90bd-4755-8f66-31f22a10d13d")
-	)
-	(no_connect
-		(at 91.44 44.45)
-		(uuid "9a15bd02-0774-45e5-8455-edc5e0eced10")
 	)
 	(no_connect
 		(at 142.24 147.32)
@@ -6807,7 +6807,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 102.87) (xy 132.08 102.87)
+			(xy 132.08 102.87) (xy 144.78 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6957,16 +6957,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 113.03) (xy 91.44 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22df92df-cbe7-4b1f-a551-1509996bb12f")
-	)
-	(wire
-		(pts
 			(xy 185.42 44.45) (xy 194.31 44.45)
 		)
 		(stroke
@@ -7017,7 +7007,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 52.07) (xy 91.44 52.07)
+			(xy 78.74 52.07) (xy 91.44 52.07)
 		)
 		(stroke
 			(width 0)
@@ -7547,6 +7537,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 44.45) (xy 91.44 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a11415-b5f1-45a9-a637-571f8cbeb0e0")
+	)
+	(wire
+		(pts
 			(xy 78.74 100.33) (xy 91.44 100.33)
 		)
 		(stroke
@@ -7674,6 +7674,16 @@
 			(type default)
 		)
 		(uuid "7338088c-a4fc-4334-a51e-b614a3962fa8")
+	)
+	(wire
+		(pts
+			(xy 88.9 85.09) (xy 91.44 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "764d200c-3983-4f5e-8f74-7b10168d62ee")
 	)
 	(wire
 		(pts
@@ -7977,7 +7987,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 57.15) (xy 91.44 57.15)
+			(xy 78.74 57.15) (xy 91.44 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8177,7 +8187,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 105.41) (xy 132.08 105.41)
+			(xy 134.62 105.41) (xy 132.08 105.41)
 		)
 		(stroke
 			(width 0)
@@ -8457,16 +8467,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 115.57) (xy 91.44 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd4a91e8-ecb2-49ba-b9c7-6d8762c8864b")
-	)
-	(wire
-		(pts
 			(xy 242.57 46.99) (xy 247.65 46.99)
 		)
 		(stroke
@@ -8587,7 +8587,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 59.69) (xy 91.44 59.69)
+			(xy 88.9 59.69) (xy 91.44 59.69)
 		)
 		(stroke
 			(width 0)
@@ -8916,12 +8916,12 @@
 		(uuid "413c075f-4e59-4778-affb-556318a98555")
 	)
 	(label "APDSIRQ"
-		(at 88.9 52.07 180)
+		(at 134.62 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "4535f516-9085-4e61-970c-7cc3f2aa3f15")
 	)
@@ -8986,7 +8986,7 @@
 		(uuid "6b68e53b-5b8b-466f-a964-1fa581fa6b85")
 	)
 	(label "NEOPIX"
-		(at 134.62 107.95 0)
+		(at 134.62 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9016,12 +9016,12 @@
 		(uuid "7edd0c0a-b782-4e41-aa62-d6a31a351e99")
 	)
 	(label "USBSEL"
-		(at 134.62 102.87 0)
+		(at 88.9 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "806fac7a-e9d2-4bea-a87d-199eb2f5d388")
 	)
@@ -9086,7 +9086,7 @@
 		(uuid "98b9e018-b2e9-4833-9495-4f20bd3112d0")
 	)
 	(label "HAPTRIG"
-		(at 88.9 82.55 180)
+		(at 88.9 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9116,7 +9116,7 @@
 		(uuid "aef88d9b-952e-42a4-bbaa-d3109b54e9cc")
 	)
 	(label "PWBTN"
-		(at 88.9 57.15 180)
+		(at 88.9 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9227,7 +9227,7 @@
 	)
 	(hierarchical_label "NRFGPIO4"
 		(shape passive)
-		(at 144.78 105.41 0)
+		(at 144.78 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9238,7 +9238,7 @@
 	)
 	(hierarchical_label "~{ADSDRDY}"
 		(shape passive)
-		(at 78.74 41.91 180)
+		(at 78.74 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9403,7 +9403,7 @@
 	)
 	(hierarchical_label "NRFGPIO3"
 		(shape passive)
-		(at 78.74 113.03 180)
+		(at 78.74 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9425,7 +9425,7 @@
 	)
 	(hierarchical_label "~{EN5V}"
 		(shape output)
-		(at 78.74 54.61 180)
+		(at 78.74 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9491,7 +9491,7 @@
 	)
 	(hierarchical_label "SDIO"
 		(shape passive)
-		(at 78.74 59.69 180)
+		(at 78.74 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9557,7 +9557,7 @@
 	)
 	(hierarchical_label "NRFGPIO8"
 		(shape passive)
-		(at 78.74 115.57 180)
+		(at 78.74 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12337,7 +12337,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8499929f-6919-4cf3-9c4b-b83adb9a2e11")
 		(property "Reference" "J7"
