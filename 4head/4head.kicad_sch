@@ -5,7 +5,7 @@
 	(uuid "bbdc4385-b858-417a-a0cc-8344137d87e6")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Amplifier_Operational:OPA4196xPW"
+		(symbol "Amplifier_Operational:OPA4196xD"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -18,7 +18,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "OPA4196xPW"
+			(property "Value" "OPA4196xD"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -27,7 +27,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -45,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, TSSOP-14"
+			(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-14"
 				(at 0 0 0)
 				(effects
 					(font
@@ -71,7 +71,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*"
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -80,7 +80,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "OPA4196xPW_1_1"
+			(symbol "OPA4196xD_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -148,7 +148,7 @@
 					)
 				)
 			)
-			(symbol "OPA4196xPW_2_1"
+			(symbol "OPA4196xD_2_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -216,7 +216,7 @@
 					)
 				)
 			)
-			(symbol "OPA4196xPW_3_1"
+			(symbol "OPA4196xD_3_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -284,7 +284,7 @@
 					)
 				)
 			)
-			(symbol "OPA4196xPW_4_1"
+			(symbol "OPA4196xD_4_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -352,7 +352,7 @@
 					)
 				)
 			)
-			(symbol "OPA4196xPW_5_1"
+			(symbol "OPA4196xD_5_1"
 				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
@@ -892,13 +892,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_3_Open"
+		(symbol "Jumper:SolderJumper_3_Bridged12"
 			(pin_names
 				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "JP"
 				(at -2.54 -2.54 0)
@@ -908,7 +908,7 @@
 					)
 				)
 			)
-			(property "Value" "SolderJumper_3_Open"
+			(property "Value" "SolderJumper_3_Bridged12"
 				(at 0 2.794 0)
 				(effects
 					(font
@@ -934,7 +934,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Solder Jumper, 3-pole, open"
+			(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
 				(at 0 0 0)
 				(effects
 					(font
@@ -952,7 +952,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
+			(property "ki_fp_filters" "SolderJumper*Bridged12*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -961,7 +961,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SolderJumper_3_Open_0_1"
+			(symbol "SolderJumper_3_Bridged12_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -2.032 0)
@@ -984,6 +984,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(rectangle
+					(start -1.016 0.508)
+					(end -0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(arc
@@ -1082,7 +1093,7 @@
 					)
 				)
 			)
-			(symbol "SolderJumper_3_Open_1_1"
+			(symbol "SolderJumper_3_Bridged12_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -5052,7 +5063,7 @@
 		(at 46.99 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5334,7 +5345,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0f2a6c45-d5b4-4c93-b915-85db1f34ee64")
@@ -5375,15 +5386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 172.72 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" ""
+		(property "Description" "4mm PCB mount 3 leg snap connector"
 			(at 172.72 60.96 0)
 			(effects
 				(font
@@ -5392,7 +5395,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Link" ""
+		(property "MFG P/N" "H-4111801"
+			(at 172.72 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
 			(at 172.72 60.96 0)
 			(effects
 				(font
@@ -5572,7 +5584,7 @@
 		(at 227.33 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5782,110 +5794,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA4196xPW")
-		(at 191.77 63.5 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ea44c40-fd6a-4247-9a30-f635250a6530")
-		(property "Reference" "U3"
-			(at 191.77 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA4196xPW"
-			(at 191.77 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 191.77 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
-			(at 191.77 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, TSSOP-14"
-			(at 191.77 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e58df02f-a39d-4771-bcef-583b89da0c51")
-		)
-		(pin "2"
-			(uuid "c49dbdfa-f39e-41ae-92d0-00a08bc7410d")
-		)
-		(pin "1"
-			(uuid "768ed374-94a8-444b-8ddc-76981171a952")
-		)
-		(pin "5"
-			(uuid "2151bb07-c99c-47aa-915f-cd6b69a0da59")
-		)
-		(pin "6"
-			(uuid "c1df9e20-eaa9-470e-be6f-94f4bb346712")
-		)
-		(pin "7"
-			(uuid "c360d45a-11b5-4d5f-9b12-3e33f2b9cb99")
-		)
-		(pin "10"
-			(uuid "c3aefb7a-4161-4fa9-9216-f8775946a7fc")
-		)
-		(pin "9"
-			(uuid "55b35d2c-ad41-405f-89cd-1cd175d873d8")
-		)
-		(pin "8"
-			(uuid "178df979-001b-4fd4-9adb-25e1fe5a7fdb")
-		)
-		(pin "12"
-			(uuid "f97e29e6-83d3-4fa0-931e-435c7eab01b7")
-		)
-		(pin "13"
-			(uuid "f669686a-b885-43e5-98b2-ea4c091406e1")
-		)
-		(pin "14"
-			(uuid "4f58416d-ba4e-47e7-b203-e1e0da4983e8")
-		)
-		(pin "4"
-			(uuid "76c57bc4-d517-44b5-9494-c1b200c6ee96")
-		)
-		(pin "11"
-			(uuid "95e8059f-7b85-4fa4-81f5-4c0e0587e0f6")
-		)
-		(instances
-			(project ""
-				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
-					(reference "U3")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-2V5")
 		(at 195.58 146.05 180)
 		(unit 1)
@@ -6013,112 +5921,6 @@
 				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
 					(reference "#PWR04")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA4196xPW")
-		(at 198.12 133.35 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2326d01d-6a7e-4826-baed-b3caa5fa045d")
-		(property "Reference" "U3"
-			(at 196.85 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OPA4196xPW"
-			(at 196.85 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 198.12 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
-			(at 198.12 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, TSSOP-14"
-			(at 198.12 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e58df02f-a39d-4771-bcef-583b89da0c52")
-		)
-		(pin "2"
-			(uuid "c49dbdfa-f39e-41ae-92d0-00a08bc7410e")
-		)
-		(pin "1"
-			(uuid "768ed374-94a8-444b-8ddc-76981171a953")
-		)
-		(pin "5"
-			(uuid "2151bb07-c99c-47aa-915f-cd6b69a0da5a")
-		)
-		(pin "6"
-			(uuid "c1df9e20-eaa9-470e-be6f-94f4bb346713")
-		)
-		(pin "7"
-			(uuid "c360d45a-11b5-4d5f-9b12-3e33f2b9cb9a")
-		)
-		(pin "10"
-			(uuid "c3aefb7a-4161-4fa9-9216-f8775946a7fd")
-		)
-		(pin "9"
-			(uuid "55b35d2c-ad41-405f-89cd-1cd175d873d9")
-		)
-		(pin "8"
-			(uuid "178df979-001b-4fd4-9adb-25e1fe5a7fdc")
-		)
-		(pin "12"
-			(uuid "f97e29e6-83d3-4fa0-931e-435c7eab01b8")
-		)
-		(pin "13"
-			(uuid "f669686a-b885-43e5-98b2-ea4c091406e2")
-		)
-		(pin "14"
-			(uuid "4f58416d-ba4e-47e7-b203-e1e0da4983e9")
-		)
-		(pin "4"
-			(uuid "76c57bc4-d517-44b5-9494-c1b200c6ee97")
-		)
-		(pin "11"
-			(uuid "95e8059f-7b85-4fa4-81f5-4c0e0587e0f7")
-		)
-		(instances
-			(project ""
-				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
-					(reference "U3")
-					(unit 5)
 				)
 			)
 		)
@@ -6258,6 +6060,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:OPA4196xD")
+		(at 113.03 63.5 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3439c087-19c8-4f6d-abce-888c59af9cb7")
+		(property "Reference" "U4"
+			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA4196xD"
+			(at 113.03 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-14"
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "OPA4196ID"
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4196IDR/7604402"
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0663adf7-5494-45a2-8973-a53dc1fd1cad")
+		)
+		(pin "2"
+			(uuid "93637437-ad13-4208-a3cf-c84de859f762")
+		)
+		(pin "1"
+			(uuid "34351b93-aac3-45af-b35f-dd05ee877313")
+		)
+		(pin "5"
+			(uuid "8ad3cbcc-e9e3-458a-8063-c43de6613e1b")
+		)
+		(pin "6"
+			(uuid "09ad17d9-3d00-4dd6-a582-2703c2ec8f46")
+		)
+		(pin "7"
+			(uuid "47b66a8e-bf4b-47fd-bce4-56e6773db3a8")
+		)
+		(pin "10"
+			(uuid "74a9d43b-52e4-4428-bb68-6c0e377ee1e2")
+		)
+		(pin "9"
+			(uuid "dd6d0e86-1a41-421d-9c9e-3bee74187b76")
+		)
+		(pin "8"
+			(uuid "aff3bac6-309a-4c51-acc8-ecade00e9677")
+		)
+		(pin "12"
+			(uuid "2fe48a8c-300f-4283-9b1e-63fbbe93a9f9")
+		)
+		(pin "13"
+			(uuid "f98a840b-484e-486b-bfc1-89e7c1569371")
+		)
+		(pin "14"
+			(uuid "8c23ae1b-b98b-4f00-90bc-d64fbc1cf853")
+		)
+		(pin "4"
+			(uuid "fa916585-fae9-4330-83d3-8034e4e84f79")
+		)
+		(pin "11"
+			(uuid "6aa754e8-7d1f-4b51-ad7b-2f4705732e40")
+		)
+		(instances
+			(project ""
+				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
+					(reference "U4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 91.44 142.24 0)
 		(mirror y)
@@ -6346,6 +6270,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:OPA4196xD")
+		(at 58.42 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a1f7d98-a941-4f61-9c58-0a9d8f4080bc")
+		(property "Reference" "U4"
+			(at 58.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA4196xD"
+			(at 58.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 58.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
+			(at 58.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-14"
+			(at 58.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "OPA4196ID"
+			(at 58.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4196IDR/7604402"
+			(at 58.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0663adf7-5494-45a2-8973-a53dc1fd1cad")
+		)
+		(pin "2"
+			(uuid "93637437-ad13-4208-a3cf-c84de859f762")
+		)
+		(pin "1"
+			(uuid "34351b93-aac3-45af-b35f-dd05ee877313")
+		)
+		(pin "5"
+			(uuid "8ad3cbcc-e9e3-458a-8063-c43de6613e1b")
+		)
+		(pin "6"
+			(uuid "09ad17d9-3d00-4dd6-a582-2703c2ec8f46")
+		)
+		(pin "7"
+			(uuid "47b66a8e-bf4b-47fd-bce4-56e6773db3a8")
+		)
+		(pin "10"
+			(uuid "74a9d43b-52e4-4428-bb68-6c0e377ee1e2")
+		)
+		(pin "9"
+			(uuid "dd6d0e86-1a41-421d-9c9e-3bee74187b76")
+		)
+		(pin "8"
+			(uuid "aff3bac6-309a-4c51-acc8-ecade00e9677")
+		)
+		(pin "12"
+			(uuid "2fe48a8c-300f-4283-9b1e-63fbbe93a9f9")
+		)
+		(pin "13"
+			(uuid "f98a840b-484e-486b-bfc1-89e7c1569371")
+		)
+		(pin "14"
+			(uuid "8c23ae1b-b98b-4f00-90bc-d64fbc1cf853")
+		)
+		(pin "4"
+			(uuid "fa916585-fae9-4330-83d3-8034e4e84f79")
+		)
+		(pin "11"
+			(uuid "6aa754e8-7d1f-4b51-ad7b-2f4705732e40")
+		)
+		(instances
+			(project ""
+				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:NetTie_2")
 		(at 31.75 187.96 0)
 		(mirror x)
@@ -6408,98 +6454,6 @@
 			(project "4head"
 				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
 					(reference "NT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 143.51 39.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d2b9e90-2949-4e77-ac1c-d55cad5fef44")
-		(property "Reference" "JP1"
-			(at 140.97 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "SolderJumper_3_Open"
-			(at 140.97 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
-			(at 143.51 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" ""
-			(at 143.51 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Link" ""
-			(at 143.51 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09ed3bf4-90c9-4fd8-99ea-366b1b3c4732")
-		)
-		(pin "2"
-			(uuid "6e77f5c4-5871-4558-bba4-3860f3aea70f")
-		)
-		(pin "3"
-			(uuid "32bd231a-5a2a-4a38-9457-3f6fd4b74f6b")
-		)
-		(instances
-			(project "sleepdb"
-				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -6596,7 +6550,7 @@
 		(at 279.4 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6827,110 +6781,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA4196xPW")
-		(at 238.76 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50517e75-dda0-4093-b53b-724deaf8fe37")
-		(property "Reference" "U3"
-			(at 238.76 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA4196xPW"
-			(at 238.76 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 238.76 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
-			(at 238.76 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, TSSOP-14"
-			(at 238.76 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e58df02f-a39d-4771-bcef-583b89da0c53")
-		)
-		(pin "2"
-			(uuid "c49dbdfa-f39e-41ae-92d0-00a08bc7410f")
-		)
-		(pin "1"
-			(uuid "768ed374-94a8-444b-8ddc-76981171a954")
-		)
-		(pin "5"
-			(uuid "2151bb07-c99c-47aa-915f-cd6b69a0da5b")
-		)
-		(pin "6"
-			(uuid "c1df9e20-eaa9-470e-be6f-94f4bb346714")
-		)
-		(pin "7"
-			(uuid "c360d45a-11b5-4d5f-9b12-3e33f2b9cb9b")
-		)
-		(pin "10"
-			(uuid "c3aefb7a-4161-4fa9-9216-f8775946a7fe")
-		)
-		(pin "9"
-			(uuid "55b35d2c-ad41-405f-89cd-1cd175d873da")
-		)
-		(pin "8"
-			(uuid "178df979-001b-4fd4-9adb-25e1fe5a7fdd")
-		)
-		(pin "12"
-			(uuid "f97e29e6-83d3-4fa0-931e-435c7eab01b9")
-		)
-		(pin "13"
-			(uuid "f669686a-b885-43e5-98b2-ea4c091406e3")
-		)
-		(pin "14"
-			(uuid "4f58416d-ba4e-47e7-b203-e1e0da4983ea")
-		)
-		(pin "4"
-			(uuid "76c57bc4-d517-44b5-9494-c1b200c6ee98")
-		)
-		(pin "11"
-			(uuid "95e8059f-7b85-4fa4-81f5-4c0e0587e0f8")
-		)
-		(instances
-			(project ""
-				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 210.82 127 0)
 		(unit 1)
@@ -6997,33 +6847,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA4196xPW")
-		(at 58.42 72.39 0)
-		(unit 1)
+		(lib_id "Amplifier_Operational:OPA4196xD")
+		(at 58.42 46.99 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5a6d6f2a-dfff-4a92-bd9a-5b4f247ee3bf")
-		(property "Reference" "U2"
-			(at 58.42 62.23 0)
+		(uuid "5a13cf89-3147-4ab5-af03-181f764a0872")
+		(property "Reference" "U4"
+			(at 58.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "OPA4196xPW"
-			(at 58.42 64.77 0)
+		(property "Value" "OPA4196xD"
+			(at 58.42 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 58.42 72.39 0)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 58.42 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7032,7 +6882,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
-			(at 58.42 72.39 0)
+			(at 58.42 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7040,8 +6890,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, TSSOP-14"
-			(at 58.42 72.39 0)
+		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-14"
+			(at 58.42 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7049,53 +6899,71 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "6d07b9a4-eea5-445a-b046-4b6aff550905")
+		(property "MFG P/N" "OPA4196ID"
+			(at 58.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "5"
-			(uuid "39f6138e-5ec9-4a90-a7da-69a18d0e342c")
-		)
-		(pin "6"
-			(uuid "7f2343c2-6372-410a-8bc1-47160a1465e0")
-		)
-		(pin "7"
-			(uuid "db0817d3-e872-4201-95a0-d1800f952a5f")
-		)
-		(pin "10"
-			(uuid "4bc3eeb6-4e49-4551-a359-54f372f14cce")
-		)
-		(pin "9"
-			(uuid "ec652c46-8c07-4364-888d-b20d3f5c8f06")
-		)
-		(pin "8"
-			(uuid "020dc568-61a8-4bea-8619-bbaa9804a4e6")
-		)
-		(pin "12"
-			(uuid "f9a219d5-b0cc-4099-81a1-17116c41bf62")
-		)
-		(pin "13"
-			(uuid "2014346e-9332-43b7-902c-c504fec2fbed")
+		(property "Part Link" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4196IDR/7604402"
+			(at 58.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "3"
-			(uuid "bf300d70-4cd5-4364-9394-4d90543a3ff8")
+			(uuid "0663adf7-5494-45a2-8973-a53dc1fd1cad")
 		)
 		(pin "2"
-			(uuid "734b2381-0c5b-4749-be58-da40c0bebd1e")
+			(uuid "93637437-ad13-4208-a3cf-c84de859f762")
+		)
+		(pin "1"
+			(uuid "34351b93-aac3-45af-b35f-dd05ee877313")
+		)
+		(pin "5"
+			(uuid "8ad3cbcc-e9e3-458a-8063-c43de6613e1b")
+		)
+		(pin "6"
+			(uuid "09ad17d9-3d00-4dd6-a582-2703c2ec8f46")
+		)
+		(pin "7"
+			(uuid "47b66a8e-bf4b-47fd-bce4-56e6773db3a8")
+		)
+		(pin "10"
+			(uuid "74a9d43b-52e4-4428-bb68-6c0e377ee1e2")
+		)
+		(pin "9"
+			(uuid "dd6d0e86-1a41-421d-9c9e-3bee74187b76")
+		)
+		(pin "8"
+			(uuid "aff3bac6-309a-4c51-acc8-ecade00e9677")
+		)
+		(pin "12"
+			(uuid "2fe48a8c-300f-4283-9b1e-63fbbe93a9f9")
+		)
+		(pin "13"
+			(uuid "f98a840b-484e-486b-bfc1-89e7c1569371")
 		)
 		(pin "14"
-			(uuid "bbcfe6ed-0113-4dc6-828e-115f1b078a0f")
+			(uuid "8c23ae1b-b98b-4f00-90bc-d64fbc1cf853")
 		)
 		(pin "4"
-			(uuid "ab77dd88-58d7-47fe-a076-8eb83559d1b7")
+			(uuid "fa916585-fae9-4330-83d3-8034e4e84f79")
 		)
 		(pin "11"
-			(uuid "f63f9996-5851-4fb2-9016-4cf8efca1e5e")
+			(uuid "6aa754e8-7d1f-4b51-ad7b-2f4705732e40")
 		)
 		(instances
 			(project ""
 				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
-					(reference "U2")
-					(unit 1)
+					(reference "U4")
+					(unit 2)
 				)
 			)
 		)
@@ -7167,12 +7035,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:OPA4196xD")
+		(at 243.84 132.08 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b23fbf3-f1e7-497e-9cc4-a11c50081b77")
+		(property "Reference" "U5"
+			(at 243.84 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA4196xD"
+			(at 243.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 243.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
+			(at 243.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-14"
+			(at 243.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "OPA4196ID"
+			(at 243.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4196IDR/7604402"
+			(at 243.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "8fb87d8b-d969-4f07-a499-728dae9f12df")
+		)
+		(pin "9"
+			(uuid "5270d4b4-9bda-4ec0-a256-ccc9da73fb06")
+		)
+		(pin "8"
+			(uuid "e495bfa2-845e-457c-bc05-6ac492a3b17b")
+		)
+		(pin "12"
+			(uuid "ed49f266-6144-49ea-b452-d2f845e9e010")
+		)
+		(pin "13"
+			(uuid "ebd6ce5d-7457-4cc4-918d-b2c7c950d778")
+		)
+		(pin "14"
+			(uuid "1bc49542-86cf-45e8-b2ab-b749f1146ad4")
+		)
+		(pin "3"
+			(uuid "8f8d497f-44af-4ef6-a769-7961fcfca66a")
+		)
+		(pin "2"
+			(uuid "4d845e5d-0ea0-494f-9a76-6e01aa18aa22")
+		)
+		(pin "1"
+			(uuid "df35f150-7abe-46e5-9ce6-69435a7d3114")
+		)
+		(pin "5"
+			(uuid "67f787a0-e9b5-4554-9f72-1fff2317800a")
+		)
+		(pin "6"
+			(uuid "684230b7-d444-4f21-8a73-050e79f8ed55")
+		)
+		(pin "7"
+			(uuid "18ba430e-cdc4-4972-9e95-eddb1a825dfe")
+		)
+		(pin "4"
+			(uuid "684e067f-6757-43de-a494-9548faeba0b1")
+		)
+		(pin "11"
+			(uuid "b806712a-5ab1-47b4-b999-8de2d658e59d")
+		)
+		(instances
+			(project ""
+				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
+					(reference "U5")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 132.08 81.28 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5d374cb0-3314-4369-8df3-d9c2ac14d246")
@@ -7213,15 +7203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 132.08 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" ""
+		(property "Description" "4mm PCB mount 3 leg snap connector"
 			(at 132.08 81.28 0)
 			(effects
 				(font
@@ -7230,7 +7212,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Link" ""
+		(property "MFG P/N" "H-4111801"
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
 			(at 132.08 81.28 0)
 			(effects
 				(font
@@ -7257,7 +7248,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5d725ed2-8444-4892-943e-30694d655fe4")
@@ -7298,15 +7289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 96.52 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" ""
+		(property "Description" "4mm PCB mount 3 leg snap connector"
 			(at 96.52 60.96 0)
 			(effects
 				(font
@@ -7315,7 +7298,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Link" ""
+		(property "MFG P/N" "H-4111801"
+			(at 96.52 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
 			(at 96.52 60.96 0)
 			(effects
 				(font
@@ -7332,110 +7324,6 @@
 				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
 					(reference "J9")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA4196xPW")
-		(at 58.42 46.99 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ec34230-94fc-4b48-a99c-5c2a655cd7f4")
-		(property "Reference" "U2"
-			(at 58.42 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA4196xPW"
-			(at 58.42 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 58.42 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
-			(at 58.42 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, TSSOP-14"
-			(at 58.42 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d07b9a4-eea5-445a-b046-4b6aff550906")
-		)
-		(pin "5"
-			(uuid "39f6138e-5ec9-4a90-a7da-69a18d0e342d")
-		)
-		(pin "6"
-			(uuid "7f2343c2-6372-410a-8bc1-47160a1465e1")
-		)
-		(pin "7"
-			(uuid "db0817d3-e872-4201-95a0-d1800f952a60")
-		)
-		(pin "10"
-			(uuid "4bc3eeb6-4e49-4551-a359-54f372f14ccf")
-		)
-		(pin "9"
-			(uuid "ec652c46-8c07-4364-888d-b20d3f5c8f07")
-		)
-		(pin "8"
-			(uuid "020dc568-61a8-4bea-8619-bbaa9804a4e7")
-		)
-		(pin "12"
-			(uuid "f9a219d5-b0cc-4099-81a1-17116c41bf63")
-		)
-		(pin "13"
-			(uuid "2014346e-9332-43b7-902c-c504fec2fbee")
-		)
-		(pin "3"
-			(uuid "bf300d70-4cd5-4364-9394-4d90543a3ff9")
-		)
-		(pin "2"
-			(uuid "734b2381-0c5b-4749-be58-da40c0bebd1f")
-		)
-		(pin "14"
-			(uuid "bbcfe6ed-0113-4dc6-828e-115f1b078a10")
-		)
-		(pin "4"
-			(uuid "ab77dd88-58d7-47fe-a076-8eb83559d1b8")
-		)
-		(pin "11"
-			(uuid "f63f9996-5851-4fb2-9016-4cf8efca1e5f")
-		)
-		(instances
-			(project ""
-				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
-					(reference "U2")
-					(unit 2)
 				)
 			)
 		)
@@ -7578,7 +7466,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7620,15 +7508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 217.17 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" ""
+		(property "Description" "4mm PCB mount 3 leg snap connector"
 			(at 217.17 38.1 0)
 			(effects
 				(font
@@ -7637,7 +7517,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Link" ""
+		(property "MFG P/N" "H-4111801"
+			(at 217.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
 			(at 217.17 38.1 0)
 			(effects
 				(font
@@ -7730,7 +7619,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7896,6 +7785,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:OPA4196xD")
+		(at 238.76 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fd8aa7c-bb1a-4943-9639-8c61ad7e074e")
+		(property "Reference" "U5"
+			(at 238.76 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA4196xD"
+			(at 238.76 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 238.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
+			(at 238.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-14"
+			(at 238.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "OPA4196ID"
+			(at 238.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4196IDR/7604402"
+			(at 238.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "8fb87d8b-d969-4f07-a499-728dae9f12df")
+		)
+		(pin "9"
+			(uuid "5270d4b4-9bda-4ec0-a256-ccc9da73fb06")
+		)
+		(pin "8"
+			(uuid "e495bfa2-845e-457c-bc05-6ac492a3b17b")
+		)
+		(pin "12"
+			(uuid "ed49f266-6144-49ea-b452-d2f845e9e010")
+		)
+		(pin "13"
+			(uuid "ebd6ce5d-7457-4cc4-918d-b2c7c950d778")
+		)
+		(pin "14"
+			(uuid "1bc49542-86cf-45e8-b2ab-b749f1146ad4")
+		)
+		(pin "3"
+			(uuid "8f8d497f-44af-4ef6-a769-7961fcfca66a")
+		)
+		(pin "2"
+			(uuid "4d845e5d-0ea0-494f-9a76-6e01aa18aa22")
+		)
+		(pin "1"
+			(uuid "df35f150-7abe-46e5-9ce6-69435a7d3114")
+		)
+		(pin "5"
+			(uuid "67f787a0-e9b5-4554-9f72-1fff2317800a")
+		)
+		(pin "6"
+			(uuid "684230b7-d444-4f21-8a73-050e79f8ed55")
+		)
+		(pin "7"
+			(uuid "18ba430e-cdc4-4972-9e95-eddb1a825dfe")
+		)
+		(pin "4"
+			(uuid "684e067f-6757-43de-a494-9548faeba0b1")
+		)
+		(pin "11"
+			(uuid "b806712a-5ab1-47b4-b999-8de2d658e59d")
+		)
+		(instances
+			(project ""
+				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 133.35 148.59 0)
 		(unit 1)
@@ -7957,6 +7968,130 @@
 				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
 					(reference "#PWR011")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA4196xD")
+		(at 176.53 133.35 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83360858-3147-4e5f-97d3-0eed40db68bc")
+		(property "Reference" "U4"
+			(at 175.26 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA4196xD"
+			(at 175.26 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 176.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
+			(at 176.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-14"
+			(at 176.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "OPA4196ID"
+			(at 176.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4196IDR/7604402"
+			(at 176.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0663adf7-5494-45a2-8973-a53dc1fd1cad")
+		)
+		(pin "2"
+			(uuid "93637437-ad13-4208-a3cf-c84de859f762")
+		)
+		(pin "1"
+			(uuid "34351b93-aac3-45af-b35f-dd05ee877313")
+		)
+		(pin "5"
+			(uuid "8ad3cbcc-e9e3-458a-8063-c43de6613e1b")
+		)
+		(pin "6"
+			(uuid "09ad17d9-3d00-4dd6-a582-2703c2ec8f46")
+		)
+		(pin "7"
+			(uuid "47b66a8e-bf4b-47fd-bce4-56e6773db3a8")
+		)
+		(pin "10"
+			(uuid "74a9d43b-52e4-4428-bb68-6c0e377ee1e2")
+		)
+		(pin "9"
+			(uuid "dd6d0e86-1a41-421d-9c9e-3bee74187b76")
+		)
+		(pin "8"
+			(uuid "aff3bac6-309a-4c51-acc8-ecade00e9677")
+		)
+		(pin "12"
+			(uuid "2fe48a8c-300f-4283-9b1e-63fbbe93a9f9")
+		)
+		(pin "13"
+			(uuid "f98a840b-484e-486b-bfc1-89e7c1569371")
+		)
+		(pin "14"
+			(uuid "8c23ae1b-b98b-4f00-90bc-d64fbc1cf853")
+		)
+		(pin "4"
+			(uuid "fa916585-fae9-4330-83d3-8034e4e84f79")
+		)
+		(pin "11"
+			(uuid "6aa754e8-7d1f-4b51-ad7b-2f4705732e40")
+		)
+		(instances
+			(project ""
+				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
+					(reference "U4")
+					(unit 5)
 				)
 			)
 		)
@@ -8048,11 +8183,133 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:OPA4196xD")
+		(at 153.67 88.9 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "887494b5-01ec-4374-bf28-69811d71cc94")
+		(property "Reference" "U4"
+			(at 153.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA4196xD"
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-14"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "OPA4196ID"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4196IDR/7604402"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0663adf7-5494-45a2-8973-a53dc1fd1cad")
+		)
+		(pin "2"
+			(uuid "93637437-ad13-4208-a3cf-c84de859f762")
+		)
+		(pin "1"
+			(uuid "34351b93-aac3-45af-b35f-dd05ee877313")
+		)
+		(pin "5"
+			(uuid "8ad3cbcc-e9e3-458a-8063-c43de6613e1b")
+		)
+		(pin "6"
+			(uuid "09ad17d9-3d00-4dd6-a582-2703c2ec8f46")
+		)
+		(pin "7"
+			(uuid "47b66a8e-bf4b-47fd-bce4-56e6773db3a8")
+		)
+		(pin "10"
+			(uuid "74a9d43b-52e4-4428-bb68-6c0e377ee1e2")
+		)
+		(pin "9"
+			(uuid "dd6d0e86-1a41-421d-9c9e-3bee74187b76")
+		)
+		(pin "8"
+			(uuid "aff3bac6-309a-4c51-acc8-ecade00e9677")
+		)
+		(pin "12"
+			(uuid "2fe48a8c-300f-4283-9b1e-63fbbe93a9f9")
+		)
+		(pin "13"
+			(uuid "f98a840b-484e-486b-bfc1-89e7c1569371")
+		)
+		(pin "14"
+			(uuid "8c23ae1b-b98b-4f00-90bc-d64fbc1cf853")
+		)
+		(pin "4"
+			(uuid "fa916585-fae9-4330-83d3-8034e4e84f79")
+		)
+		(pin "11"
+			(uuid "6aa754e8-7d1f-4b51-ad7b-2f4705732e40")
+		)
+		(instances
+			(project ""
+				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
+					(reference "U4")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 279.4 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8136,7 +8393,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8218,7 +8475,7 @@
 		(at 279.4 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8302,7 +8559,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "91a7db58-c803-4000-8cff-a9f6f0e06b84")
@@ -8343,15 +8600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 36.83 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" ""
+		(property "Description" "4mm PCB mount 3 leg snap connector"
 			(at 36.83 44.45 0)
 			(effects
 				(font
@@ -8360,7 +8609,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Link" ""
+		(property "MFG P/N" "H-4111801"
+			(at 36.83 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
 			(at 36.83 44.45 0)
 			(effects
 				(font
@@ -8448,17 +8706,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA4196xPW")
-		(at 176.53 133.35 0)
-		(unit 5)
+		(lib_id "Jumper:SolderJumper_3_Bridged12")
+		(at 143.51 39.37 90)
+		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9e1428b1-def7-46df-9332-ee19d596e697")
-		(property "Reference" "U2"
-			(at 175.26 132.0799 0)
+		(uuid "a0541e35-c987-42ac-a95b-61201dfc4fd9")
+		(property "Reference" "JP2"
+			(at 140.97 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8466,8 +8724,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OPA4196xPW"
-			(at 175.26 134.6199 0)
+		(property "Value" "SolderJumper_3_Bridged12"
+			(at 140.97 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8475,8 +8733,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 176.53 133.35 0)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels"
+			(at 143.51 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8484,8 +8742,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
-			(at 176.53 133.35 0)
+		(property "Datasheet" "~"
+			(at 143.51 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8493,62 +8751,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, TSSOP-14"
-			(at 176.53 133.35 0)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 143.51 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "6d07b9a4-eea5-445a-b046-4b6aff550907")
-		)
-		(pin "5"
-			(uuid "39f6138e-5ec9-4a90-a7da-69a18d0e342e")
-		)
-		(pin "6"
-			(uuid "7f2343c2-6372-410a-8bc1-47160a1465e2")
-		)
-		(pin "7"
-			(uuid "db0817d3-e872-4201-95a0-d1800f952a61")
-		)
-		(pin "10"
-			(uuid "4bc3eeb6-4e49-4551-a359-54f372f14cd0")
-		)
-		(pin "9"
-			(uuid "ec652c46-8c07-4364-888d-b20d3f5c8f08")
-		)
-		(pin "8"
-			(uuid "020dc568-61a8-4bea-8619-bbaa9804a4e8")
-		)
-		(pin "12"
-			(uuid "f9a219d5-b0cc-4099-81a1-17116c41bf64")
-		)
-		(pin "13"
-			(uuid "2014346e-9332-43b7-902c-c504fec2fbef")
-		)
-		(pin "3"
-			(uuid "bf300d70-4cd5-4364-9394-4d90543a3ffa")
 		)
 		(pin "2"
-			(uuid "734b2381-0c5b-4749-be58-da40c0bebd20")
+			(uuid "a4a90ae4-6ecd-437e-8424-c4576fc9b22a")
 		)
-		(pin "14"
-			(uuid "bbcfe6ed-0113-4dc6-828e-115f1b078a11")
+		(pin "3"
+			(uuid "a72f5d2c-e056-49f2-a6bf-980be4b1f0d9")
 		)
-		(pin "4"
-			(uuid "ab77dd88-58d7-47fe-a076-8eb83559d1b9")
-		)
-		(pin "11"
-			(uuid "f63f9996-5851-4fb2-9016-4cf8efca1e60")
+		(pin "1"
+			(uuid "b8f83297-1466-48e1-803c-c7898df2d3b2")
 		)
 		(instances
 			(project ""
 				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
-					(reference "U2")
-					(unit 5)
+					(reference "JP2")
+					(unit 1)
 				)
 			)
 		)
@@ -8620,6 +8845,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:OPA4196xD")
+		(at 191.77 63.5 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a665d008-ad04-4cee-9c4b-530dc55bdc09")
+		(property "Reference" "U5"
+			(at 191.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA4196xD"
+			(at 191.77 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 191.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
+			(at 191.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-14"
+			(at 191.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "OPA4196ID"
+			(at 191.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4196IDR/7604402"
+			(at 191.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "8fb87d8b-d969-4f07-a499-728dae9f12df")
+		)
+		(pin "9"
+			(uuid "5270d4b4-9bda-4ec0-a256-ccc9da73fb06")
+		)
+		(pin "8"
+			(uuid "e495bfa2-845e-457c-bc05-6ac492a3b17b")
+		)
+		(pin "12"
+			(uuid "ed49f266-6144-49ea-b452-d2f845e9e010")
+		)
+		(pin "13"
+			(uuid "ebd6ce5d-7457-4cc4-918d-b2c7c950d778")
+		)
+		(pin "14"
+			(uuid "1bc49542-86cf-45e8-b2ab-b749f1146ad4")
+		)
+		(pin "3"
+			(uuid "8f8d497f-44af-4ef6-a769-7961fcfca66a")
+		)
+		(pin "2"
+			(uuid "4d845e5d-0ea0-494f-9a76-6e01aa18aa22")
+		)
+		(pin "1"
+			(uuid "df35f150-7abe-46e5-9ce6-69435a7d3114")
+		)
+		(pin "5"
+			(uuid "67f787a0-e9b5-4554-9f72-1fff2317800a")
+		)
+		(pin "6"
+			(uuid "684230b7-d444-4f21-8a73-050e79f8ed55")
+		)
+		(pin "7"
+			(uuid "18ba430e-cdc4-4972-9e95-eddb1a825dfe")
+		)
+		(pin "4"
+			(uuid "684e067f-6757-43de-a494-9548faeba0b1")
+		)
+		(pin "11"
+			(uuid "b806712a-5ab1-47b4-b999-8de2d658e59d")
+		)
+		(instances
+			(project ""
+				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
+					(reference "U5")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 227.33 137.16 0)
 		(unit 1)
@@ -8686,33 +9033,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA4196xPW")
-		(at 113.03 63.5 0)
-		(unit 3)
+		(lib_id "Amplifier_Operational:OPA4196xD")
+		(at 238.76 82.55 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bb1c618d-cf54-4489-993e-b4554bd656c8")
-		(property "Reference" "U2"
-			(at 113.03 53.34 0)
+		(uuid "bc5e3f6a-99f7-4abc-bff8-3e6d0e69c48c")
+		(property "Reference" "U5"
+			(at 238.76 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "OPA4196xPW"
-			(at 113.03 55.88 0)
+		(property "Value" "OPA4196xD"
+			(at 238.76 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 113.03 63.5 0)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 238.76 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8721,7 +9068,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
-			(at 113.03 63.5 0)
+			(at 238.76 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8729,8 +9076,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, TSSOP-14"
-			(at 113.03 63.5 0)
+		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-14"
+			(at 238.76 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8738,53 +9085,71 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "6d07b9a4-eea5-445a-b046-4b6aff550908")
+		(property "MFG P/N" "OPA4196ID"
+			(at 238.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "5"
-			(uuid "39f6138e-5ec9-4a90-a7da-69a18d0e342f")
-		)
-		(pin "6"
-			(uuid "7f2343c2-6372-410a-8bc1-47160a1465e3")
-		)
-		(pin "7"
-			(uuid "db0817d3-e872-4201-95a0-d1800f952a62")
+		(property "Part Link" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4196IDR/7604402"
+			(at 238.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "10"
-			(uuid "4bc3eeb6-4e49-4551-a359-54f372f14cd1")
+			(uuid "8fb87d8b-d969-4f07-a499-728dae9f12df")
 		)
 		(pin "9"
-			(uuid "ec652c46-8c07-4364-888d-b20d3f5c8f09")
+			(uuid "5270d4b4-9bda-4ec0-a256-ccc9da73fb06")
 		)
 		(pin "8"
-			(uuid "020dc568-61a8-4bea-8619-bbaa9804a4e9")
+			(uuid "e495bfa2-845e-457c-bc05-6ac492a3b17b")
 		)
 		(pin "12"
-			(uuid "f9a219d5-b0cc-4099-81a1-17116c41bf65")
+			(uuid "ed49f266-6144-49ea-b452-d2f845e9e010")
 		)
 		(pin "13"
-			(uuid "2014346e-9332-43b7-902c-c504fec2fbf0")
-		)
-		(pin "3"
-			(uuid "bf300d70-4cd5-4364-9394-4d90543a3ffb")
-		)
-		(pin "2"
-			(uuid "734b2381-0c5b-4749-be58-da40c0bebd21")
+			(uuid "ebd6ce5d-7457-4cc4-918d-b2c7c950d778")
 		)
 		(pin "14"
-			(uuid "bbcfe6ed-0113-4dc6-828e-115f1b078a12")
+			(uuid "1bc49542-86cf-45e8-b2ab-b749f1146ad4")
+		)
+		(pin "3"
+			(uuid "8f8d497f-44af-4ef6-a769-7961fcfca66a")
+		)
+		(pin "2"
+			(uuid "4d845e5d-0ea0-494f-9a76-6e01aa18aa22")
+		)
+		(pin "1"
+			(uuid "df35f150-7abe-46e5-9ce6-69435a7d3114")
+		)
+		(pin "5"
+			(uuid "67f787a0-e9b5-4554-9f72-1fff2317800a")
+		)
+		(pin "6"
+			(uuid "684230b7-d444-4f21-8a73-050e79f8ed55")
+		)
+		(pin "7"
+			(uuid "18ba430e-cdc4-4972-9e95-eddb1a825dfe")
 		)
 		(pin "4"
-			(uuid "ab77dd88-58d7-47fe-a076-8eb83559d1ba")
+			(uuid "684e067f-6757-43de-a494-9548faeba0b1")
 		)
 		(pin "11"
-			(uuid "f63f9996-5851-4fb2-9016-4cf8efca1e61")
+			(uuid "b806712a-5ab1-47b4-b999-8de2d658e59d")
 		)
 		(instances
 			(project ""
 				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
-					(reference "U2")
-					(unit 3)
+					(reference "U5")
+					(unit 2)
 				)
 			)
 		)
@@ -8942,116 +9307,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA4196xPW")
-		(at 243.84 132.08 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c057242e-ba06-497a-9727-9e0a179d8756")
-		(property "Reference" "U3"
-			(at 243.84 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA4196xPW"
-			(at 243.84 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 243.84 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
-			(at 243.84 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, TSSOP-14"
-			(at 243.84 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e58df02f-a39d-4771-bcef-583b89da0c54")
-		)
-		(pin "2"
-			(uuid "c49dbdfa-f39e-41ae-92d0-00a08bc74110")
-		)
-		(pin "1"
-			(uuid "768ed374-94a8-444b-8ddc-76981171a955")
-		)
-		(pin "5"
-			(uuid "2151bb07-c99c-47aa-915f-cd6b69a0da5c")
-		)
-		(pin "6"
-			(uuid "c1df9e20-eaa9-470e-be6f-94f4bb346715")
-		)
-		(pin "7"
-			(uuid "c360d45a-11b5-4d5f-9b12-3e33f2b9cb9c")
-		)
-		(pin "10"
-			(uuid "c3aefb7a-4161-4fa9-9216-f8775946a7ff")
-		)
-		(pin "9"
-			(uuid "55b35d2c-ad41-405f-89cd-1cd175d873db")
-		)
-		(pin "8"
-			(uuid "178df979-001b-4fd4-9adb-25e1fe5a7fde")
-		)
-		(pin "12"
-			(uuid "f97e29e6-83d3-4fa0-931e-435c7eab01ba")
-		)
-		(pin "13"
-			(uuid "f669686a-b885-43e5-98b2-ea4c091406e4")
-		)
-		(pin "14"
-			(uuid "4f58416d-ba4e-47e7-b203-e1e0da4983eb")
-		)
-		(pin "4"
-			(uuid "76c57bc4-d517-44b5-9494-c1b200c6ee99")
-		)
-		(pin "11"
-			(uuid "95e8059f-7b85-4fa4-81f5-4c0e0587e0f9")
-		)
-		(instances
-			(project ""
-				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
-					(reference "U3")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 44.45 34.29 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9134,7 +9395,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c38e3fb8-a30c-4b29-834c-c77168e11517")
@@ -9175,15 +9436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 217.17 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" ""
+		(property "Description" "4mm PCB mount 3 leg snap connector"
 			(at 217.17 33.02 0)
 			(effects
 				(font
@@ -9192,7 +9445,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Link" ""
+		(property "MFG P/N" "H-4111801"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
 			(at 217.17 33.02 0)
 			(effects
 				(font
@@ -9306,7 +9568,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c7374de7-fd25-4f56-9031-8f9920465364")
@@ -9457,7 +9719,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ca91a0df-887f-4202-a040-f46df0ecd787")
@@ -9498,15 +9760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 219.71 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" ""
+		(property "Description" "4mm PCB mount 3 leg snap connector"
 			(at 219.71 80.01 0)
 			(effects
 				(font
@@ -9515,7 +9769,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Link" ""
+		(property "MFG P/N" "H-4111801"
+			(at 219.71 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
 			(at 219.71 80.01 0)
 			(effects
 				(font
@@ -9674,7 +9937,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d6131c5a-126a-431c-9a1f-376397ee4cd1")
@@ -9715,15 +9978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 38.1 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" ""
+		(property "Description" "4mm PCB mount 3 leg snap connector"
 			(at 38.1 69.85 0)
 			(effects
 				(font
@@ -9732,7 +9987,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Link" ""
+		(property "MFG P/N" "H-4111801"
+			(at 38.1 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
 			(at 38.1 69.85 0)
 			(effects
 				(font
@@ -9759,7 +10023,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d8efc50b-8ded-4a5f-883b-55c9cca695f7")
@@ -9800,15 +10064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 36.83 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" ""
+		(property "Description" "4mm PCB mount 3 leg snap connector"
 			(at 36.83 39.37 0)
 			(effects
 				(font
@@ -9817,7 +10073,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Link" ""
+		(property "MFG P/N" "H-4111801"
+			(at 36.83 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
 			(at 36.83 39.37 0)
 			(effects
 				(font
@@ -9834,214 +10099,6 @@
 				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
 					(reference "J15")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA4196xPW")
-		(at 238.76 82.55 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db55f7ec-c12e-4f14-96e3-41daac0eedae")
-		(property "Reference" "U3"
-			(at 238.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA4196xPW"
-			(at 238.76 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 238.76 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
-			(at 238.76 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, TSSOP-14"
-			(at 238.76 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e58df02f-a39d-4771-bcef-583b89da0c55")
-		)
-		(pin "2"
-			(uuid "c49dbdfa-f39e-41ae-92d0-00a08bc74111")
-		)
-		(pin "1"
-			(uuid "768ed374-94a8-444b-8ddc-76981171a956")
-		)
-		(pin "5"
-			(uuid "2151bb07-c99c-47aa-915f-cd6b69a0da5d")
-		)
-		(pin "6"
-			(uuid "c1df9e20-eaa9-470e-be6f-94f4bb346716")
-		)
-		(pin "7"
-			(uuid "c360d45a-11b5-4d5f-9b12-3e33f2b9cb9d")
-		)
-		(pin "10"
-			(uuid "c3aefb7a-4161-4fa9-9216-f8775946a800")
-		)
-		(pin "9"
-			(uuid "55b35d2c-ad41-405f-89cd-1cd175d873dc")
-		)
-		(pin "8"
-			(uuid "178df979-001b-4fd4-9adb-25e1fe5a7fdf")
-		)
-		(pin "12"
-			(uuid "f97e29e6-83d3-4fa0-931e-435c7eab01bb")
-		)
-		(pin "13"
-			(uuid "f669686a-b885-43e5-98b2-ea4c091406e5")
-		)
-		(pin "14"
-			(uuid "4f58416d-ba4e-47e7-b203-e1e0da4983ec")
-		)
-		(pin "4"
-			(uuid "76c57bc4-d517-44b5-9494-c1b200c6ee9a")
-		)
-		(pin "11"
-			(uuid "95e8059f-7b85-4fa4-81f5-4c0e0587e0fa")
-		)
-		(instances
-			(project ""
-				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
-					(reference "U3")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA4196xPW")
-		(at 153.67 88.9 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e30f1d09-0cd3-4e9f-b35a-1064908f7048")
-		(property "Reference" "U2"
-			(at 153.67 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA4196xPW"
-			(at 153.67 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 153.67 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
-			(at 153.67 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, TSSOP-14"
-			(at 153.67 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d07b9a4-eea5-445a-b046-4b6aff550909")
-		)
-		(pin "5"
-			(uuid "39f6138e-5ec9-4a90-a7da-69a18d0e3430")
-		)
-		(pin "6"
-			(uuid "7f2343c2-6372-410a-8bc1-47160a1465e4")
-		)
-		(pin "7"
-			(uuid "db0817d3-e872-4201-95a0-d1800f952a63")
-		)
-		(pin "10"
-			(uuid "4bc3eeb6-4e49-4551-a359-54f372f14cd2")
-		)
-		(pin "9"
-			(uuid "ec652c46-8c07-4364-888d-b20d3f5c8f0a")
-		)
-		(pin "8"
-			(uuid "020dc568-61a8-4bea-8619-bbaa9804a4ea")
-		)
-		(pin "12"
-			(uuid "f9a219d5-b0cc-4099-81a1-17116c41bf66")
-		)
-		(pin "13"
-			(uuid "2014346e-9332-43b7-902c-c504fec2fbf1")
-		)
-		(pin "3"
-			(uuid "bf300d70-4cd5-4364-9394-4d90543a3ffc")
-		)
-		(pin "2"
-			(uuid "734b2381-0c5b-4749-be58-da40c0bebd22")
-		)
-		(pin "14"
-			(uuid "bbcfe6ed-0113-4dc6-828e-115f1b078a13")
-		)
-		(pin "4"
-			(uuid "ab77dd88-58d7-47fe-a076-8eb83559d1bb")
-		)
-		(pin "11"
-			(uuid "f63f9996-5851-4fb2-9016-4cf8efca1e62")
-		)
-		(instances
-			(project ""
-				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
-					(reference "U2")
-					(unit 4)
 				)
 			)
 		)
@@ -10130,7 +10187,7 @@
 				)
 			)
 		)
-		(property "Value" "MAX30102"
+		(property "Value" "MAX30101"
 			(at 129.54 157.4098 0)
 			(effects
 				(font
@@ -10165,7 +10222,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" ""
+		(property "MFG P/N" "MAX30101EFD"
 			(at 115.57 161.29 0)
 			(effects
 				(font
@@ -10174,7 +10231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Link" ""
+		(property "Part Link" "https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX30101EFD-T/6188733"
 			(at 115.57 161.29 0)
 			(effects
 				(font
@@ -10239,7 +10296,7 @@
 		(at 157.48 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e5a5cf54-d925-4951-849a-101d12b330f8")
@@ -10389,7 +10446,7 @@
 		(at 279.4 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10472,7 +10529,7 @@
 		(at 157.48 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e8a6c2bc-6c7f-4b3a-b351-551d012b8b6b")
@@ -10513,15 +10570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 157.48 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" ""
+		(property "Description" "4mm PCB mount 3 leg snap connector"
 			(at 157.48 39.37 0)
 			(effects
 				(font
@@ -10530,7 +10579,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Link" ""
+		(property "MFG P/N" "H-4111801"
+			(at 157.48 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
 			(at 157.48 39.37 0)
 			(effects
 				(font
@@ -10613,6 +10671,130 @@
 				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
 					(reference "#PWR020")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA4196xD")
+		(at 198.12 133.35 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc890051-e8b9-4367-ac20-b2e7d3a2ad17")
+		(property "Reference" "U5"
+			(at 196.85 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA4196xD"
+			(at 196.85 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 198.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
+			(at 198.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-14"
+			(at 198.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "OPA4196ID"
+			(at 198.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4196IDR/7604402"
+			(at 198.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "8fb87d8b-d969-4f07-a499-728dae9f12df")
+		)
+		(pin "9"
+			(uuid "5270d4b4-9bda-4ec0-a256-ccc9da73fb06")
+		)
+		(pin "8"
+			(uuid "e495bfa2-845e-457c-bc05-6ac492a3b17b")
+		)
+		(pin "12"
+			(uuid "ed49f266-6144-49ea-b452-d2f845e9e010")
+		)
+		(pin "13"
+			(uuid "ebd6ce5d-7457-4cc4-918d-b2c7c950d778")
+		)
+		(pin "14"
+			(uuid "1bc49542-86cf-45e8-b2ab-b749f1146ad4")
+		)
+		(pin "3"
+			(uuid "8f8d497f-44af-4ef6-a769-7961fcfca66a")
+		)
+		(pin "2"
+			(uuid "4d845e5d-0ea0-494f-9a76-6e01aa18aa22")
+		)
+		(pin "1"
+			(uuid "df35f150-7abe-46e5-9ce6-69435a7d3114")
+		)
+		(pin "5"
+			(uuid "67f787a0-e9b5-4554-9f72-1fff2317800a")
+		)
+		(pin "6"
+			(uuid "684230b7-d444-4f21-8a73-050e79f8ed55")
+		)
+		(pin "7"
+			(uuid "18ba430e-cdc4-4972-9e95-eddb1a825dfe")
+		)
+		(pin "4"
+			(uuid "684e067f-6757-43de-a494-9548faeba0b1")
+		)
+		(pin "11"
+			(uuid "b806712a-5ab1-47b4-b999-8de2d658e59d")
+		)
+		(instances
+			(project ""
+				(path "/bbdc4385-b858-417a-a0cc-8344137d87e6"
+					(reference "U5")
+					(unit 5)
 				)
 			)
 		)
