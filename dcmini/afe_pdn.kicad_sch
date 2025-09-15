@@ -2951,7 +2951,7 @@
 				)
 			)
 		)
-		(property "Value" "3V3_VDDA"
+		(property "Value" "VDDA_3V3"
 			(at 54.61 97.79 0)
 			(effects
 				(font

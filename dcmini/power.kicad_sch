@@ -5,6 +5,113 @@
 	(uuid "febb914a-9f4b-4bde-aa7d-4eeaf2a70144")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Battery_Cell"
 			(pin_numbers
 				(hide yes)
@@ -3657,6 +3764,12 @@
 		(uuid "1f5f2403-6177-4d3e-818d-d6e9f25ead0e")
 	)
 	(junction
+		(at 261.62 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2089fe71-d404-4ef3-b734-c8427434dec6")
+	)
+	(junction
 		(at 264.16 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4208,6 +4321,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 110.49) (xy 264.16 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e8f2d74-11fe-4816-bdc3-91b01bc82a3f")
+	)
+	(wire
+		(pts
 			(xy 233.68 140.335) (xy 236.22 140.335)
 		)
 		(stroke
@@ -4538,7 +4661,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 110.49) (xy 264.16 110.49)
+			(xy 257.81 110.49) (xy 261.62 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5591,6 +5714,92 @@
 			(project "dcmini-s"
 				(path "/d60941e0-00fa-483d-8778-d43646235567/b6c2ba6c-3cfe-4bf1-b640-68b6f07a212f"
 					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 261.62 110.49 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c4c6e92-ce0c-406e-94c1-f163e5bc5951")
+		(property "Reference" "TP6"
+			(at 259.715 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 260.35 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 256.54 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" ""
+			(at 261.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" ""
+			(at 261.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74c348c3-dc5b-4650-a6cb-8cf6149205a8")
+		)
+		(instances
+			(project "dcmini"
+				(path "/d60941e0-00fa-483d-8778-d43646235567/b6c2ba6c-3cfe-4bf1-b640-68b6f07a212f"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
