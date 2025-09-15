@@ -642,6 +642,14 @@
 		(uuid "162c253d-0f1e-497b-b05c-8aa46e5c64c5")
 	)
 	(no_connect
+		(at 92.71 135.89)
+		(uuid "1cbd171b-7795-4408-84b3-0fa5902433e3")
+	)
+	(no_connect
+		(at 115.57 140.97)
+		(uuid "24dc2876-10d1-4353-a4fe-958881519203")
+	)
+	(no_connect
 		(at 92.71 128.27)
 		(uuid "2a2006ce-0979-44d6-9f69-d3fce0f9ae7e")
 	)
@@ -861,6 +869,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 140.97) (xy 95.25 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e69e5d0-1f5e-4cc9-890e-91bb3f60dc3b")
+	)
+	(wire
+		(pts
 			(xy 172.72 76.2) (xy 175.26 76.2)
 		)
 		(stroke
@@ -881,6 +899,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 138.43) (xy 118.11 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cd92dd2-56e1-406d-9456-80c660846292")
+	)
+	(wire
+		(pts
 			(xy 115.57 125.73) (xy 129.54 125.73)
 		)
 		(stroke
@@ -888,6 +916,16 @@
 			(type default)
 		)
 		(uuid "71acb2a9-13b4-4802-9c1d-19c3fa8d6511")
+	)
+	(wire
+		(pts
+			(xy 115.57 138.43) (xy 118.11 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7794daf9-2354-4ba4-b711-3024724fbc76")
 	)
 	(wire
 		(pts
@@ -991,6 +1029,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 140.97) (xy 95.25 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b15e4e9d-1cb8-451d-b700-3a0dcabdba7a")
+	)
+	(wire
+		(pts
 			(xy 167.64 97.79) (xy 175.26 97.79)
 		)
 		(stroke
@@ -1041,6 +1089,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 138.43) (xy 92.71 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dadc28bd-5c1f-4722-919e-9c832e51f44b")
+	)
+	(wire
+		(pts
 			(xy 115.57 57.15) (xy 129.54 57.15)
 		)
 		(stroke
@@ -1048,6 +1106,16 @@
 			(type default)
 		)
 		(uuid "e18768f7-fe98-4905-87f8-117adb201880")
+	)
+	(wire
+		(pts
+			(xy 115.57 135.89) (xy 118.11 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ec22e6-e5f8-4db6-aa21-a4745f6c4a50")
 	)
 	(wire
 		(pts
@@ -1728,8 +1796,8 @@
 		)
 	)
 	(sheet
-		(at 98.425 53.34)
-		(size 17.145 82.55)
+		(at 99.06 53.34)
+		(size 16.51 91.44)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1744,7 +1812,7 @@
 		)
 		(uuid "046caf2a-274e-46d6-919c-5b6f2084b0d1")
 		(property "Sheetname" "analog_frontend"
-			(at 98.425 52.6284 0)
+			(at 99.06 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1753,7 +1821,7 @@
 			)
 		)
 		(property "Sheetfile" "analog.kicad_sch"
-			(at 98.425 136.4746 0)
+			(at 99.06 145.3646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2001,6 +2069,36 @@
 				(justify right)
 			)
 		)
+		(pin "CLKSEL" input
+			(at 115.57 138.43 0)
+			(uuid "202823da-bbdc-494e-b189-3f939a63f76c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLKSEL_MST" input
+			(at 115.57 135.89 0)
+			(uuid "7eabb16e-2111-4086-a925-620cedbb62f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLKSEL_SLV" input
+			(at 115.57 140.97 0)
+			(uuid "3e04c940-ce37-4ccd-b1c4-818cbad1593f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "dcmini"
 				(path "/d60941e0-00fa-483d-8778-d43646235567"
@@ -2010,8 +2108,8 @@
 		)
 	)
 	(sheet
-		(at 75.565 53.34)
-		(size 17.145 82.55)
+		(at 76.2 53.34)
+		(size 16.51 91.44)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2026,7 +2124,7 @@
 		)
 		(uuid "0ee91460-98a9-4c38-ba43-5fce0f2117cd")
 		(property "Sheetname" "daisy"
-			(at 75.565 52.6284 0)
+			(at 76.2 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2035,7 +2133,7 @@
 			)
 		)
 		(property "Sheetfile" "analog.kicad_sch"
-			(at 75.565 136.4746 0)
+			(at 76.2 145.3646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,6 +2381,36 @@
 				(justify right)
 			)
 		)
+		(pin "CLKSEL" input
+			(at 92.71 138.43 0)
+			(uuid "1c4fb741-ea91-4244-85e7-5921c60ce0e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLKSEL_MST" input
+			(at 92.71 135.89 0)
+			(uuid "0741af56-4e76-454c-9f9d-0a1762406c65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLKSEL_SLV" input
+			(at 92.71 140.97 0)
+			(uuid "7db210ad-173a-486a-be02-6f58d333c7fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "dcmini"
 				(path "/d60941e0-00fa-483d-8778-d43646235567"
@@ -2359,6 +2487,48 @@
 			(project "dcmini"
 				(path "/d60941e0-00fa-483d-8778-d43646235567"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 33.02)
+		(size 16.51 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "40126b40-7516-4e12-8e11-9d5f25ac5f3e")
+		(property "Sheetname" "afe_pdn"
+			(at 99.06 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "afe_pdn.kicad_sch"
+			(at 99.06 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "dcmini"
+				(path "/d60941e0-00fa-483d-8778-d43646235567"
+					(page "8")
 				)
 			)
 		)
