@@ -6362,7 +6362,7 @@
 	)
 	(text "Requires internal pullup"
 		(exclude_from_sim no)
-		(at 76.962 106.934 0)
+		(at 78.232 104.394 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6696,10 +6696,6 @@
 		(uuid "393fdbd4-379c-459b-aa64-f4e576eea1ed")
 	)
 	(no_connect
-		(at 91.44 107.95)
-		(uuid "4fbe0efd-f81b-4356-9d52-e92210b13e7e")
-	)
-	(no_connect
 		(at 273.05 39.37)
 		(uuid "52c55419-ba78-4301-8ee4-45450e0ead44")
 	)
@@ -7024,6 +7020,16 @@
 			(type default)
 		)
 		(uuid "294e485c-a522-48cf-82c0-bce8488b4bc3")
+	)
+	(wire
+		(pts
+			(xy 78.74 107.95) (xy 91.44 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e908bf-2540-485c-82fa-cf3b475d1dbe")
 	)
 	(wire
 		(pts
@@ -9156,12 +9162,12 @@
 		(uuid "c643920f-6776-4ac6-ac91-a364678786b4")
 	)
 	(label "VBUS_SRC"
-		(at 88.9 105.41 180)
+		(at 62.23 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "d2ab0cff-fe6c-4447-9df8-4aa6fbdbaaf5")
 	)
@@ -9324,6 +9330,17 @@
 		)
 		(uuid "4b1173ec-3012-4d28-820b-e5d6a676c1b4")
 	)
+	(hierarchical_label "NPMGPIO"
+		(shape bidirectional)
+		(at 78.74 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b5a0cc7-0062-4872-b73f-5b8f97efa0f4")
+	)
 	(hierarchical_label "USB_EXTD+"
 		(shape bidirectional)
 		(at 29.21 77.47 180)
@@ -9423,7 +9440,7 @@
 		)
 		(uuid "833858aa-5927-4aa5-a8cf-995178ed098b")
 	)
-	(hierarchical_label "~{EN5V}"
+	(hierarchical_label "EN5V"
 		(shape output)
 		(at 78.74 57.15 180)
 		(effects
