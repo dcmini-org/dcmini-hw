@@ -1306,17 +1306,6 @@
 		)
 		(uuid "9a5b4416-ae1a-4075-818b-4cc4c4ba9ef3")
 	)
-	(text "nRF can only communicate with SPI; no SDIO controller\nCould theoretically use extra SDIO channels for other \nlevel shifting (providing a 3.3v SWD interface?)"
-		(exclude_from_sim no)
-		(at 153.67 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e5303281-4e46-48b9-b329-df5e39345b05")
-	)
 	(junction
 		(at 99.06 123.19)
 		(diameter 0)
@@ -1363,17 +1352,27 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 95.25) (xy 160.02 95.25)
+			(xy 134.62 102.87) (xy 160.02 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c7b35a3-2b98-4e32-bf28-35376e53bba7")
+		(uuid "063e2156-53f2-4ca6-b668-840561cd120c")
 	)
 	(wire
 		(pts
-			(xy 111.76 107.95) (xy 109.22 107.95)
+			(xy 129.54 110.49) (xy 129.54 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c57ea07-3198-4265-844c-0447b67777d4")
+	)
+	(wire
+		(pts
+			(xy 109.22 107.95) (xy 134.62 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1443,16 +1442,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 97.79) (xy 160.02 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a968417-d909-4686-bec2-a76af52f3db4")
-	)
-	(wire
-		(pts
 			(xy 120.65 91.44) (xy 123.19 91.44)
 		)
 		(stroke
@@ -1460,6 +1449,16 @@
 			(type default)
 		)
 		(uuid "2b2f9cf8-ac02-4dea-9857-d27b4f351fa1")
+	)
+	(wire
+		(pts
+			(xy 132.08 95.25) (xy 160.02 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31fc91af-abc5-4f23-aed1-4f6cd9121fcd")
 	)
 	(wire
 		(pts
@@ -1510,6 +1509,16 @@
 			(type default)
 		)
 		(uuid "581998f4-4165-47d5-8d1a-4c4051e300e8")
+	)
+	(wire
+		(pts
+			(xy 132.08 113.03) (xy 132.08 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "593b8573-1526-4e66-998d-1fb4feb9dc23")
 	)
 	(wire
 		(pts
@@ -1583,13 +1592,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 102.87) (xy 154.94 102.87)
+			(xy 137.16 105.41) (xy 137.16 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "87669ca0-fae9-4386-97d2-9ffebe7ba8d5")
+		(uuid "83dc7610-d94e-403a-b6af-82bef0479ec8")
 	)
 	(wire
 		(pts
@@ -1643,7 +1652,27 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 110.49) (xy 111.76 110.49)
+			(xy 137.16 107.95) (xy 160.02 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b630b1eb-a87e-4af7-9e6e-2cf9f76df66e")
+	)
+	(wire
+		(pts
+			(xy 134.62 107.95) (xy 134.62 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0027b13-12d5-48f2-8345-133abe2df084")
+	)
+	(wire
+		(pts
+			(xy 109.22 110.49) (xy 129.54 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1693,7 +1722,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 113.03) (xy 109.22 113.03)
+			(xy 109.22 113.03) (xy 132.08 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1703,13 +1732,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 107.95) (xy 160.02 107.95)
+			(xy 129.54 97.79) (xy 160.02 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7c7e695-d907-4855-bdba-2dc8a2e90e0b")
+		(uuid "defa86e6-055e-4b16-8e32-b41af773a059")
 	)
 	(wire
 		(pts
@@ -1733,7 +1762,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 105.41) (xy 111.76 105.41)
+			(xy 109.22 105.41) (xy 137.16 105.41)
 		)
 		(stroke
 			(width 0)

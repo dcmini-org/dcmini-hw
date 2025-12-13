@@ -69,14 +69,6 @@
           ""
         ],
         [
-          "courtyards_overlap|153019409|107505886|721a8eb6-0741-43d7-8687-ccac77eb7be1|e667a468-7a8e-4411-bf89-16d15076b32b",
-          ""
-        ],
-        [
-          "courtyards_overlap|157017935|88205000|b8155683-28e9-4384-a196-cdd882a87c68|fced912a-eb79-4b3c-a035-daef1d1ec793",
-          ""
-        ],
-        [
           "courtyards_overlap|194602930|107513770|5634b0a5-7660-4030-9de7-609f32942660|698ac64f-27d8-4604-b803-76d1eea383a6",
           ""
         ],
@@ -500,6 +492,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"

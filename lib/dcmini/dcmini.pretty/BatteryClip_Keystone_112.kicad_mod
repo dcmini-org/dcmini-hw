@@ -1,0 +1,112 @@
+(footprint "BatteryClip_Keystone_112"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Battery Contact Spring (Leaf) Multiple 1 Cell SMD (SMT) Tab")
+	(tags "Battery Spring Contact")
+	(property "Reference" "REF**"
+		(at 0 3.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8679eea8-73b6-47e7-99e6-f8f19561ee44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "BatteryClip_Keystone_112"
+		(at 0 3.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "be6ad38e-d928-4fc5-b71d-60a92e30e501")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p8.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9aa0612-397d-47bb-80d1-38659d8112c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71cb9f20-5e3d-4f0d-b43f-5e1a71967287")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -5.1 -2.2)
+		(end 5.1 2.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2b61f4d5-f4ea-4258-9c19-094150218209")
+	)
+	(fp_rect
+		(start -5.2 -2.3)
+		(end 5.2 2.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "db7eb997-d5c0-4abd-805d-be46709c3a0c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3fabe722-fccd-4787-9de3-183eb1b80cb1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 4 4.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "7df1fbc1-43a1-4dd3-9b45-55af9325ea1e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../lib/dcmini/dcmini.3dshapes/112TR.STEP"
+		(offset
+			(xyz 0 0 0.15)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

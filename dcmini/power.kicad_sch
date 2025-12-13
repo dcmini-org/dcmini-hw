@@ -3524,16 +3524,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Only populate\none battery\nconnector!"
-		(exclude_from_sim no)
-		(at 41.91 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1dcfda6f-39fd-414a-b620-11f4277b7dd9")
-	)
 	(text "DIR Low\nB->A"
 		(exclude_from_sim no)
 		(at 207.264 151.638 0)
@@ -3585,16 +3575,6 @@
 			)
 		)
 		(uuid "8ac1214e-0023-435b-8c83-43d9931999d5")
-	)
-	(text "LDO1\n3.3V\n50mA"
-		(exclude_from_sim no)
-		(at 142.24 119.634 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a178759c-560c-4419-9168-a3247d171aa2")
 	)
 	(text "Low ESR \nTantalum\nPolymer"
 		(exclude_from_sim no)
@@ -3673,12 +3653,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26f9515b-8e87-4de9-832e-541150a8de8f")
-	)
-	(junction
-		(at 39.37 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "298f4aa6-26ef-4d74-9aef-050f8c12038d")
 	)
 	(junction
 		(at 265.43 111.76)
@@ -4148,6 +4122,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 82.55) (xy 44.45 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a5db5b-5bda-472e-af88-d2e4664f7368")
+	)
+	(wire
+		(pts
 			(xy 231.14 111.76) (xy 231.14 114.3)
 		)
 		(stroke
@@ -4165,16 +4149,6 @@
 			(type default)
 		)
 		(uuid "2632666e-b6e4-451f-95fe-1cc0ae351e1a")
-	)
-	(wire
-		(pts
-			(xy 26.67 85.09) (xy 26.67 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "266f915f-5c0f-4d77-9bad-45dbd4099eee")
 	)
 	(wire
 		(pts
@@ -4215,16 +4189,6 @@
 			(type default)
 		)
 		(uuid "308b8720-e15e-42a5-a005-536186c7c2e2")
-	)
-	(wire
-		(pts
-			(xy 39.37 85.09) (xy 39.37 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31b05eba-1605-4529-b023-f9b812fe261b")
 	)
 	(wire
 		(pts
@@ -4485,16 +4449,6 @@
 			(type default)
 		)
 		(uuid "6d3a880e-6548-46fa-9f0e-8f1fb1017579")
-	)
-	(wire
-		(pts
-			(xy 39.37 82.55) (xy 44.45 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "716427f6-85ac-4dc4-af3a-6410102b918e")
 	)
 	(wire
 		(pts
@@ -4768,6 +4722,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 90.17) (xy 31.75 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9145f290-5014-44c5-a026-1eabc1283b19")
+	)
+	(wire
+		(pts
 			(xy 203.2 151.13) (xy 203.2 148.59)
 		)
 		(stroke
@@ -4965,16 +4929,6 @@
 			(type default)
 		)
 		(uuid "bbba8c0b-0721-4bba-93d2-a78e9aad28b2")
-	)
-	(wire
-		(pts
-			(xy 26.67 82.55) (xy 39.37 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdaed765-2b97-49f9-9ad2-dc636501cf70")
 	)
 	(wire
 		(pts
@@ -5549,6 +5503,89 @@
 					(italic yes)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 31.75 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0213cca7-bd6d-417f-a81f-002e79db4e59")
+		(property "Reference" "TP5"
+			(at 28.448 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LIPO-"
+			(at 28.448 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "dcmini:BatteryClip_Keystone_112"
+			(at 31.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Battery clip negative coin cell leaf spring"
+			(at 31.75 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "112"
+			(at 31.75 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.digikey.com/en/products/detail/keystone-electronics/112TR/4499393"
+			(at 31.75 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16b65576-a10d-41e8-8f7a-7448ff16f207")
+		)
+		(instances
+			(project "dcmini"
+				(path "/d60941e0-00fa-483d-8778-d43646235567/b6c2ba6c-3cfe-4bf1-b640-68b6f07a212f"
+					(reference "TP5")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -6781,6 +6818,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 31.75 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a3b989c-d100-466d-8aeb-98631287dd87")
+		(property "Reference" "TP4"
+			(at 28.448 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LIPO+"
+			(at 28.448 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "dcmini:BatteryClip_Keystone_110"
+			(at 31.75 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Battery clip positive coin cell leaf spring"
+			(at 31.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "110"
+			(at 31.75 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.digikey.com/en/products/detail/keystone-electronics/110TR/4499392"
+			(at 31.75 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eeb076d4-7034-4e8b-a3b2-bc78239fec7a")
+		)
+		(instances
+			(project ""
+				(path "/d60941e0-00fa-483d-8778-d43646235567/b6c2ba6c-3cfe-4bf1-b640-68b6f07a212f"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "dcmini:VSYS")
 		(at 167.64 54.61 0)
 		(unit 1)
@@ -6841,6 +6961,72 @@
 			(project "dcmini-s"
 				(path "/d60941e0-00fa-483d-8778-d43646235567/b6c2ba6c-3cfe-4bf1-b640-68b6f07a212f"
 					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.75 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49d5783e-e1e1-4ea7-a800-6333a81b1673")
+		(property "Reference" "#PWR012"
+			(at 31.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66ef4b40-a1a8-4c52-aed5-a1f69ae6c514")
+		)
+		(instances
+			(project "dcmini"
+				(path "/d60941e0-00fa-483d-8778-d43646235567/b6c2ba6c-3cfe-4bf1-b640-68b6f07a212f"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7192,94 +7378,6 @@
 			(project "dcmini-s"
 				(path "/d60941e0-00fa-483d-8778-d43646235567/b6c2ba6c-3cfe-4bf1-b640-68b6f07a212f"
 					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 26.67 90.17 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "505c5c7e-9717-4586-b9e7-da9a852cda2e")
-		(property "Reference" "BT3"
-			(at 22.86 87.0585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LIPO"
-			(at 22.86 89.5985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_SUR_BM02B-SURS-TF_1x02-1MP_P0.80mm_Vertical"
-			(at 26.67 88.646 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 88.646 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Surface Mount 2 Position 0.8mm"
-			(at 26.67 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "BM02B-SURS-TF"
-			(at 26.67 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Link" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/bm02b-surs-tf/2241777"
-			(at 26.67 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c675e0fa-4e5b-4cef-aa3e-7ec9c9c5c554")
-		)
-		(pin "2"
-			(uuid "72a6a509-002d-4072-9055-65c380385f48")
-		)
-		(instances
-			(project "dcmini"
-				(path "/d60941e0-00fa-483d-8778-d43646235567/b6c2ba6c-3cfe-4bf1-b640-68b6f07a212f"
-					(reference "BT3")
 					(unit 1)
 				)
 			)
@@ -8008,72 +8106,6 @@
 			(project "dcmini-s"
 				(path "/d60941e0-00fa-483d-8778-d43646235567/b6c2ba6c-3cfe-4bf1-b640-68b6f07a212f"
 					(reference "#PWR099")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 39.37 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72e97412-cfba-47ff-a4f1-fd9e0f4ac56e")
-		(property "Reference" "#PWR0101"
-			(at 39.37 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 39.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 39.37 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd54e42a-ff43-4e54-a005-6df8c5a4fa7d")
-		)
-		(instances
-			(project "dcmini-s"
-				(path "/d60941e0-00fa-483d-8778-d43646235567/b6c2ba6c-3cfe-4bf1-b640-68b6f07a212f"
-					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -9519,94 +9551,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 39.37 90.17 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b61725a4-b10b-41a3-8ac0-07a6938c4045")
-		(property "Reference" "BT1"
-			(at 35.56 87.0585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LIPO"
-			(at 35.56 89.5985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "dcmini:RJD3048ST1"
-			(at 39.37 88.646 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 88.646 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Coin, 30.0mm 3.7 V Lithium-Ion Battery Rechargeable 300mAh"
-			(at 39.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "RJD3048ST1"
-			(at 39.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Link" "https://www.digikey.com/en/products/detail/cornell-dubilier-knowles/RJD3048ST1/6596422"
-			(at 39.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58e893e7-384b-4e53-91eb-ae0bf1cda3aa")
-		)
-		(pin "2"
-			(uuid "64561176-b048-4c43-83f5-f7b1232b1181")
-		)
-		(instances
-			(project "dcmini-s"
-				(path "/d60941e0-00fa-483d-8778-d43646235567/b6c2ba6c-3cfe-4bf1-b640-68b6f07a212f"
-					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 156.21 67.31 0)
 		(mirror x)
@@ -10464,6 +10408,7 @@
 	(symbol
 		(lib_id "Device:Battery_Cell")
 		(at 44.45 90.17 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10471,7 +10416,7 @@
 		(dnp no)
 		(uuid "e34f612b-bca8-4eca-a487-633b2db30ac3")
 		(property "Reference" "BT2"
-			(at 48.26 87.0585 0)
+			(at 40.64 87.0585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10480,7 +10425,7 @@
 			)
 		)
 		(property "Value" "LIPO"
-			(at 48.26 89.5985 0)
+			(at 40.64 89.5985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10540,7 +10485,7 @@
 			(uuid "07e060eb-9060-4e8e-b1e6-563180d98e5d")
 		)
 		(instances
-			(project "dcmini-s"
+			(project "dcmini"
 				(path "/d60941e0-00fa-483d-8778-d43646235567/b6c2ba6c-3cfe-4bf1-b640-68b6f07a212f"
 					(reference "BT2")
 					(unit 1)
@@ -10982,72 +10927,6 @@
 			(project "dcmini-s"
 				(path "/d60941e0-00fa-483d-8778-d43646235567/b6c2ba6c-3cfe-4bf1-b640-68b6f07a212f"
 					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 26.67 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe833ece-04e2-495a-b5ca-b593bd1bc964")
-		(property "Reference" "#PWR0120"
-			(at 26.67 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 26.67 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 26.67 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93ecc228-32f2-4670-86eb-d614536f5ee0")
-		)
-		(instances
-			(project "dcmini"
-				(path "/d60941e0-00fa-483d-8778-d43646235567/b6c2ba6c-3cfe-4bf1-b640-68b6f07a212f"
-					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
