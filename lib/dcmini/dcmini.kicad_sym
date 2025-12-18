@@ -8916,7 +8916,7 @@
 			(pin power_in line
 				(at -20.32 25.4 0)
 				(length 3.81)
-				(name "GND"
+				(name "DGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9132,7 +9132,7 @@
 			(pin power_in line
 				(at -20.32 -5.08 0)
 				(length 3.81)
-				(name "GND"
+				(name "DGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9150,7 +9150,7 @@
 			(pin power_in line
 				(at -20.32 -7.62 0)
 				(length 3.81)
-				(name "GND"
+				(name "DGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9312,7 +9312,7 @@
 			(pin power_in line
 				(at -20.32 -30.48 0)
 				(length 3.81)
-				(name "GND"
+				(name "DGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9366,7 +9366,7 @@
 			(pin power_in line
 				(at -20.32 -38.1 0)
 				(length 3.81)
-				(name "GND"
+				(name "DGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9456,7 +9456,7 @@
 			(pin power_in line
 				(at 20.32 25.4 180)
 				(length 3.81)
-				(name "GND"
+				(name "DGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9636,7 +9636,7 @@
 			(pin power_in line
 				(at 20.32 0 180)
 				(length 3.81)
-				(name "GND"
+				(name "DGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9708,7 +9708,7 @@
 			(pin power_in line
 				(at 20.32 -10.16 180)
 				(length 3.81)
-				(name "GND"
+				(name "DGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9852,7 +9852,7 @@
 			(pin power_in line
 				(at 20.32 -30.48 180)
 				(length 3.81)
-				(name "GND"
+				(name "DGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9906,7 +9906,7 @@
 			(pin power_in line
 				(at 20.32 -38.1 180)
 				(length 3.81)
-				(name "GND"
+				(name "DGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9973,7 +9973,7 @@
 			(pin power_in line
 				(at -19.05 30.48 0)
 				(length 3.81)
-				(name "GND"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9988,10 +9988,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -19.05 27.94 0)
 				(length 3.81)
-				(name "RESERVED"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10024,10 +10024,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -19.05 22.86 0)
 				(length 3.81)
-				(name "BIASINV"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10369,7 +10369,7 @@
 			(pin power_in line
 				(at -19.05 -25.4 0)
 				(length 3.81)
-				(name "GND"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10387,7 +10387,7 @@
 			(pin power_in line
 				(at -19.05 -27.94 0)
 				(length 3.81)
-				(name "GND"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10402,10 +10402,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -19.05 -30.48 0)
 				(length 3.81)
-				(name "RESERVED"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10420,10 +10420,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -19.05 -33.02 0)
 				(length 3.81)
-				(name "RESERVED"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10438,10 +10438,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -19.05 -35.56 0)
 				(length 3.81)
-				(name "RESERVED"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10456,10 +10456,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -19.05 -38.1 0)
 				(length 3.81)
-				(name "RESERVED"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10474,10 +10474,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 19.05 35.56 180)
 				(length 3.81)
-				(name "RESERVED"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10492,10 +10492,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 19.05 33.02 180)
 				(length 3.81)
-				(name "RESERVED"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10510,10 +10510,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 19.05 30.48 180)
 				(length 3.81)
-				(name "RESERVED"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10528,10 +10528,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 19.05 27.94 180)
 				(length 3.81)
-				(name "RESERVED"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10549,7 +10549,7 @@
 			(pin power_in line
 				(at 19.05 25.4 180)
 				(length 3.81)
-				(name "GND"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10567,7 +10567,7 @@
 			(pin power_in line
 				(at 19.05 22.86 180)
 				(length 3.81)
-				(name "GND"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10906,10 +10906,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 19.05 -25.4 180)
 				(length 3.81)
-				(name "BIASINV"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10942,10 +10942,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 19.05 -30.48 180)
 				(length 3.81)
-				(name "RESERVED"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10963,7 +10963,7 @@
 			(pin power_in line
 				(at 19.05 -33.02 180)
 				(length 3.81)
-				(name "GND"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11136,7 +11136,7 @@
 			(pin power_in line
 				(at -19.05 31.75 0)
 				(length 3.81)
-				(name "GND"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11151,10 +11151,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -19.05 29.21 0)
 				(length 3.81)
-				(name "RESERVED"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11187,10 +11187,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -19.05 24.13 0)
 				(length 3.81)
-				(name "BIASINV"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11532,7 +11532,7 @@
 			(pin power_in line
 				(at -19.05 -24.13 0)
 				(length 3.81)
-				(name "GND"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11550,7 +11550,7 @@
 			(pin power_in line
 				(at -19.05 -26.67 0)
 				(length 3.81)
-				(name "GND"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11565,10 +11565,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -19.05 -29.21 0)
 				(length 3.81)
-				(name "RESERVED"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11583,10 +11583,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -19.05 -31.75 0)
 				(length 3.81)
-				(name "RESERVED"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11601,10 +11601,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -19.05 -34.29 0)
 				(length 3.81)
-				(name "RESERVED"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11619,10 +11619,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -19.05 -36.83 0)
 				(length 3.81)
-				(name "RESERVED"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11637,10 +11637,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 19.05 36.83 180)
 				(length 3.81)
-				(name "RESERVED"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11655,10 +11655,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 19.05 34.29 180)
 				(length 3.81)
-				(name "RESERVED"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11673,10 +11673,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 19.05 31.75 180)
 				(length 3.81)
-				(name "RESERVED"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11691,10 +11691,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 19.05 29.21 180)
 				(length 3.81)
-				(name "RESERVED"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11712,7 +11712,7 @@
 			(pin power_in line
 				(at 19.05 26.67 180)
 				(length 3.81)
-				(name "GND"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11730,7 +11730,7 @@
 			(pin power_in line
 				(at 19.05 24.13 180)
 				(length 3.81)
-				(name "GND"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12069,10 +12069,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 19.05 -24.13 180)
 				(length 3.81)
-				(name "BIASINV"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12105,10 +12105,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 19.05 -29.21 180)
 				(length 3.81)
-				(name "RESERVED"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12126,7 +12126,7 @@
 			(pin power_in line
 				(at 19.05 -31.75 180)
 				(length 3.81)
-				(name "GND"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12335,7 +12335,7 @@
 			(pin power_in line
 				(at -20.32 25.4 0)
 				(length 3.81)
-				(name "GND"
+				(name "DGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12551,7 +12551,7 @@
 			(pin power_in line
 				(at -20.32 -5.08 0)
 				(length 3.81)
-				(name "GND"
+				(name "DGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12569,7 +12569,7 @@
 			(pin power_in line
 				(at -20.32 -7.62 0)
 				(length 3.81)
-				(name "GND"
+				(name "DGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12731,7 +12731,7 @@
 			(pin power_in line
 				(at -20.32 -30.48 0)
 				(length 3.81)
-				(name "GND"
+				(name "DGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12785,7 +12785,7 @@
 			(pin power_in line
 				(at -20.32 -38.1 0)
 				(length 3.81)
-				(name "GND"
+				(name "DGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12875,7 +12875,7 @@
 			(pin power_in line
 				(at 20.32 25.4 180)
 				(length 3.81)
-				(name "GND"
+				(name "DGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13055,7 +13055,7 @@
 			(pin power_in line
 				(at 20.32 0 180)
 				(length 3.81)
-				(name "GND"
+				(name "DGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13127,7 +13127,7 @@
 			(pin power_in line
 				(at 20.32 -10.16 180)
 				(length 3.81)
-				(name "GND"
+				(name "DGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13271,7 +13271,7 @@
 			(pin power_in line
 				(at 20.32 -30.48 180)
 				(length 3.81)
-				(name "GND"
+				(name "DGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13286,7 +13286,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 20.32 -33.02 180)
 				(length 3.81)
 				(name "RESERVED"
@@ -13304,7 +13304,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 20.32 -35.56 180)
 				(length 3.81)
 				(name "RESERVED"
@@ -13325,7 +13325,7 @@
 			(pin power_in line
 				(at 20.32 -38.1 180)
 				(length 3.81)
-				(name "GND"
+				(name "DGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13822,7 +13822,7 @@
 			(pin power_in line
 				(at -13.97 -27.94 0)
 				(length 3.81)
-				(name "GNDD"
+				(name "DGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13840,7 +13840,7 @@
 			(pin power_in line
 				(at 13.97 27.94 180)
 				(length 3.81)
-				(name "GND"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -14715,7 +14715,7 @@
 			(pin power_in line
 				(at -10.16 -27.94 0)
 				(length 3.81)
-				(name "GNDD"
+				(name "DGND"
 					(effects
 						(font
 							(size 1.27 1.27)

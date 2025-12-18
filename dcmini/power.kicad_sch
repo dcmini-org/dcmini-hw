@@ -10538,7 +10538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "47 kOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
+		(property "Description" "47 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 45.72 114.3 0)
 			(effects
 				(font
@@ -10547,7 +10547,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "AC0402JR-0747KL"
+		(property "MFG P/N" "RC0402FR-0747KL"
 			(at 45.72 114.3 0)
 			(effects
 				(font
@@ -10556,7 +10556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Link" "https://www.digikey.com/en/products/detail/yageo/AC0402JR-0747KL/5895679"
+		(property "Part Link" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0747KL/726616"
 			(at 45.72 114.3 0)
 			(effects
 				(font
