@@ -8977,130 +8977,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "GND_2"
 			(power)
 			(pin_numbers
@@ -10555,6 +10431,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 34.29) (xy 256.54 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d7b5775-5942-44b0-9527-91f82b728eae")
+	)
+	(wire
+		(pts
 			(xy 26.67 57.15) (xy 29.21 57.15)
 		)
 		(stroke
@@ -10572,16 +10458,6 @@
 			(type default)
 		)
 		(uuid "0ebe727c-2eb7-473b-932a-8928986d2357")
-	)
-	(wire
-		(pts
-			(xy 248.92 34.29) (xy 256.54 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "103b1451-de51-4c94-9909-fe6b2de20be8")
 	)
 	(wire
 		(pts
@@ -10722,6 +10598,16 @@
 			(type default)
 		)
 		(uuid "1a45bec6-81c5-4c25-9834-6a546efb07ff")
+	)
+	(wire
+		(pts
+			(xy 251.46 43.18) (xy 248.92 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a9e0b17-9a4a-445e-a5ad-a98ae4962801")
 	)
 	(wire
 		(pts
@@ -10892,16 +10778,6 @@
 			(type default)
 		)
 		(uuid "271de414-8a98-4384-9b52-0f5fab7a5338")
-	)
-	(wire
-		(pts
-			(xy 92.71 86.36) (xy 104.14 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "278e8c7f-11c2-4eab-a10d-098d8c969a35")
 	)
 	(wire
 		(pts
@@ -12022,16 +11898,6 @@
 			(type default)
 		)
 		(uuid "79260042-3340-4184-a91f-f2b2b0eebaaf")
-	)
-	(wire
-		(pts
-			(xy 92.71 91.44) (xy 92.71 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7960ca4b-140e-495d-ad53-95a6520c94ea")
 	)
 	(wire
 		(pts
@@ -13505,16 +13371,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 99.06) (xy 92.71 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dec597db-4e04-4a81-a145-0dbc88e15fd2")
-	)
-	(wire
-		(pts
 			(xy 119.38 179.07) (xy 116.84 179.07)
 		)
 		(stroke
@@ -13565,16 +13421,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 31.75) (xy 256.54 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e14a86ef-518a-4e99-8955-ea60f69463f9")
-	)
-	(wire
-		(pts
 			(xy 116.84 138.43) (xy 119.38 138.43)
 		)
 		(stroke
@@ -13592,6 +13438,16 @@
 			(type default)
 		)
 		(uuid "e1b2f06d-caa4-4202-8568-6635df1c2759")
+	)
+	(wire
+		(pts
+			(xy 248.92 31.75) (xy 256.54 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1b604b2-5e60-4228-b979-56a50160d3d9")
 	)
 	(wire
 		(pts
@@ -13692,6 +13548,16 @@
 			(type default)
 		)
 		(uuid "e9d49c10-9d3d-49c4-9e87-a60e11a58865")
+	)
+	(wire
+		(pts
+			(xy 251.46 45.72) (xy 248.92 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea0dbeb2-dd7e-419d-beab-2d583e38e319")
 	)
 	(wire
 		(pts
@@ -14574,12 +14440,12 @@
 		(uuid "1cf9b546-0eda-499f-94a4-055c6faa90a8")
 	)
 	(label "SCL"
-		(at 254 31.75 180)
+		(at 251.46 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "1d286a8f-aefa-492c-a137-42454860b4f9")
 	)
@@ -15474,12 +15340,12 @@
 		(uuid "53291f7b-4489-498c-86bc-d846b08bdbc5")
 	)
 	(label "SDA"
-		(at 254 34.29 180)
+		(at 251.46 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "539c73ed-18fc-4293-b374-f66e0a092e49")
 	)
@@ -19283,93 +19149,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 92.71 95.25 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b0fb300-b403-43b9-8d09-69e7980ef39f")
-		(property "Reference" "R24"
-			(at 95.25 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 95.25 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 94.488 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 kOhms ±5% 0.063W, 1/10W Chip Resistor 0603"
-			(at 92.71 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "AC0603JR-0710KL"
-			(at 92.71 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Link" "https://www.digikey.com/en/products/detail/yageo/AC0402JR-0710KL/5895571"
-			(at 92.71 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2df88c29-7e7b-440a-80c4-f51f31d38d90")
-		)
-		(pin "2"
-			(uuid "5d72884c-8cec-40bf-ad16-855be558e5a0")
-		)
-		(instances
-			(project "dcmini"
-				(path "/d60941e0-00fa-483d-8778-d43646235567"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+2V5")
 		(at 26.67 189.23 90)
 		(unit 1)
@@ -21289,72 +21068,6 @@
 			(project "dcmini"
 				(path "/d60941e0-00fa-483d-8778-d43646235567"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 92.71 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b42b055-21ce-4a98-92d8-25781dd0609b")
-		(property "Reference" "#PWR013"
-			(at 92.71 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.71 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "020dad70-ec8d-41ea-a524-d1509ae056d9")
-		)
-		(instances
-			(project ""
-				(path "/d60941e0-00fa-483d-8778-d43646235567"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -24487,7 +24200,7 @@
 			)
 		)
 		(pin "SCL" passive
-			(at 248.92 31.75 0)
+			(at 248.92 43.18 0)
 			(uuid "5c7ab7e4-359c-41e1-ae74-83fc4952a3e0")
 			(effects
 				(font
@@ -24497,7 +24210,7 @@
 			)
 		)
 		(pin "SDA" passive
-			(at 248.92 34.29 0)
+			(at 248.92 45.72 0)
 			(uuid "d01ba432-607a-4b52-8b36-d70ca8dc6cad")
 			(effects
 				(font
@@ -24709,6 +24422,26 @@
 		(pin "EN5V" output
 			(at 248.92 24.13 0)
 			(uuid "b5d5957a-58cd-4f28-bb65-704945dd1b1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NPMSCL" output
+			(at 248.92 31.75 0)
+			(uuid "03a48beb-bf3f-487e-a069-ce7f9b416bfe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NPMSDA" bidirectional
+			(at 248.92 34.29 0)
+			(uuid "739f358d-2f9a-4b25-8d55-cc2ae9b1eb1e")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -6680,10 +6680,6 @@
 		(uuid "0ff041ea-d502-4372-ad65-d65e09f56d97")
 	)
 	(no_connect
-		(at 91.44 113.03)
-		(uuid "19587380-25ec-40d7-b0b9-9106cea797a6")
-	)
-	(no_connect
 		(at 273.05 41.91)
 		(uuid "206b5814-d1db-4ca9-933b-42b781388b95")
 	)
@@ -6702,10 +6698,6 @@
 	(no_connect
 		(at 85.09 170.18)
 		(uuid "6f294936-e542-4984-b3cd-94b9f1711fb7")
-	)
-	(no_connect
-		(at 91.44 110.49)
-		(uuid "97ebec9a-90bd-4755-8f66-31f22a10d13d")
 	)
 	(no_connect
 		(at 142.24 147.32)
@@ -7083,6 +7075,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 110.49) (xy 91.44 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32fdb39b-3fdb-42fb-a147-b1a251db2ad6")
+	)
+	(wire
+		(pts
 			(xy 229.87 52.07) (xy 229.87 62.23)
 		)
 		(stroke
@@ -7240,6 +7242,16 @@
 			(type default)
 		)
 		(uuid "47522fb6-c83a-4b41-b39f-59a6c0a53962")
+	)
+	(wire
+		(pts
+			(xy 163.83 52.07) (xy 163.83 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47fde474-1614-4425-af99-1906a8ef20e0")
 	)
 	(wire
 		(pts
@@ -8673,6 +8685,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 62.23) (xy 163.83 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb990fbd-c732-4922-b05c-79e12f5b02d2")
+	)
+	(wire
+		(pts
 			(xy 181.61 67.31) (xy 181.61 69.85)
 		)
 		(stroke
@@ -8813,6 +8835,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 113.03) (xy 91.44 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9367170-b5ac-4619-aed0-48657b929540")
+	)
+	(wire
+		(pts
 			(xy 165.1 77.47) (xy 171.45 77.47)
 		)
 		(stroke
@@ -8890,6 +8922,16 @@
 			(justify right bottom)
 		)
 		(uuid "20d5621e-bf19-493e-bd88-0d22328c920f")
+	)
+	(label "~{ADSRESET}"
+		(at 134.62 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2446cfe5-c47f-43c6-ac21-b5261ecdd864")
 	)
 	(label "SCL"
 		(at 236.22 138.43 180)
@@ -9060,6 +9102,16 @@
 			(justify left bottom)
 		)
 		(uuid "8d0d225d-0f35-4d70-a95a-da5f5a22fd67")
+	)
+	(label "~{ADSRESET}"
+		(at 163.83 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "933ddd96-b992-4749-8465-4dbb6d5c27e8")
 	)
 	(label "MICC"
 		(at 213.36 100.33 0)
@@ -9495,6 +9547,17 @@
 		)
 		(uuid "8eb671c6-865d-4578-8d63-4404a9fe2151")
 	)
+	(hierarchical_label "NPMSDA"
+		(shape bidirectional)
+		(at 78.74 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97090329-621e-4600-bd3b-85e2f39af9f1")
+	)
 	(hierarchical_label "NRFGPIO2"
 		(shape passive)
 		(at 78.74 95.25 180)
@@ -9560,6 +9623,17 @@
 			(justify right)
 		)
 		(uuid "d65c83bb-8741-4256-8b0d-98637be5958a")
+	)
+	(hierarchical_label "NPMSCL"
+		(shape output)
+		(at 78.74 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6bc43a9-461f-4918-b386-e9b3c4613126")
 	)
 	(hierarchical_label "NRFGPIO7"
 		(shape passive)
@@ -9787,6 +9861,93 @@
 			(project "dcmini-s"
 				(path "/d60941e0-00fa-483d-8778-d43646235567/706949da-e6c8-4ead-939f-e6159df64a5c"
 					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 163.83 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b0fb300-b403-43b9-8d09-69e7980ef39f")
+		(property "Reference" "R24"
+			(at 166.37 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 166.37 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 165.608 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
+			(at 163.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "AC0402JR-0710KL"
+			(at 163.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.digikey.com/en/products/detail/yageo/AC0402JR-0710KL/5895571"
+			(at 163.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2df88c29-7e7b-440a-80c4-f51f31d38d90")
+		)
+		(pin "2"
+			(uuid "5d72884c-8cec-40bf-ad16-855be558e5a0")
+		)
+		(instances
+			(project "dcmini"
+				(path "/d60941e0-00fa-483d-8778-d43646235567/706949da-e6c8-4ead-939f-e6159df64a5c"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -14108,6 +14269,71 @@
 			(project "dcmini-s"
 				(path "/d60941e0-00fa-483d-8778-d43646235567/706949da-e6c8-4ead-939f-e6159df64a5c"
 					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb8ccecd-c479-4c8b-a227-c07f90d3d1e8")
+		(property "Reference" "#PWR017"
+			(at 163.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b9e0271-6b5d-4708-8919-36d3dc0dd652")
+		)
+		(instances
+			(project "dcmini"
+				(path "/d60941e0-00fa-483d-8778-d43646235567/706949da-e6c8-4ead-939f-e6159df64a5c"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)

@@ -4382,16 +4382,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 134.62) (xy 256.54 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "600bdac8-a4ce-46f5-8667-f5b7666be691")
-	)
-	(wire
-		(pts
 			(xy 135.89 130.81) (xy 135.89 124.46)
 		)
 		(stroke
@@ -5212,6 +5202,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 142.24) (xy 256.54 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7669238-8144-4b94-a6aa-9370c4d62098")
+	)
+	(wire
+		(pts
 			(xy 116.84 62.23) (xy 120.65 62.23)
 		)
 		(stroke
@@ -5874,94 +5874,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 256.54 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "113208c0-a518-4974-ab68-fd864aa3534c")
-		(property "Reference" "R10"
-			(at 258.445 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.49M"
-			(at 258.445 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 254.762 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2.49 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 256.54 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "RC0603FR-072M49L"
-			(at 256.54 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-072M49L/727028"
-			(at 256.54 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0392831-3e9e-4339-851a-d9722cd7bcf3")
-		)
-		(pin "2"
-			(uuid "32258213-c513-4310-8b3c-158b13a0af8b")
-		)
-		(instances
-			(project "dcmini-s"
-				(path "/d60941e0-00fa-483d-8778-d43646235567/b6c2ba6c-3cfe-4bf1-b640-68b6f07a212f"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 265.43 124.46 0)
 		(unit 1)
@@ -6571,6 +6483,95 @@
 			(project "dcmini-s"
 				(path "/d60941e0-00fa-483d-8778-d43646235567/b6c2ba6c-3cfe-4bf1-b640-68b6f07a212f"
 					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 256.54 116.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "281f051f-0113-46a2-96ec-d551ce7960ea")
+		(property "Reference" "R10"
+			(at 259.08 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 259.08 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 258.318 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 MOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 256.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "RC0402FR-071ML"
+			(at 256.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-071ML/726515"
+			(at 256.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdf2316d-c9f8-48d3-b32a-c52c2e3e1b5d")
+		)
+		(pin "2"
+			(uuid "fdcc8bb4-47cc-4000-9d44-8bcabb05c73a")
+		)
+		(instances
+			(project "dcmini"
+				(path "/d60941e0-00fa-483d-8778-d43646235567/b6c2ba6c-3cfe-4bf1-b640-68b6f07a212f"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8309,94 +8310,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 256.54 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f7480e9-c979-4d05-9623-3b95a980926b")
-		(property "Reference" "R11"
-			(at 258.445 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "270k"
-			(at 258.445 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 254.762 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "270 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 256.54 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "RC0603FR-07270KL"
-			(at 256.54 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07270KL/727104"
-			(at 256.54 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba29757f-84f3-4514-bb10-3b5ec418bcfd")
-		)
-		(pin "2"
-			(uuid "8440467c-5b34-42d7-957a-be29adb92dae")
-		)
-		(instances
-			(project "dcmini-s"
-				(path "/d60941e0-00fa-483d-8778-d43646235567/b6c2ba6c-3cfe-4bf1-b640-68b6f07a212f"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 271.78 143.51 0)
 		(unit 1)
@@ -8621,6 +8534,95 @@
 			(project "dcmini-s"
 				(path "/d60941e0-00fa-483d-8778-d43646235567/b6c2ba6c-3cfe-4bf1-b640-68b6f07a212f"
 					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 256.54 130.81 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9361a78a-8a9d-43a8-8b21-0be7e7ec7c77")
+		(property "Reference" "R11"
+			(at 259.08 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 259.08 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 258.318 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 kOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
+			(at 256.54 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "AC0402JR-07100KL"
+			(at 256.54 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.digikey.com/en/products/detail/yageo/AC0402JR-07100KL/5895569"
+			(at 256.54 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd09833b-80cd-472a-ad4b-d5270fe62fd3")
+		)
+		(pin "2"
+			(uuid "7bb8f592-3349-4012-a11d-0d67b46ac7cc")
+		)
+		(instances
+			(project "dcmini"
+				(path "/d60941e0-00fa-483d-8778-d43646235567/b6c2ba6c-3cfe-4bf1-b640-68b6f07a212f"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -10158,6 +10160,94 @@
 			(project "dcmini-s"
 				(path "/d60941e0-00fa-483d-8778-d43646235567/b6c2ba6c-3cfe-4bf1-b640-68b6f07a212f"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 256.54 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf20f785-0d5b-4dce-9270-0847adef6583")
+		(property "Reference" "R31"
+			(at 259.08 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 259.08 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 254.762 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
+			(at 256.54 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "AC0402JR-0710KL"
+			(at 256.54 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.digikey.com/en/products/detail/yageo/AC0402JR-0710KL/5895571"
+			(at 256.54 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ebc3a16-83e7-4bf2-952f-c035bc6c253f")
+		)
+		(pin "2"
+			(uuid "230d8cc5-3f3f-4192-9faf-8187e1138146")
+		)
+		(instances
+			(project "dcmini"
+				(path "/d60941e0-00fa-483d-8778-d43646235567/b6c2ba6c-3cfe-4bf1-b640-68b6f07a212f"
+					(reference "R31")
 					(unit 1)
 				)
 			)

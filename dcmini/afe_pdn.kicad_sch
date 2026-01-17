@@ -5,113 +5,6 @@
 	(uuid "290a2822-62a9-4c20-8a54-58c9ef6dda37")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1267,12 +1160,6 @@
 		(uuid "7e6d93ab-5568-46df-9b00-f657f2aeaf62")
 	)
 	(junction
-		(at 162.56 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d62bcef-e420-407a-9f37-3f3c9b05382d")
-	)
-	(junction
 		(at 167.64 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1710,7 +1597,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 92.71) (xy 167.64 92.71)
+			(xy 154.94 92.71) (xy 167.64 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1727,16 +1614,6 @@
 			(type default)
 		)
 		(uuid "bf575566-e6e6-486d-86d7-6720ffd3974e")
-	)
-	(wire
-		(pts
-			(xy 154.94 92.71) (xy 162.56 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0cf5c1d-2e6d-4972-b56e-ce8e255f7f33")
 	)
 	(wire
 		(pts
@@ -2116,92 +1993,6 @@
 			(project "dcmini"
 				(path "/d60941e0-00fa-483d-8778-d43646235567/40126b40-7516-4e12-8e11-9d5f25ac5f3e"
 					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 162.56 92.71 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c36ffc5-6f5f-4774-b84c-8fc6dcbc8ae9")
-		(property "Reference" "TP8"
-			(at 160.655 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "-3V3"
-			(at 165.1 89.4079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 157.48 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 162.56 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" ""
-			(at 162.56 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Link" ""
-			(at 162.56 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "879d5448-496b-4fa3-b79d-3ebfb45a9cf0")
-		)
-		(instances
-			(project "dcmini"
-				(path "/d60941e0-00fa-483d-8778-d43646235567/40126b40-7516-4e12-8e11-9d5f25ac5f3e"
-					(reference "TP8")
 					(unit 1)
 				)
 			)
