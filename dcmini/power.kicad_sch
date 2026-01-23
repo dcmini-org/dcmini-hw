@@ -3637,12 +3637,6 @@
 		(uuid "1f5f2403-6177-4d3e-818d-d6e9f25ead0e")
 	)
 	(junction
-		(at 269.24 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2089fe71-d404-4ef3-b734-c8427434dec6")
-	)
-	(junction
 		(at 205.74 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4232,7 +4226,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 111.76) (xy 271.78 111.76)
+			(xy 265.43 111.76) (xy 271.78 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4559,16 +4553,6 @@
 			(type default)
 		)
 		(uuid "7a20ce81-798f-4817-a10f-b1596e0dab84")
-	)
-	(wire
-		(pts
-			(xy 265.43 111.76) (xy 269.24 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a2b0ecd-2e38-4c48-a2f8-5e631ce2fc55")
 	)
 	(wire
 		(pts
@@ -5717,92 +5701,6 @@
 			(project "dcmini-s"
 				(path "/d60941e0-00fa-483d-8778-d43646235567/b6c2ba6c-3cfe-4bf1-b640-68b6f07a212f"
 					(reference "#PWR098")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 269.24 111.76 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "0c4c6e92-ce0c-406e-94c1-f163e5bc5951")
-		(property "Reference" "TP6"
-			(at 267.335 103.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V"
-			(at 267.97 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 264.16 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 264.16 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 269.24 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" ""
-			(at 269.24 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Link" ""
-			(at 269.24 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74c348c3-dc5b-4650-a6cb-8cf6149205a8")
-		)
-		(instances
-			(project "dcmini"
-				(path "/d60941e0-00fa-483d-8778-d43646235567/b6c2ba6c-3cfe-4bf1-b640-68b6f07a212f"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -10523,7 +10421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SUR_SM02B-SURS-TF_1x02-1MP_P0.80mm_Horizontal"
 			(at 44.45 88.646 90)
 			(effects
 				(font
@@ -10541,7 +10439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 2 position 1.00mm pitch"
+		(property "Description" "Connector Header Surface Mount, Right Angle 2 position 0.8mm pitch"
 			(at 44.45 90.17 0)
 			(effects
 				(font
@@ -10550,7 +10448,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "SM02B-SRSS-TB"
+		(property "MFG P/N" "SM02B-SURS-TF"
 			(at 44.45 90.17 0)
 			(effects
 				(font
@@ -10559,7 +10457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Link" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/SM02B-SRSS-TB/926708"
+		(property "Part Link" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/sm02b-surs-tf/1300335"
 			(at 44.45 90.17 0)
 			(effects
 				(font
