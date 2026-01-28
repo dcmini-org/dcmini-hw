@@ -3357,9 +3357,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Tantalum \n6.3V"
+	(text "Tantalum \n6.3V\nMAX 1.5mm Height"
 		(exclude_from_sim no)
-		(at 181.61 148.59 0)
+		(at 195.072 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -3854,7 +3854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "dcmini:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal_DS"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 87.63 68.58 0)
 			(effects
 				(font
@@ -3881,7 +3881,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "USB4105-GF-A"
+		(property "MFG P/N" "USB4105-GF-A-060"
 			(at 83.82 68.58 0)
 			(effects
 				(font
@@ -3890,7 +3890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Link" "https://www.digikey.com/en/products/detail/gct/USB4105-GF-A/11198441"
+		(property "Part Link" "https://www.digikey.com/en/products/detail/gct/usb4105-gf-a-060/14559036"
 			(at 83.82 68.58 0)
 			(effects
 				(font
