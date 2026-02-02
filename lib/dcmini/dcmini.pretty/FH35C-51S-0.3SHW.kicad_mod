@@ -555,9 +555,9 @@
 		(uuid "aad7ecac-7a6b-4fab-9fbd-8567c49a721d")
 	)
 	(embedded_fonts no)
-	(model "/Users/milsagw1/repos/dcmini-hw-public/lib/dcmini/dcmini.3dshapes/FH35-45S-0.3SHW.stp"
+	(model "/Users/milsagw1/repos/dcmini-hw-public/lib/dcmini/dcmini.3dshapes/FH35-51S-0.3SHW.stp"
 		(offset
-			(xyz -2.62 -1.5 -2)
+			(xyz -1.75 -1.5 -2)
 		)
 		(scale
 			(xyz 1 1 1)

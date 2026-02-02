@@ -3536,9 +3536,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Shield Driver"
+	(text "Optional\nShield Driver\nUnused on Daisy"
 		(exclude_from_sim no)
-		(at 91.44 35.56 0)
+		(at 92.456 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13018,6 +13018,24 @@
 			)
 		)
 		(property "Description" "Single, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOT-23-5"
+			(at 78.74 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "OPA196IDBVR"
+			(at 78.74 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.digikey.com/en/products/detail/texas-instruments/OPA196IDBVR/7561368"
 			(at 78.74 35.56 0)
 			(effects
 				(font

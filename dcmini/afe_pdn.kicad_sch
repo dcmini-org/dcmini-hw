@@ -272,6 +272,176 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_Coaxial"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.222 -1.8079)
+					(end -1.778 -0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.778 0.508)
+					(mid 0.2221 1.8084)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
 				(offset 1.016)
@@ -2156,6 +2326,18 @@
 		(uuid "3fffb9c3-7928-4d70-8168-4a160e659585")
 	)
 	(junction
+		(at 83.82 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43e8bdb6-c4b5-4921-9d26-ffdcc2b1088a")
+	)
+	(junction
+		(at 105.41 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44ac5787-57d9-479d-ac66-a5f83276d947")
+	)
+	(junction
 		(at 139.7 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2238,6 +2420,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0725dd3-345f-403c-a05c-8cc7a3d8b602")
+	)
+	(junction
+		(at 91.44 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3920ccd-7360-4021-ae68-3644dd608e2a")
 	)
 	(junction
 		(at 50.8 171.45)
@@ -2323,6 +2511,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 105.41) (xy 97.79 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cca74bb-64c9-4646-b5ad-5136ec099441")
+	)
+	(wire
+		(pts
 			(xy 229.87 111.76) (xy 233.68 111.76)
 		)
 		(stroke
@@ -2343,7 +2541,17 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 124.46) (xy 83.82 124.46)
+			(xy 83.82 97.79) (xy 86.36 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b7ef89-b3fb-42f3-9f93-0072fa1433fa")
+	)
+	(wire
+		(pts
+			(xy 88.9 111.76) (xy 92.71 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2373,7 +2581,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 111.76) (xy 261.62 114.3)
+			(xy 264.16 123.19) (xy 264.16 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2403,7 +2611,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 111.76) (xy 261.62 111.76)
+			(xy 259.08 123.19) (xy 264.16 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2430,6 +2638,16 @@
 			(type default)
 		)
 		(uuid "48826244-16bd-450d-82eb-7310f8c592b7")
+	)
+	(wire
+		(pts
+			(xy 83.82 86.36) (xy 83.82 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a2f0f70-5adf-4f7c-ab14-af460dfbc534")
 	)
 	(wire
 		(pts
@@ -2483,6 +2701,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 97.79) (xy 105.41 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e0a1c2f-b7e4-4bfd-bcf6-619a00700aaa")
+	)
+	(wire
+		(pts
 			(xy 143.51 179.07) (xy 143.51 171.45)
 		)
 		(stroke
@@ -2500,16 +2728,6 @@
 			(type default)
 		)
 		(uuid "618471e9-a36d-4333-a88e-dcc2fdeebc0f")
-	)
-	(wire
-		(pts
-			(xy 248.92 111.76) (xy 248.92 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "660c2692-687c-42cf-9055-bb2e19666584")
 	)
 	(wire
 		(pts
@@ -2663,7 +2881,17 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 129.54) (xy 92.71 129.54)
+			(xy 105.41 86.36) (xy 105.41 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b138267-3e61-40ce-975d-5e26e6fd80e7")
+	)
+	(wire
+		(pts
+			(xy 96.52 116.84) (xy 101.6 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2683,13 +2911,23 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 123.19) (xy 246.38 123.19)
+			(xy 246.38 123.19) (xy 251.46 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a29aeb4b-4cef-4487-80c2-b16edd77aaa4")
+	)
+	(wire
+		(pts
+			(xy 105.41 97.79) (xy 107.95 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a49585dc-c0d3-4a35-ab01-057884394fe5")
 	)
 	(wire
 		(pts
@@ -2710,16 +2948,6 @@
 			(type default)
 		)
 		(uuid "a5b62638-683f-43f6-b499-807d89305771")
-	)
-	(wire
-		(pts
-			(xy 248.92 111.76) (xy 251.46 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7852586-03d7-4605-bb39-8f482a582271")
 	)
 	(wire
 		(pts
@@ -2783,6 +3011,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 102.87) (xy 91.44 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d6d384-04eb-4a3a-a4cf-d95fc47755ea")
+	)
+	(wire
+		(pts
 			(xy 41.91 181.61) (xy 41.91 186.69)
 		)
 		(stroke
@@ -2790,6 +3028,16 @@
 			(type default)
 		)
 		(uuid "b8d47ba7-7650-4ff7-bb4e-db0cf4a32516")
+	)
+	(wire
+		(pts
+			(xy 97.79 105.41) (xy 91.44 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9836298-a0d4-4f5a-8aff-76b87a15f79f")
 	)
 	(wire
 		(pts
@@ -2820,6 +3068,16 @@
 			(type default)
 		)
 		(uuid "bf575566-e6e6-486d-86d7-6720ffd3974e")
+	)
+	(wire
+		(pts
+			(xy 81.28 97.79) (xy 83.82 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf94a0e1-96ca-4152-bf3e-abdc8344e15e")
 	)
 	(wire
 		(pts
@@ -2883,6 +3141,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 105.41) (xy 91.44 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0824a59-de96-4c65-9710-78f16018cc1d")
+	)
+	(wire
+		(pts
 			(xy 207.01 123.19) (xy 210.82 123.19)
 		)
 		(stroke
@@ -2890,6 +3158,16 @@
 			(type default)
 		)
 		(uuid "e1518bc8-631a-45ee-a9e8-5fb9fdd177c0")
+	)
+	(wire
+		(pts
+			(xy 83.82 86.36) (xy 105.41 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1e1b8ac-e5cc-4e2a-9ef3-7d0d8be85a23")
 	)
 	(wire
 		(pts
@@ -2963,7 +3241,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 134.62) (xy 83.82 134.62)
+			(xy 88.9 121.92) (xy 92.71 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2991,8 +3269,18 @@
 		)
 		(uuid "5a0b082f-a194-468d-ab13-8537042485b3")
 	)
+	(label "GB"
+		(at 97.79 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c75e393-faaa-4b40-b8cf-e9daf53af017")
+	)
 	(label "GND"
-		(at 80.01 124.46 180)
+		(at 88.9 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3036,7 +3324,7 @@
 	)
 	(hierarchical_label "RB2"
 		(shape output)
-		(at 87.63 115.57 0)
+		(at 107.95 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3058,7 +3346,7 @@
 	)
 	(hierarchical_label "2N"
 		(shape output)
-		(at 121.92 120.65 0)
+		(at 128.27 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3067,9 +3355,20 @@
 		)
 		(uuid "5a4ccf68-108c-4c85-b6c7-c42aa2b7d4bc")
 	)
+	(hierarchical_label "SHIELD"
+		(shape input)
+		(at 83.82 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6277abaa-7f17-4e29-9e25-c0e217e38249")
+	)
 	(hierarchical_label "1P"
 		(shape output)
-		(at 105.41 115.57 0)
+		(at 118.11 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3080,7 +3379,7 @@
 	)
 	(hierarchical_label "4N"
 		(shape output)
-		(at 53.34 115.57 0)
+		(at 60.96 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3102,7 +3401,7 @@
 	)
 	(hierarchical_label "2P"
 		(shape output)
-		(at 71.12 115.57 0)
+		(at 76.2 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3113,7 +3412,7 @@
 	)
 	(hierarchical_label "BIAS"
 		(shape output)
-		(at 80.01 134.62 180)
+		(at 88.9 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3124,7 +3423,7 @@
 	)
 	(hierarchical_label "1N"
 		(shape output)
-		(at 53.34 120.65 0)
+		(at 60.96 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3135,7 +3434,7 @@
 	)
 	(hierarchical_label "3N"
 		(shape output)
-		(at 121.92 115.57 0)
+		(at 128.27 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3146,7 +3445,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 66.04 115.57 0)
+		(at 71.12 90.17 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3155,7 +3454,7 @@
 		(dnp no)
 		(uuid "02c033f3-1403-4a84-aaa8-7e6220d2f12f")
 		(property "Reference" "J15"
-			(at 63.5 114.3 0)
+			(at 68.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3165,7 +3464,7 @@
 			)
 		)
 		(property "Value" "2P"
-			(at 63.5 116.84 0)
+			(at 68.58 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3174,7 +3473,7 @@
 			)
 		)
 		(property "Footprint" "dcmini:4mm female snap 3 legs"
-			(at 66.04 115.57 0)
+			(at 71.12 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3183,7 +3482,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 115.57 0)
+			(at 71.12 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3192,7 +3491,7 @@
 			)
 		)
 		(property "Description" "4mm PCB mount 3 leg snap connector"
-			(at 66.04 115.57 0)
+			(at 71.12 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,7 +3500,7 @@
 			)
 		)
 		(property "MFG P/N" "H-4111801"
-			(at 66.04 115.57 0)
+			(at 71.12 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3210,7 +3509,7 @@
 			)
 		)
 		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
-			(at 66.04 115.57 0)
+			(at 71.12 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3488,7 +3787,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2260d12f-e10f-410f-b5d5-33fe67d6bfc2")
 		(property "Reference" "U25"
@@ -3539,6 +3838,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFG P/N" "DAC80502DRXT"
+			(at 233.68 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.digikey.com/en/products/detail/texas-instruments/DAC80502DRXT/12352213"
+			(at 233.68 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "a8cbff1b-a263-41d3-9713-1ab2caf78947")
 		)
@@ -3580,7 +3897,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 97.79 129.54 0)
+		(at 106.68 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3588,7 +3905,7 @@
 		(dnp no)
 		(uuid "2d956047-3f53-4321-98fa-ff7e95e312f9")
 		(property "Reference" "J20"
-			(at 100.33 128.27 0)
+			(at 109.22 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3598,7 +3915,7 @@
 			)
 		)
 		(property "Value" "GB"
-			(at 100.33 130.81 0)
+			(at 109.22 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3607,7 +3924,7 @@
 			)
 		)
 		(property "Footprint" "dcmini:4mm female snap 3 legs"
-			(at 97.79 129.54 0)
+			(at 106.68 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3616,7 +3933,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 129.54 0)
+			(at 106.68 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,7 +3942,7 @@
 			)
 		)
 		(property "Description" "4mm PCB mount 3 leg snap connector"
-			(at 97.79 129.54 0)
+			(at 106.68 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3634,7 +3951,7 @@
 			)
 		)
 		(property "MFG P/N" "H-4111801"
-			(at 97.79 129.54 0)
+			(at 106.68 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,7 +3960,7 @@
 			)
 		)
 		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
-			(at 97.79 129.54 0)
+			(at 106.68 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3665,16 +3982,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 255.27 111.76 270)
+		(at 255.27 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3527bedf-836d-440b-941a-b21aa92449f6")
 		(property "Reference" "C89"
-			(at 255.27 104.14 90)
+			(at 255.27 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3682,7 +3999,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 255.27 106.68 90)
+			(at 255.27 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3690,7 +4007,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 251.46 112.7252 0)
+			(at 251.46 124.1552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3699,7 +4016,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 111.76 0)
+			(at 255.27 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3708,7 +4025,7 @@
 			)
 		)
 		(property "Description" "X5R/X7R 10-16V 20% 0402"
-			(at 255.27 111.76 0)
+			(at 255.27 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3717,7 +4034,7 @@
 			)
 		)
 		(property "MFG P/N" "KGM05AR51A104KH"
-			(at 255.27 111.76 0)
+			(at 255.27 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3726,7 +4043,7 @@
 			)
 		)
 		(property "Part Link" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM05AR51A104KH/563239"
-			(at 255.27 111.76 0)
+			(at 255.27 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,7 +4068,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 261.62 114.3 0)
+		(at 264.16 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3760,7 +4077,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f9f54a3-0a3a-494c-8d64-7d0944e0036a")
 		(property "Reference" "#PWR0181"
-			(at 261.62 120.65 0)
+			(at 264.16 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,7 +4086,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.62 119.38 0)
+			(at 264.16 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3777,7 +4094,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 114.3 0)
+			(at 264.16 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,7 +4103,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 114.3 0)
+			(at 264.16 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,7 +4112,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 114.3 0)
+			(at 264.16 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3910,7 +4227,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50de4bdb-8d4c-4037-a496-566ed1ba060e")
 		(property "Reference" "C86"
@@ -4371,7 +4688,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7da417eb-dd36-4156-b251-7f08a14499a7")
 		(property "Reference" "R33"
@@ -4445,6 +4762,93 @@
 			(project "dcmini"
 				(path "/d60941e0-00fa-483d-8778-d43646235567/40126b40-7516-4e12-8e11-9d5f25ac5f3e"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 97.79 97.79 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dd09a63-e9ae-465c-820e-12acaa561abe")
+		(property "Reference" "J62"
+			(at 98.1074 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EXTREF"
+			(at 98.1074 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
+			(at 97.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 97.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "U.FL-R-SMT-1"
+			(at 97.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/U-FL-R-SMT-1-40/4285474"
+			(at 97.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "645f589f-67e2-470f-8bce-5603a9cf2f44")
+		)
+		(pin "2"
+			(uuid "d105be47-f946-48b3-b6bd-f3fd9b9e9948")
+		)
+		(instances
+			(project "dcmini"
+				(path "/d60941e0-00fa-483d-8778-d43646235567/40126b40-7516-4e12-8e11-9d5f25ac5f3e"
+					(reference "J62")
 					(unit 1)
 				)
 			)
@@ -4805,7 +5209,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 83.82 129.54 90)
+		(at 92.71 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4814,7 +5218,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0541e35-c987-42ac-a95b-61201dfc4fd9")
 		(property "Reference" "JP1"
-			(at 81.28 128.2699 90)
+			(at 90.17 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,8 +5226,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SolderJumper_3_Bridged12"
-			(at 81.28 130.8099 90)
+		(property "Value" "GBSEL"
+			(at 90.17 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4832,7 +5236,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
-			(at 83.82 129.54 0)
+			(at 92.71 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4841,7 +5245,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 129.54 0)
+			(at 92.71 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4850,7 +5254,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 83.82 129.54 0)
+			(at 92.71 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5039,7 +5443,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 116.84 120.65 0)
+		(at 123.19 102.87 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5048,7 +5452,7 @@
 		(dnp no)
 		(uuid "c38e3fb8-a30c-4b29-834c-c77168e11517")
 		(property "Reference" "J23"
-			(at 114.3 119.38 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,7 +5462,7 @@
 			)
 		)
 		(property "Value" "2N"
-			(at 114.3 121.92 0)
+			(at 120.65 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +5471,7 @@
 			)
 		)
 		(property "Footprint" "dcmini:4mm female snap 3 legs"
-			(at 116.84 120.65 0)
+			(at 123.19 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5076,7 +5480,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 120.65 0)
+			(at 123.19 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5085,7 +5489,7 @@
 			)
 		)
 		(property "Description" "4mm PCB mount 3 leg snap connector"
-			(at 116.84 120.65 0)
+			(at 123.19 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5094,7 +5498,7 @@
 			)
 		)
 		(property "MFG P/N" "H-4111801"
-			(at 116.84 120.65 0)
+			(at 123.19 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5103,7 +5507,7 @@
 			)
 		)
 		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
-			(at 116.84 120.65 0)
+			(at 123.19 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5125,7 +5529,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 100.33 115.57 0)
+		(at 113.03 90.17 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5134,7 +5538,7 @@
 		(dnp no)
 		(uuid "c88b63cf-a020-4593-9007-08bce2b9ea54")
 		(property "Reference" "J12"
-			(at 97.79 114.3 0)
+			(at 110.49 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5144,7 +5548,7 @@
 			)
 		)
 		(property "Value" "1P"
-			(at 97.79 116.84 0)
+			(at 110.49 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5153,7 +5557,7 @@
 			)
 		)
 		(property "Footprint" "dcmini:4mm female snap 3 legs"
-			(at 100.33 115.57 0)
+			(at 113.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5162,7 +5566,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 115.57 0)
+			(at 113.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5171,7 +5575,7 @@
 			)
 		)
 		(property "Description" "4mm PCB mount 3 leg snap connector"
-			(at 100.33 115.57 0)
+			(at 113.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5180,7 +5584,7 @@
 			)
 		)
 		(property "MFG P/N" "H-4111801"
-			(at 100.33 115.57 0)
+			(at 113.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5189,7 +5593,7 @@
 			)
 		)
 		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
-			(at 100.33 115.57 0)
+			(at 113.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5211,7 +5615,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 82.55 115.57 0)
+		(at 76.2 97.79 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5220,7 +5624,7 @@
 		(dnp no)
 		(uuid "c9e8b240-9d73-4457-9da5-781f0254a658")
 		(property "Reference" "J18"
-			(at 80.01 114.3 0)
+			(at 73.66 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5230,7 +5634,7 @@
 			)
 		)
 		(property "Value" "RB2"
-			(at 80.01 116.84 0)
+			(at 73.66 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5239,7 +5643,7 @@
 			)
 		)
 		(property "Footprint" "dcmini:4mm female snap 3 legs"
-			(at 82.55 115.57 0)
+			(at 76.2 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5248,7 +5652,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 115.57 0)
+			(at 76.2 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5257,7 +5661,7 @@
 			)
 		)
 		(property "Description" "4mm PCB mount 3 leg snap connector"
-			(at 82.55 115.57 0)
+			(at 76.2 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5266,7 +5670,7 @@
 			)
 		)
 		(property "MFG P/N" "H-4111801"
-			(at 82.55 115.57 0)
+			(at 76.2 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5275,7 +5679,7 @@
 			)
 		)
 		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
-			(at 82.55 115.57 0)
+			(at 76.2 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5297,7 +5701,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 116.84 115.57 0)
+		(at 123.19 97.79 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5306,7 +5710,7 @@
 		(dnp no)
 		(uuid "ca91a0df-887f-4202-a040-f46df0ecd787")
 		(property "Reference" "J25"
-			(at 114.3 114.3 0)
+			(at 120.65 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,7 +5720,7 @@
 			)
 		)
 		(property "Value" "3N"
-			(at 114.3 116.84 0)
+			(at 120.65 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5325,7 +5729,7 @@
 			)
 		)
 		(property "Footprint" "dcmini:4mm female snap 3 legs"
-			(at 116.84 115.57 0)
+			(at 123.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5334,7 +5738,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 115.57 0)
+			(at 123.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5343,7 +5747,7 @@
 			)
 		)
 		(property "Description" "4mm PCB mount 3 leg snap connector"
-			(at 116.84 115.57 0)
+			(at 123.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5352,7 +5756,7 @@
 			)
 		)
 		(property "MFG P/N" "H-4111801"
-			(at 116.84 115.57 0)
+			(at 123.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5361,7 +5765,7 @@
 			)
 		)
 		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
-			(at 116.84 115.57 0)
+			(at 123.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,8 +5786,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 91.44 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d149a560-4086-48b0-9d2a-dbe61f30167d")
+		(property "Reference" "J61"
+			(at 91.1225 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EXTREF"
+			(at 91.1225 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
+			(at 91.44 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 91.44 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "U.FL-R-SMT-1"
+			(at 91.44 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/U-FL-R-SMT-1-40/4285474"
+			(at 91.44 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdbc5f8c-0cfd-4ceb-a9a8-e8a32b41ba34")
+		)
+		(pin "2"
+			(uuid "733fa6d1-6711-48ab-9327-4dfd95f72143")
+		)
+		(instances
+			(project ""
+				(path "/d60941e0-00fa-483d-8778-d43646235567/40126b40-7516-4e12-8e11-9d5f25ac5f3e"
+					(reference "J61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 48.26 115.57 0)
+		(at 55.88 97.79 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5392,7 +5882,7 @@
 		(dnp no)
 		(uuid "d6131c5a-126a-431c-9a1f-376397ee4cd1")
 		(property "Reference" "J14"
-			(at 45.72 114.3 0)
+			(at 53.34 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5402,7 +5892,7 @@
 			)
 		)
 		(property "Value" "4N"
-			(at 45.72 116.84 0)
+			(at 53.34 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5411,7 +5901,7 @@
 			)
 		)
 		(property "Footprint" "dcmini:4mm female snap 3 legs"
-			(at 48.26 115.57 0)
+			(at 55.88 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5420,7 +5910,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 115.57 0)
+			(at 55.88 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5429,7 +5919,7 @@
 			)
 		)
 		(property "Description" "4mm PCB mount 3 leg snap connector"
-			(at 48.26 115.57 0)
+			(at 55.88 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5438,7 +5928,7 @@
 			)
 		)
 		(property "MFG P/N" "H-4111801"
-			(at 48.26 115.57 0)
+			(at 55.88 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5447,7 +5937,7 @@
 			)
 		)
 		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
-			(at 48.26 115.57 0)
+			(at 55.88 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5469,7 +5959,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 48.26 120.65 0)
+		(at 55.88 102.87 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5478,7 +5968,7 @@
 		(dnp no)
 		(uuid "d8efc50b-8ded-4a5f-883b-55c9cca695f7")
 		(property "Reference" "J10"
-			(at 45.72 119.38 0)
+			(at 53.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,7 +5978,7 @@
 			)
 		)
 		(property "Value" "1N"
-			(at 45.72 121.92 0)
+			(at 53.34 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5497,7 +5987,7 @@
 			)
 		)
 		(property "Footprint" "dcmini:4mm female snap 3 legs"
-			(at 48.26 120.65 0)
+			(at 55.88 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5506,7 +5996,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 120.65 0)
+			(at 55.88 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5515,7 +6005,7 @@
 			)
 		)
 		(property "Description" "4mm PCB mount 3 leg snap connector"
-			(at 48.26 120.65 0)
+			(at 55.88 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5524,7 +6014,7 @@
 			)
 		)
 		(property "MFG P/N" "H-4111801"
-			(at 48.26 120.65 0)
+			(at 55.88 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,7 +6023,7 @@
 			)
 		)
 		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
-			(at 48.26 120.65 0)
+			(at 55.88 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
