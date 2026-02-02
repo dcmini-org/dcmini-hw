@@ -64,7 +64,16 @@
           "width": 0.15
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|183995000|98135000|9ad000d6-ffeb-4507-aecd-25637cfc38cc|dc85483d-3ee0-44ff-9639-857085309992",
+          ""
+        ],
+        [
+          "shorting_items|161050000|126050000|f393329a-e10d-4fde-acc9-89f3cfe8c143|054c0a78-6822-4c75-8d48-0ab55cafc85a",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -588,7 +597,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 60,
     "bom_export_filename": "bom/SR5.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {

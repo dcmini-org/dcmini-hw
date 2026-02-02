@@ -130,6 +130,185 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Amplifier_Operational:OPA196xDBV"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "OPA196xDBV"
+				(at -1.27 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "single opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OPA196xDBV_0_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA196xDBV_1_1"
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3357,6 +3536,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Shield Driver"
+		(exclude_from_sim no)
+		(at 91.44 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4232a095-8584-4b60-8755-028d0314f189")
+	)
+	(text "Use this to \ntune R_ISO \n(in parallel \nwith 2.2k ohm)"
+		(exclude_from_sim no)
+		(at 55.88 42.418 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "50443f00-951e-4557-84b3-1fd8c3fc1497")
+	)
 	(text "Tantalum \n6.3V\nMAX 1.5mm Height"
 		(exclude_from_sim no)
 		(at 195.072 146.05 0)
@@ -3430,6 +3629,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20fe991c-76ad-4064-afbe-2d8df61da9a8")
+	)
+	(junction
+		(at 66.04 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25d13068-5a7d-4daa-a241-4d8538b83ea2")
 	)
 	(junction
 		(at 135.89 50.8)
@@ -3708,6 +3913,12 @@
 		(uuid "8c1bbe1c-26ba-42a7-9e01-0e535b7b65bf")
 	)
 	(junction
+		(at 45.72 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cd67dca-4beb-425c-9436-7600814e9547")
+	)
+	(junction
 		(at 43.18 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3802,6 +4013,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b019d9aa-6488-47ea-806e-73fd8e3584b7")
+	)
+	(junction
+		(at 66.04 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b33ec4bb-e570-4cfa-8510-b9846079446f")
 	)
 	(junction
 		(at 156.21 46.99)
@@ -4173,6 +4390,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 53.34) (xy 66.04 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f2262c2-2c95-440e-af1d-4d23c8e6d2ae")
+	)
+	(wire
+		(pts
 			(xy 33.02 76.2) (xy 33.02 78.74)
 		)
 		(stroke
@@ -4280,6 +4507,16 @@
 			(type default)
 		)
 		(uuid "17629fa1-f234-4e2e-8e91-2f054b6951a7")
+	)
+	(wire
+		(pts
+			(xy 86.36 33.02) (xy 99.06 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a2826c5-c391-4f8d-ad67-e9d083f75132")
 	)
 	(wire
 		(pts
@@ -4450,6 +4687,16 @@
 			(type default)
 		)
 		(uuid "2d12d217-d4d5-4ddd-bfe6-5307583193f5")
+	)
+	(wire
+		(pts
+			(xy 99.06 33.02) (xy 99.06 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e74779e-cc29-478d-b2fc-aea0d3e74df1")
 	)
 	(wire
 		(pts
@@ -4683,6 +4930,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 53.34) (xy 50.8 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d71bd9e-26be-41a3-89ed-17da11a348a9")
+	)
+	(wire
+		(pts
 			(xy 43.18 109.22) (xy 50.8 109.22)
 		)
 		(stroke
@@ -4690,6 +4947,16 @@
 			(type default)
 		)
 		(uuid "3e458ff6-bebf-472a-9f88-71cf9596a63b")
+	)
+	(wire
+		(pts
+			(xy 45.72 35.56) (xy 45.72 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e5bda59-97e9-4546-95f5-4e6d7fdd2c53")
 	)
 	(wire
 		(pts
@@ -4740,16 +5007,6 @@
 			(type default)
 		)
 		(uuid "433be942-7edc-449f-9697-cca735e5c607")
-	)
-	(wire
-		(pts
-			(xy 99.06 53.34) (xy 60.96 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4570dca1-4dbf-490d-b1ac-c1e189ea495e")
 	)
 	(wire
 		(pts
@@ -4860,6 +5117,16 @@
 			(type default)
 		)
 		(uuid "4c2537d6-f5b5-46b9-a13d-65200916670f")
+	)
+	(wire
+		(pts
+			(xy 66.04 35.56) (xy 71.12 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c5c2a43-8b6b-4dbd-ab7b-9e830be691a3")
 	)
 	(wire
 		(pts
@@ -5103,6 +5370,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 35.56) (xy 66.04 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a66d65a-368a-4087-a9c9-008a2d49c2d9")
+	)
+	(wire
+		(pts
 			(xy 71.12 187.96) (xy 73.66 187.96)
 		)
 		(stroke
@@ -5160,6 +5437,16 @@
 			(type default)
 		)
 		(uuid "5d82cd9a-1a26-480e-afcf-cdb519d1bc3c")
+	)
+	(wire
+		(pts
+			(xy 45.72 53.34) (xy 35.56 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db69d55-7f9a-4c46-a8f9-3293737232ba")
 	)
 	(wire
 		(pts
@@ -5603,6 +5890,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 26.67) (xy 81.28 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d4ed6bd-a295-4a7a-857b-8834b5280759")
+	)
+	(wire
+		(pts
 			(xy 125.73 46.99) (xy 135.89 46.99)
 		)
 		(stroke
@@ -5813,6 +6110,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 35.56) (xy 52.07 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90d43b69-ae66-4253-9592-58f111966c34")
+	)
+	(wire
+		(pts
 			(xy 40.64 88.9) (xy 50.8 88.9)
 		)
 		(stroke
@@ -5910,6 +6217,16 @@
 			(type default)
 		)
 		(uuid "97a35060-d0aa-48b7-8af2-41dacca51dfa")
+	)
+	(wire
+		(pts
+			(xy 90.17 38.1) (xy 90.17 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b32531-dcd5-4282-94ff-61876555439c")
 	)
 	(wire
 		(pts
@@ -6060,6 +6377,16 @@
 			(type default)
 		)
 		(uuid "a2bff272-602e-4ecd-a34a-884a3c2550f0")
+	)
+	(wire
+		(pts
+			(xy 81.28 43.18) (xy 81.28 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3202071-f44c-49b4-8863-d3ac01bb6d89")
 	)
 	(wire
 		(pts
@@ -6243,6 +6570,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 35.56) (xy 66.04 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b27d7695-0b69-4225-99e3-b4d03cacd9b5")
+	)
+	(wire
+		(pts
 			(xy 43.18 104.14) (xy 66.04 104.14)
 		)
 		(stroke
@@ -6340,16 +6677,6 @@
 			(type default)
 		)
 		(uuid "b9675b85-93da-4ee1-842f-69ad5d5433ef")
-	)
-	(wire
-		(pts
-			(xy 35.56 53.34) (xy 50.8 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc9a1279-351b-46fb-a8aa-708ccfa71bc5")
 	)
 	(wire
 		(pts
@@ -6673,6 +7000,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 53.34) (xy 66.04 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f70162-903d-430d-8561-1fb23b059e7d")
+	)
+	(wire
+		(pts
 			(xy 38.1 114.3) (xy 50.8 114.3)
 		)
 		(stroke
@@ -6680,16 +7017,6 @@
 			(type default)
 		)
 		(uuid "d3af4993-4a34-43ae-8be3-543e20175e5d")
-	)
-	(wire
-		(pts
-			(xy 99.06 68.58) (xy 99.06 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5a304ad-70cf-4a8a-956d-386603bc9f81")
 	)
 	(wire
 		(pts
@@ -6930,6 +7257,16 @@
 			(type default)
 		)
 		(uuid "e25de51e-55ff-4d6b-b967-b03e1e510175")
+	)
+	(wire
+		(pts
+			(xy 86.36 38.1) (xy 90.17 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e28bbae9-f43a-4007-9004-4d087e2d2fa4")
 	)
 	(wire
 		(pts
@@ -7807,17 +8144,6 @@
 		)
 		(uuid "7c5f7183-9c8e-4913-9bcd-fb85f058d4ed")
 	)
-	(hierarchical_label "BIASOUT"
-		(shape passive)
-		(at 27.94 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8b6fb845-28b8-4828-93e9-36e270d4e958")
-	)
 	(hierarchical_label "ADSGPIO1"
 		(shape passive)
 		(at 214.63 97.79 0)
@@ -7927,6 +8253,17 @@
 			(justify right)
 		)
 		(uuid "fc29fd46-ad6e-4dbd-9aed-2722df43b383")
+	)
+	(hierarchical_label "SHIELD"
+		(shape output)
+		(at 27.94 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff945003-b106-4b56-a124-1c6691ec27de")
 	)
 	(symbol
 		(lib_id "Device:R_Pack04")
@@ -9016,6 +9353,77 @@
 				)
 				(path "/d60941e0-00fa-483d-8778-d43646235567/0ee91460-98a9-4c38-ba43-5fce0f2117cd"
 					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+2V5")
+		(at 81.28 26.67 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "341719a7-3a3a-42b8-82ec-942226c2c25e")
+		(property "Reference" "#PWR0149"
+			(at 81.28 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2V5"
+			(at 81.28 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+2V5\""
+			(at 81.28 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1032cc04-ece0-4875-84f4-4158dc2414ac")
+		)
+		(instances
+			(project "dcmini"
+				(path "/d60941e0-00fa-483d-8778-d43646235567/046caf2a-274e-46d6-919c-5b6f2084b0d1"
+					(reference "#PWR0149")
+					(unit 1)
+				)
+				(path "/d60941e0-00fa-483d-8778-d43646235567/0ee91460-98a9-4c38-ba43-5fce0f2117cd"
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -11781,6 +12189,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 55.88 35.56 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b101d644-63fd-4fa0-8b99-ee6f412ea964")
+		(property "Reference" "R32"
+			(at 55.88 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 55.88 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 55.88 37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thick Film"
+			(at 55.88 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "RC0402FR-135K1L"
+			(at 55.88 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-135K1L/14286364"
+			(at 55.88 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0159ce0e-3103-4b95-9197-6687c436547c")
+		)
+		(pin "2"
+			(uuid "379df62d-cc72-421c-8cfb-1c5350ca05d7")
+		)
+		(instances
+			(project "dcmini"
+				(path "/d60941e0-00fa-483d-8778-d43646235567/046caf2a-274e-46d6-919c-5b6f2084b0d1"
+					(reference "R32")
+					(unit 1)
+				)
+				(path "/d60941e0-00fa-483d-8778-d43646235567/0ee91460-98a9-4c38-ba43-5fce0f2117cd"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 273.05 170.18 0)
 		(unit 1)
@@ -12310,6 +12809,77 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-2V5")
+		(at 81.28 45.72 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd358ab9-6d0a-477a-8afb-41335d4194b1")
+		(property "Reference" "#PWR0152"
+			(at 81.28 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-2V5"
+			(at 81.28 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-2V5\""
+			(at 81.28 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32ec2171-2bee-4dfb-8906-476ccac59ab7")
+		)
+		(instances
+			(project "dcmini"
+				(path "/d60941e0-00fa-483d-8778-d43646235567/046caf2a-274e-46d6-919c-5b6f2084b0d1"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+				(path "/d60941e0-00fa-483d-8778-d43646235567/0ee91460-98a9-4c38-ba43-5fce0f2117cd"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 181.61 111.76 0)
 		(unit 1)
@@ -12396,6 +12966,89 @@
 				)
 				(path "/d60941e0-00fa-483d-8778-d43646235567/0ee91460-98a9-4c38-ba43-5fce0f2117cd"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA196xDBV")
+		(at 78.74 35.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8eb8b15-227c-42e9-8cba-f43799e2ec1e")
+		(property "Reference" "U24"
+			(at 66.04 29.1398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA196xDBV"
+			(at 66.04 31.6798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 81.28 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
+			(at 78.74 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOT-23-5"
+			(at 78.74 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "1c3048ae-5ebf-487c-86b6-a9c61bf9257b")
+		)
+		(pin "2"
+			(uuid "e3b70e28-accb-41bc-a8ea-2737de047f68")
+		)
+		(pin "3"
+			(uuid "1ef03a64-8c0d-417c-b991-ad020a4231ba")
+		)
+		(pin "4"
+			(uuid "6db758d5-0d85-463a-8b67-85447561ae80")
+		)
+		(pin "1"
+			(uuid "75a3aebb-1bd8-49ae-a99f-51e372b44d74")
+		)
+		(instances
+			(project "dcmini"
+				(path "/d60941e0-00fa-483d-8778-d43646235567/046caf2a-274e-46d6-919c-5b6f2084b0d1"
+					(reference "U24")
+					(unit 1)
+				)
+				(path "/d60941e0-00fa-483d-8778-d43646235567/0ee91460-98a9-4c38-ba43-5fce0f2117cd"
+					(reference "U61")
 					(unit 1)
 				)
 			)
