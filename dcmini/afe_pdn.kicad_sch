@@ -694,130 +694,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "GND_1"
 			(power)
 			(pin_numbers
@@ -2228,7 +2104,7 @@
 		)
 		(uuid "63cba32d-5919-451a-817b-c09d81c6982f")
 	)
-	(text "Voltage Inverter (-3.3V)"
+	(text "Voltage Inverter"
 		(exclude_from_sim no)
 		(at 72.39 189.23 0)
 		(effects
@@ -2272,9 +2148,9 @@
 		)
 		(uuid "da4b20b0-ff1b-41fc-a4b2-c2a1e425da4b")
 	)
-	(text "SPI \nmode"
+	(text "SPI mode"
 		(exclude_from_sim no)
-		(at 217.678 119.634 0)
+		(at 207.518 122.174 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3121,16 +2997,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 123.19) (xy 220.98 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da460f5a-bf67-432d-84d3-8c1935038e00")
-	)
-	(wire
-		(pts
 			(xy 105.41 176.53) (xy 110.49 176.53)
 		)
 		(stroke
@@ -3151,7 +3017,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 123.19) (xy 210.82 123.19)
+			(xy 207.01 123.19) (xy 220.98 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3259,7 +3125,7 @@
 		)
 		(uuid "fe7813a5-edd0-407f-9d7c-b9ed49d0d665")
 	)
-	(label "-3V3"
+	(label "-VDDA"
 		(at 93.98 171.45 0)
 		(effects
 			(font
@@ -4675,93 +4541,6 @@
 			(project "dcmini"
 				(path "/d60941e0-00fa-483d-8778-d43646235567/40126b40-7516-4e12-8e11-9d5f25ac5f3e"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 214.63 123.19 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7da417eb-dd36-4156-b251-7f08a14499a7")
-		(property "Reference" "R33"
-			(at 214.63 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 214.63 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 214.63 121.412 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 kOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
-			(at 214.63 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "AC0402JR-0710KL"
-			(at 214.63 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Link" "https://www.digikey.com/en/products/detail/yageo/AC0402JR-0710KL/5895571"
-			(at 214.63 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d5686d1-ae8d-4122-a4f7-6ebaeb46f1c6")
-		)
-		(pin "2"
-			(uuid "40c6ea76-c3c5-4839-ba75-5415e15400d3")
-		)
-		(instances
-			(project "dcmini"
-				(path "/d60941e0-00fa-483d-8778-d43646235567/40126b40-7516-4e12-8e11-9d5f25ac5f3e"
-					(reference "R33")
 					(unit 1)
 				)
 			)

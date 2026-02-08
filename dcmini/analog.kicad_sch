@@ -3556,7 +3556,7 @@
 		)
 		(uuid "50443f00-951e-4557-84b3-1fd8c3fc1497")
 	)
-	(text "Tantalum \n6.3V\nMAX 1.5mm Height"
+	(text "Tantalum \n> 6.3V\nMAX 1.5mm Height"
 		(exclude_from_sim no)
 		(at 195.072 146.05 0)
 		(effects
@@ -11507,7 +11507,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a25c1728-19ed-4f9a-affd-62fc03a1c5de")
+		(fields_autoplaced yes)
+		(uuid "a2e3d041-42f7-4d8d-bb0f-ceb108847fb7")
 		(property "Reference" "C25"
 			(at 187.96 141.3509 0)
 			(effects
@@ -11526,7 +11527,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
 			(at 192.7352 147.32 0)
 			(effects
 				(font
@@ -11544,7 +11545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Tantalum 6.3V 20% 1206 max 1.5mm height"
+		(property "Description" "Tantalum Polymer 10V 20% max 1.5mm height"
 			(at 191.77 143.51 0)
 			(effects
 				(font
@@ -11553,7 +11554,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "TLJG107M006R0800"
+		(property "MFG P/N" "TCTOBL1A107M8R-ZS1"
 			(at 191.77 143.51 0)
 			(effects
 				(font
@@ -11562,7 +11563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Link" "https://www.digikey.com/en/products/detail/kyocera-avx/TLJG107M006R0800/1879527"
+		(property "Part Link" "https://www.digikey.com/en/products/detail/kyocera-avx/TCTOBL1A107M8R-ZS1/17868568"
 			(at 191.77 143.51 0)
 			(effects
 				(font
@@ -11572,19 +11573,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "4ec47eb5-2b7d-4efa-ba68-20c6835119eb")
+			(uuid "2c5b07f3-634c-4802-a6a6-c9c90fea56d6")
 		)
 		(pin "2"
-			(uuid "7b16c1c4-705f-4d0d-b0be-87d4c86f518a")
+			(uuid "6f7fdbe4-6d3c-402e-8543-641d620fd675")
 		)
 		(instances
-			(project ""
+			(project "dcmini"
 				(path "/d60941e0-00fa-483d-8778-d43646235567/046caf2a-274e-46d6-919c-5b6f2084b0d1"
 					(reference "C25")
 					(unit 1)
 				)
 				(path "/d60941e0-00fa-483d-8778-d43646235567/0ee91460-98a9-4c38-ba43-5fce0f2117cd"
-					(reference "C85")
+					(reference "C64")
 					(unit 1)
 				)
 			)
