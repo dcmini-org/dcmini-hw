@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "33be0df6-c3c9-4c5d-af18-2d17506d3858")
 	(paper "A4")
+	(title_block
+		(title "DCMini")
+		(date "2026-03-07")
+		(rev "SR7")
+		(company "Johns Hopkins University Applied Physics Lab")
+		(comment 1 "Griffin Milsap")
+	)
 	(lib_symbols
 		(symbol "Connector:Micro_SD_Card_Det2"
 			(exclude_from_sim no)

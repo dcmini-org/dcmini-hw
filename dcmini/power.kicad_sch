@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "febb914a-9f4b-4bde-aa7d-4eeaf2a70144")
 	(paper "A4")
+	(title_block
+		(title "DCMini")
+		(date "2026-03-07")
+		(rev "SR7")
+		(company "Johns Hopkins University Applied Physics Lab")
+		(comment 1 "Griffin Milsap")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers

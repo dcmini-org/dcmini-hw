@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "290a2822-62a9-4c20-8a54-58c9ef6dda37")
 	(paper "A4")
+	(title_block
+		(title "DCMini")
+		(date "2026-03-07")
+		(rev "SR7")
+		(company "Johns Hopkins University Applied Physics Lab")
+		(comment 1 "Griffin Milsap")
+	)
 	(lib_symbols
 		(symbol "Analog_DAC:DAC80502"
 			(exclude_from_sim no)
@@ -2095,7 +2102,7 @@
 	)
 	(text "+2.5V Regulator\n"
 		(exclude_from_sim no)
-		(at 36.83 189.23 0)
+		(at 43.18 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2106,7 +2113,7 @@
 	)
 	(text "Voltage Inverter"
 		(exclude_from_sim no)
-		(at 72.39 189.23 0)
+		(at 78.74 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2117,7 +2124,7 @@
 	)
 	(text "-2.5V Regulator\n"
 		(exclude_from_sim no)
-		(at 113.03 189.23 0)
+		(at 119.38 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2128,7 +2135,7 @@
 	)
 	(text "RST VOUT @ 0V\n"
 		(exclude_from_sim no)
-		(at 207.518 127.508 0)
+		(at 191.008 86.868 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2139,7 +2146,7 @@
 	)
 	(text "2-Channel Analog Output"
 		(exclude_from_sim no)
-		(at 206.248 144.272 0)
+		(at 189.738 103.632 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2150,7 +2157,7 @@
 	)
 	(text "SPI mode"
 		(exclude_from_sim no)
-		(at 207.518 122.174 0)
+		(at 191.008 81.534 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2160,164 +2167,164 @@
 		(uuid "f2312f23-11a0-418e-adb7-71491c604be6")
 	)
 	(junction
-		(at 62.23 186.69)
+		(at 68.58 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01f3d6b4-e249-4cf1-ae0d-b19c48f35509")
 	)
 	(junction
-		(at 31.75 171.45)
+		(at 38.1 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0919ae60-b047-4466-8a51-eea6d6d957b9")
 	)
 	(junction
-		(at 139.7 186.69)
+		(at 146.05 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32dededc-7e40-4869-a70d-92219653a3e2")
 	)
 	(junction
-		(at 143.51 171.45)
+		(at 149.86 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35df4b00-259c-4142-8faf-7b8d3c0d6798")
 	)
 	(junction
-		(at 107.95 171.45)
+		(at 114.3 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38b3791f-c246-40ca-8f93-f95f8858ec73")
 	)
 	(junction
-		(at 207.01 123.19)
+		(at 190.5 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "394da0c7-2b49-4101-a85a-6772c008f54a")
 	)
 	(junction
-		(at 31.75 173.99)
+		(at 38.1 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fffb9c3-7928-4d70-8168-4a160e659585")
 	)
 	(junction
-		(at 83.82 97.79)
+		(at 97.79 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43e8bdb6-c4b5-4921-9d26-ffdcc2b1088a")
 	)
 	(junction
-		(at 105.41 97.79)
+		(at 119.38 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44ac5787-57d9-479d-ac66-a5f83276d947")
 	)
 	(junction
-		(at 139.7 171.45)
+		(at 146.05 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "459905f3-f9e3-4b06-943d-032c0c6a1bbc")
 	)
 	(junction
-		(at 207.01 125.73)
+		(at 190.5 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46e60bc4-da8f-4cb3-84f3-fec2115fadf2")
 	)
 	(junction
-		(at 31.75 186.69)
+		(at 38.1 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bffa8d5-79bd-4d98-b6c3-be87f9267c97")
 	)
 	(junction
-		(at 105.41 171.45)
+		(at 111.76 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e6d93ab-5568-46df-9b00-f657f2aeaf62")
 	)
 	(junction
-		(at 105.41 186.69)
+		(at 111.76 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9001f7bd-fa3b-4ac3-a5ce-91747a595fa6")
 	)
 	(junction
-		(at 41.91 186.69)
+		(at 48.26 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9679f83d-201d-4855-bed7-a78216a6d369")
 	)
 	(junction
-		(at 105.41 176.53)
+		(at 111.76 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8ab1cbb-a843-45c8-a727-3432235564bd")
 	)
 	(junction
-		(at 120.65 186.69)
+		(at 127 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa7035af-5914-4014-b982-3c424edaba80")
 	)
 	(junction
-		(at 68.58 171.45)
+		(at 74.93 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb831c46-dc6b-4261-8b9f-c9bc3433f903")
 	)
 	(junction
-		(at 62.23 171.45)
+		(at 68.58 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4365cf5-cfc8-4c4b-b343-6db69906bdb7")
 	)
 	(junction
-		(at 130.81 186.69)
+		(at 137.16 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc8d100c-7893-4b3d-83c2-b14aa66503cb")
 	)
 	(junction
-		(at 110.49 186.69)
+		(at 116.84 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf8fa974-1fe9-48f8-9f8b-c9bf8ef72f40")
 	)
 	(junction
-		(at 50.8 186.69)
+		(at 57.15 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4538799-9ee4-4212-b41a-a73210fa2293")
 	)
 	(junction
-		(at 233.68 111.76)
+		(at 217.17 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0725dd3-345f-403c-a05c-8cc7a3d8b602")
 	)
 	(junction
-		(at 91.44 105.41)
+		(at 105.41 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3920ccd-7360-4021-ae68-3644dd608e2a")
 	)
 	(junction
-		(at 50.8 171.45)
+		(at 57.15 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e41c39ae-3d0f-4718-a2fe-05434e326839")
 	)
 	(junction
-		(at 82.55 186.69)
+		(at 88.9 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f892f8da-5228-4a6a-b5a6-c40b748a45d4")
 	)
 	(wire
 		(pts
-			(xy 68.58 166.37) (xy 68.58 171.45)
+			(xy 74.93 137.16) (xy 74.93 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2327,7 +2334,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 171.45) (xy 34.29 171.45)
+			(xy 38.1 142.24) (xy 40.64 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2337,7 +2344,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 171.45) (xy 147.32 171.45)
+			(xy 149.86 142.24) (xy 153.67 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2347,7 +2354,17 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 173.99) (xy 31.75 173.99)
+			(xy 83.82 93.98) (xy 55.88 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c2390b4-6219-4b89-88ea-79d3237dd608")
+	)
+	(wire
+		(pts
+			(xy 40.64 144.78) (xy 38.1 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2357,7 +2374,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 186.69) (xy 41.91 186.69)
+			(xy 38.1 157.48) (xy 48.26 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2367,7 +2384,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 187.96) (xy 31.75 186.69)
+			(xy 38.1 158.75) (xy 38.1 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2377,7 +2394,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 125.73) (xy 220.98 125.73)
+			(xy 190.5 85.09) (xy 204.47 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2387,7 +2404,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 105.41) (xy 97.79 102.87)
+			(xy 111.76 71.12) (xy 111.76 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2397,7 +2414,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 111.76) (xy 233.68 111.76)
+			(xy 213.36 71.12) (xy 217.17 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2407,7 +2424,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 171.45) (xy 72.39 171.45)
+			(xy 74.93 142.24) (xy 78.74 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2417,7 +2434,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 97.79) (xy 86.36 97.79)
+			(xy 97.79 63.5) (xy 100.33 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2427,7 +2444,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 111.76) (xy 92.71 111.76)
+			(xy 102.87 77.47) (xy 106.68 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2437,7 +2454,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 186.69) (xy 143.51 186.69)
+			(xy 146.05 157.48) (xy 149.86 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2447,7 +2464,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 111.76) (xy 233.68 115.57)
+			(xy 217.17 71.12) (xy 217.17 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2457,7 +2474,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 123.19) (xy 264.16 125.73)
+			(xy 247.65 82.55) (xy 247.65 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2467,7 +2484,17 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 180.34) (xy 62.23 186.69)
+			(xy 83.82 71.12) (xy 105.41 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ba6761-1e16-4890-8922-04dc77f4104f")
+	)
+	(wire
+		(pts
+			(xy 68.58 151.13) (xy 68.58 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2477,7 +2504,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 171.45) (xy 62.23 171.45)
+			(xy 57.15 142.24) (xy 68.58 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2487,7 +2514,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 123.19) (xy 264.16 123.19)
+			(xy 242.57 82.55) (xy 247.65 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2497,7 +2524,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 171.45) (xy 31.75 166.37)
+			(xy 38.1 142.24) (xy 38.1 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2507,7 +2534,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 173.99) (xy 68.58 171.45)
+			(xy 74.93 144.78) (xy 74.93 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2517,7 +2544,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 86.36) (xy 83.82 97.79)
+			(xy 97.79 52.07) (xy 97.79 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2527,7 +2554,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 186.69) (xy 82.55 186.69)
+			(xy 68.58 157.48) (xy 88.9 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2537,7 +2564,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 171.45) (xy 50.8 172.72)
+			(xy 57.15 142.24) (xy 57.15 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2547,7 +2574,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 171.45) (xy 62.23 170.18)
+			(xy 68.58 142.24) (xy 68.58 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2557,7 +2584,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 135.89) (xy 220.98 135.89)
+			(xy 201.93 95.25) (xy 204.47 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2567,7 +2594,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 180.34) (xy 50.8 186.69)
+			(xy 57.15 151.13) (xy 57.15 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2577,7 +2604,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 97.79) (xy 105.41 97.79)
+			(xy 116.84 63.5) (xy 119.38 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2587,7 +2614,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 179.07) (xy 143.51 171.45)
+			(xy 149.86 149.86) (xy 149.86 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2597,7 +2624,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 128.27) (xy 252.73 128.27)
+			(xy 229.87 87.63) (xy 236.22 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2607,7 +2634,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 186.69) (xy 62.23 186.69)
+			(xy 57.15 157.48) (xy 68.58 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2617,7 +2644,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 173.99) (xy 107.95 171.45)
+			(xy 114.3 144.78) (xy 114.3 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2627,7 +2654,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 111.76) (xy 207.01 123.19)
+			(xy 190.5 71.12) (xy 190.5 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2637,7 +2664,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 107.95) (xy 233.68 111.76)
+			(xy 217.17 67.31) (xy 217.17 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2647,7 +2674,27 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 181.61) (xy 31.75 186.69)
+			(xy 60.96 80.01) (xy 64.77 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f0e4906-ef1c-4fa9-a60d-14834dd56cb2")
+	)
+	(wire
+		(pts
+			(xy 83.82 71.12) (xy 83.82 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c114ed-6582-49b8-9eeb-8bfc2bc446de")
+	)
+	(wire
+		(pts
+			(xy 38.1 152.4) (xy 38.1 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2657,7 +2704,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 172.72) (xy 147.32 171.45)
+			(xy 153.67 143.51) (xy 153.67 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2667,7 +2714,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 171.45) (xy 143.51 171.45)
+			(xy 146.05 142.24) (xy 149.86 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2677,7 +2724,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 186.69) (xy 130.81 186.69)
+			(xy 127 157.48) (xy 137.16 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2687,7 +2734,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 176.53) (xy 110.49 177.8)
+			(xy 116.84 147.32) (xy 116.84 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2697,7 +2744,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 173.99) (xy 92.71 173.99)
+			(xy 101.6 144.78) (xy 99.06 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2707,7 +2754,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 171.45) (xy 62.23 172.72)
+			(xy 68.58 142.24) (xy 68.58 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2717,7 +2764,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 181.61) (xy 120.65 186.69)
+			(xy 127 152.4) (xy 127 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2727,7 +2774,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 173.99) (xy 68.58 173.99)
+			(xy 78.74 144.78) (xy 74.93 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2737,7 +2784,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 185.42) (xy 105.41 186.69)
+			(xy 111.76 156.21) (xy 111.76 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2747,7 +2794,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 171.45) (xy 105.41 176.53)
+			(xy 111.76 142.24) (xy 111.76 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2757,7 +2804,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 86.36) (xy 105.41 97.79)
+			(xy 119.38 52.07) (xy 119.38 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2767,7 +2814,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 116.84) (xy 101.6 116.84)
+			(xy 110.49 82.55) (xy 115.57 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2777,7 +2824,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 171.45) (xy 139.7 171.45)
+			(xy 137.16 142.24) (xy 146.05 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2787,7 +2834,17 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 123.19) (xy 251.46 123.19)
+			(xy 55.88 93.98) (xy 55.88 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f755308-9d15-4eb2-98d2-26ea5269e545")
+	)
+	(wire
+		(pts
+			(xy 229.87 82.55) (xy 234.95 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2797,7 +2854,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 97.79) (xy 107.95 97.79)
+			(xy 119.38 63.5) (xy 121.92 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2807,7 +2864,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 171.45) (xy 110.49 171.45)
+			(xy 114.3 142.24) (xy 116.84 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2817,7 +2874,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 181.61) (xy 92.71 181.61)
+			(xy 101.6 152.4) (xy 99.06 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2827,7 +2884,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 171.45) (xy 107.95 171.45)
+			(xy 111.76 142.24) (xy 114.3 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2837,7 +2894,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 185.42) (xy 110.49 186.69)
+			(xy 116.84 156.21) (xy 116.84 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2847,7 +2904,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 179.07) (xy 139.7 186.69)
+			(xy 146.05 149.86) (xy 146.05 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2857,7 +2914,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 133.35) (xy 220.98 133.35)
+			(xy 201.93 92.71) (xy 204.47 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2867,7 +2924,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 123.19) (xy 207.01 125.73)
+			(xy 190.5 82.55) (xy 190.5 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2877,7 +2934,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 125.73) (xy 207.01 129.54)
+			(xy 190.5 85.09) (xy 190.5 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2887,7 +2944,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 102.87) (xy 91.44 105.41)
+			(xy 105.41 68.58) (xy 105.41 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2897,7 +2954,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 181.61) (xy 41.91 186.69)
+			(xy 48.26 152.4) (xy 48.26 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2907,7 +2964,17 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 105.41) (xy 91.44 105.41)
+			(xy 64.77 80.01) (xy 64.77 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b96d63a4-3de7-439b-afc7-1e5942caf31f")
+	)
+	(wire
+		(pts
+			(xy 111.76 71.12) (xy 105.41 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2917,7 +2984,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 171.45) (xy 105.41 171.45)
+			(xy 99.06 142.24) (xy 111.76 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2927,7 +2994,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 111.76) (xy 207.01 111.76)
+			(xy 205.74 71.12) (xy 190.5 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2937,7 +3004,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 173.99) (xy 107.95 173.99)
+			(xy 116.84 144.78) (xy 114.3 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2947,7 +3014,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 97.79) (xy 83.82 97.79)
+			(xy 95.25 63.5) (xy 97.79 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2957,7 +3024,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 176.53) (xy 130.81 186.69)
+			(xy 137.16 147.32) (xy 137.16 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2967,7 +3034,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 173.99) (xy 31.75 171.45)
+			(xy 38.1 144.78) (xy 38.1 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2977,7 +3044,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 186.69) (xy 139.7 186.69)
+			(xy 137.16 157.48) (xy 146.05 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2987,7 +3054,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 176.53) (xy 105.41 177.8)
+			(xy 111.76 147.32) (xy 111.76 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2997,7 +3064,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 176.53) (xy 110.49 176.53)
+			(xy 48.26 80.01) (xy 50.8 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d50fa0e3-2588-4227-90a9-d2957a056087")
+	)
+	(wire
+		(pts
+			(xy 111.76 147.32) (xy 116.84 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3007,17 +3084,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 105.41) (xy 91.44 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0824a59-de96-4c65-9710-78f16018cc1d")
-	)
-	(wire
-		(pts
-			(xy 207.01 123.19) (xy 220.98 123.19)
+			(xy 190.5 82.55) (xy 204.47 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3027,7 +3094,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 86.36) (xy 105.41 86.36)
+			(xy 97.79 52.07) (xy 119.38 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3037,7 +3104,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 186.69) (xy 120.65 186.69)
+			(xy 116.84 157.48) (xy 127 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3047,7 +3114,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 143.51) (xy 233.68 147.32)
+			(xy 217.17 102.87) (xy 217.17 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3057,7 +3124,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 186.69) (xy 82.55 186.69)
+			(xy 111.76 157.48) (xy 88.9 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3067,7 +3134,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 133.35) (xy 252.73 133.35)
+			(xy 229.87 92.71) (xy 236.22 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3077,7 +3144,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 186.69) (xy 50.8 186.69)
+			(xy 48.26 157.48) (xy 57.15 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3087,7 +3154,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 171.45) (xy 50.8 171.45)
+			(xy 55.88 142.24) (xy 57.15 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3097,7 +3164,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 186.69) (xy 110.49 186.69)
+			(xy 111.76 157.48) (xy 116.84 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3107,7 +3174,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 121.92) (xy 92.71 121.92)
+			(xy 102.87 87.63) (xy 106.68 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3117,7 +3184,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 130.81) (xy 220.98 130.81)
+			(xy 201.93 90.17) (xy 204.47 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3125,8 +3192,18 @@
 		)
 		(uuid "fe7813a5-edd0-407f-9d7c-b9ed49d0d665")
 	)
+	(label "SHIELD_SEL"
+		(at 87.63 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "487bbc8b-c66a-462b-b34b-f313f03f14f0")
+	)
 	(label "-VDDA"
-		(at 93.98 171.45 0)
+		(at 100.33 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3136,7 +3213,7 @@
 		(uuid "5a0b082f-a194-468d-ab13-8537042485b3")
 	)
 	(label "GB"
-		(at 97.79 116.84 0)
+		(at 111.76 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3146,7 +3223,7 @@
 		(uuid "7c75e393-faaa-4b40-b8cf-e9daf53af017")
 	)
 	(label "GND"
-		(at 88.9 111.76 180)
+		(at 102.87 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3157,7 +3234,7 @@
 	)
 	(hierarchical_label "VOUTB"
 		(shape output)
-		(at 252.73 133.35 0)
+		(at 236.22 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3168,7 +3245,7 @@
 	)
 	(hierarchical_label "SCLK"
 		(shape input)
-		(at 218.44 133.35 180)
+		(at 201.93 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3179,7 +3256,7 @@
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
-		(at 218.44 130.81 180)
+		(at 201.93 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3190,7 +3267,7 @@
 	)
 	(hierarchical_label "RB2"
 		(shape output)
-		(at 107.95 97.79 0)
+		(at 121.92 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3201,7 +3278,7 @@
 	)
 	(hierarchical_label "~{CS}"
 		(shape input)
-		(at 218.44 135.89 180)
+		(at 201.93 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3212,7 +3289,7 @@
 	)
 	(hierarchical_label "2N"
 		(shape output)
-		(at 128.27 102.87 0)
+		(at 142.24 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3223,7 +3300,7 @@
 	)
 	(hierarchical_label "SHIELD"
 		(shape input)
-		(at 83.82 105.41 180)
+		(at 48.26 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3234,7 +3311,7 @@
 	)
 	(hierarchical_label "1P"
 		(shape output)
-		(at 118.11 90.17 0)
+		(at 132.08 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3245,7 +3322,7 @@
 	)
 	(hierarchical_label "4N"
 		(shape output)
-		(at 60.96 97.79 0)
+		(at 74.93 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3256,7 +3333,7 @@
 	)
 	(hierarchical_label "VOUTA"
 		(shape output)
-		(at 252.73 128.27 0)
+		(at 236.22 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3267,7 +3344,7 @@
 	)
 	(hierarchical_label "2P"
 		(shape output)
-		(at 76.2 90.17 0)
+		(at 90.17 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3278,7 +3355,7 @@
 	)
 	(hierarchical_label "BIAS"
 		(shape output)
-		(at 88.9 121.92 180)
+		(at 102.87 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3289,7 +3366,7 @@
 	)
 	(hierarchical_label "1N"
 		(shape output)
-		(at 60.96 102.87 0)
+		(at 74.93 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3300,7 +3377,7 @@
 	)
 	(hierarchical_label "3N"
 		(shape output)
-		(at 128.27 97.79 0)
+		(at 142.24 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3311,7 +3388,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 71.12 90.17 0)
+		(at 85.09 55.88 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3320,7 +3397,7 @@
 		(dnp no)
 		(uuid "02c033f3-1403-4a84-aaa8-7e6220d2f12f")
 		(property "Reference" "J15"
-			(at 68.58 88.9 0)
+			(at 82.55 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3330,7 +3407,7 @@
 			)
 		)
 		(property "Value" "2P"
-			(at 68.58 91.44 0)
+			(at 82.55 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3339,7 +3416,7 @@
 			)
 		)
 		(property "Footprint" "dcmini:4mm female snap 3 legs"
-			(at 71.12 90.17 0)
+			(at 85.09 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3348,7 +3425,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 90.17 0)
+			(at 85.09 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3357,7 +3434,7 @@
 			)
 		)
 		(property "Description" "4mm PCB mount 3 leg snap connector"
-			(at 71.12 90.17 0)
+			(at 85.09 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3366,7 +3443,7 @@
 			)
 		)
 		(property "MFG P/N" "H-4111801"
-			(at 71.12 90.17 0)
+			(at 85.09 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3375,7 +3452,7 @@
 			)
 		)
 		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
-			(at 71.12 90.17 0)
+			(at 85.09 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3397,7 +3474,7 @@
 	)
 	(symbol
 		(lib_id "dcmini:LM2664M6")
-		(at 82.55 176.53 0)
+		(at 88.9 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3406,7 +3483,7 @@
 		(fields_autoplaced yes)
 		(uuid "068c619f-6cc4-4240-b930-0c350dd7a980")
 		(property "Reference" "U2"
-			(at 82.55 165.1 0)
+			(at 88.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3414,7 +3491,7 @@
 			)
 		)
 		(property "Value" "LM2664M6"
-			(at 82.55 167.64 0)
+			(at 88.9 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +3499,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 82.55 191.77 0)
+			(at 88.9 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,7 +3508,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm2664.pdf"
-			(at 82.55 189.23 0)
+			(at 88.9 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +3517,7 @@
 			)
 		)
 		(property "Description" "Charge Pump Switching Regulator IC Positive or Negative Fixed -Vin, 2Vin 1 Output 40mA SOT-23-6"
-			(at 82.55 176.53 0)
+			(at 88.9 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +3526,7 @@
 			)
 		)
 		(property "MFG P/N" "LM2664M6/NOPB"
-			(at 82.55 176.53 0)
+			(at 88.9 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,7 +3535,7 @@
 			)
 		)
 		(property "Part Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM2664M6-NOPB/363759"
-			(at 82.55 176.53 0)
+			(at 88.9 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,7 +3572,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 233.68 147.32 0)
+		(at 217.17 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3504,7 +3581,7 @@
 		(fields_autoplaced yes)
 		(uuid "1eaf9aca-427f-446a-8b27-c0fdcf5f785a")
 		(property "Reference" "#PWR0169"
-			(at 233.68 153.67 0)
+			(at 217.17 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3513,7 +3590,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.68 152.4 0)
+			(at 217.17 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3521,7 +3598,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 147.32 0)
+			(at 217.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3530,7 +3607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 147.32 0)
+			(at 217.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3539,7 +3616,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 147.32 0)
+			(at 217.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3561,7 +3638,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 110.49 181.61 0)
+		(at 116.84 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3569,7 +3646,7 @@
 		(dnp no)
 		(uuid "20d8bfe4-288c-4277-9b50-f7c3983af6fb")
 		(property "Reference" "C14"
-			(at 113.03 181.61 0)
+			(at 119.38 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,7 +3655,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 113.03 184.15 0)
+			(at 119.38 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +3664,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 111.4552 185.42 0)
+			(at 117.8052 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,7 +3673,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 181.61 0)
+			(at 116.84 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,7 +3682,7 @@
 			)
 		)
 		(property "Description" "X5R/X7R 10-16V 20% 0402"
-			(at 110.49 181.61 0)
+			(at 116.84 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3614,7 +3691,7 @@
 			)
 		)
 		(property "MFG P/N" "KGM05AR51A225MH"
-			(at 110.49 181.61 0)
+			(at 116.84 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3623,7 +3700,7 @@
 			)
 		)
 		(property "Part Link" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM05AR51A225MH/8019248"
-			(at 110.49 181.61 0)
+			(at 116.84 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,7 +3725,7 @@
 	)
 	(symbol
 		(lib_id "Analog_DAC:DAC80502")
-		(at 233.68 128.27 0)
+		(at 217.17 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3657,7 +3734,7 @@
 		(fields_autoplaced yes)
 		(uuid "2260d12f-e10f-410f-b5d5-33fe67d6bfc2")
 		(property "Reference" "U25"
-			(at 235.8233 113.03 0)
+			(at 219.3133 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,7 +3743,7 @@
 			)
 		)
 		(property "Value" "DAC80502"
-			(at 235.8233 115.57 0)
+			(at 219.3133 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3675,7 +3752,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:Texas_DRX_WSON-10_2.5x2.5mm_P0.5mm"
-			(at 238.76 146.05 0)
+			(at 222.25 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3686,7 +3763,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/dac80502.pdf"
-			(at 238.76 148.59 0)
+			(at 222.25 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3696,7 +3773,7 @@
 			)
 		)
 		(property "Description" "16-bit dual-channel voltage output DAC, 2.5V 5ppm/°C internal reference, WSON-10"
-			(at 233.68 128.27 0)
+			(at 217.17 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3705,7 +3782,7 @@
 			)
 		)
 		(property "MFG P/N" "DAC80502DRXT"
-			(at 233.68 128.27 0)
+			(at 217.17 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,7 +3791,7 @@
 			)
 		)
 		(property "Part Link" "https://www.digikey.com/en/products/detail/texas-instruments/DAC80502DRXT/12352213"
-			(at 233.68 128.27 0)
+			(at 217.17 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,7 +3840,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 106.68 116.84 0)
+		(at 120.65 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3771,7 +3848,7 @@
 		(dnp no)
 		(uuid "2d956047-3f53-4321-98fa-ff7e95e312f9")
 		(property "Reference" "J20"
-			(at 109.22 115.57 0)
+			(at 123.19 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3781,7 +3858,7 @@
 			)
 		)
 		(property "Value" "GB"
-			(at 109.22 118.11 0)
+			(at 123.19 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3790,7 +3867,7 @@
 			)
 		)
 		(property "Footprint" "dcmini:4mm female snap 3 legs"
-			(at 106.68 116.84 0)
+			(at 120.65 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3799,7 +3876,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 116.84 0)
+			(at 120.65 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3808,7 +3885,7 @@
 			)
 		)
 		(property "Description" "4mm PCB mount 3 leg snap connector"
-			(at 106.68 116.84 0)
+			(at 120.65 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3817,7 +3894,7 @@
 			)
 		)
 		(property "MFG P/N" "H-4111801"
-			(at 106.68 116.84 0)
+			(at 120.65 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3826,7 +3903,7 @@
 			)
 		)
 		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
-			(at 106.68 116.84 0)
+			(at 120.65 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,7 +3925,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 255.27 123.19 270)
+		(at 238.76 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3857,7 +3934,7 @@
 		(fields_autoplaced yes)
 		(uuid "3527bedf-836d-440b-941a-b21aa92449f6")
 		(property "Reference" "C89"
-			(at 255.27 115.57 90)
+			(at 238.76 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3865,7 +3942,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 255.27 118.11 90)
+			(at 238.76 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,7 +3950,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 251.46 124.1552 0)
+			(at 234.95 83.5152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +3959,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 123.19 0)
+			(at 238.76 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3891,7 +3968,7 @@
 			)
 		)
 		(property "Description" "X5R/X7R 10-16V 20% 0402"
-			(at 255.27 123.19 0)
+			(at 238.76 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3900,7 +3977,7 @@
 			)
 		)
 		(property "MFG P/N" "KGM05AR51A104KH"
-			(at 255.27 123.19 0)
+			(at 238.76 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,7 +3986,7 @@
 			)
 		)
 		(property "Part Link" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM05AR51A104KH/563239"
-			(at 255.27 123.19 0)
+			(at 238.76 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,7 +4011,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 264.16 125.73 0)
+		(at 247.65 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3943,7 +4020,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f9f54a3-0a3a-494c-8d64-7d0944e0036a")
 		(property "Reference" "#PWR0181"
-			(at 264.16 132.08 0)
+			(at 247.65 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,7 +4029,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 264.16 130.81 0)
+			(at 247.65 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +4037,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 125.73 0)
+			(at 247.65 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,7 +4046,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 125.73 0)
+			(at 247.65 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3978,7 +4055,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 264.16 125.73 0)
+			(at 247.65 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,7 +4077,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 139.7 175.26 0)
+		(at 146.05 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4009,7 +4086,7 @@
 		(fields_autoplaced yes)
 		(uuid "417d5f92-6237-41fa-8728-7c45c65b0f8e")
 		(property "Reference" "C23"
-			(at 136.525 173.9899 0)
+			(at 142.875 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,7 +4095,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 136.525 176.5299 0)
+			(at 142.875 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4027,7 +4104,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 140.6652 179.07 0)
+			(at 147.0152 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4036,7 +4113,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 175.26 0)
+			(at 146.05 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4045,7 +4122,7 @@
 			)
 		)
 		(property "Description" "X5R/X7R 10-16V 20% 0603"
-			(at 139.7 175.26 0)
+			(at 146.05 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4054,7 +4131,7 @@
 			)
 		)
 		(property "MFG P/N" "0603ZD106KAT2A"
-			(at 139.7 175.26 0)
+			(at 146.05 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4063,7 +4140,7 @@
 			)
 		)
 		(property "Part Link" "https://www.digikey.com/en/products/detail/kyocera-avx/0603ZD106KAT2A/7536070"
-			(at 139.7 175.26 0)
+			(at 146.05 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4088,7 +4165,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 226.06 111.76 270)
+		(at 209.55 71.12 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4097,7 +4174,7 @@
 		(fields_autoplaced yes)
 		(uuid "50de4bdb-8d4c-4037-a496-566ed1ba060e")
 		(property "Reference" "C86"
-			(at 226.06 104.14 90)
+			(at 209.55 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +4182,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 226.06 106.68 90)
+			(at 209.55 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +4190,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 222.25 112.7252 0)
+			(at 205.74 72.0852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +4199,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 111.76 0)
+			(at 209.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,7 +4208,7 @@
 			)
 		)
 		(property "Description" "X5R/X7R 10-16V 20% 0402"
-			(at 226.06 111.76 0)
+			(at 209.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4140,7 +4217,7 @@
 			)
 		)
 		(property "MFG P/N" "KGM05AR51A104KH"
-			(at 226.06 111.76 0)
+			(at 209.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4149,7 +4226,7 @@
 			)
 		)
 		(property "Part Link" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM05AR51A104KH/563239"
-			(at 226.06 111.76 0)
+			(at 209.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4174,7 +4251,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 62.23 176.53 0)
+		(at 68.58 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4183,7 +4260,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c18a695-5cf3-4168-99e1-4d5f399cc33f")
 		(property "Reference" "C3"
-			(at 66.04 175.2599 0)
+			(at 72.39 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,7 +4269,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 66.04 177.7999 0)
+			(at 72.39 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4201,7 +4278,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 63.1952 180.34 0)
+			(at 69.5452 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4210,7 +4287,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 176.53 0)
+			(at 68.58 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4219,7 +4296,7 @@
 			)
 		)
 		(property "Description" "X5R/X7R 10-16V 20% 0402"
-			(at 62.23 176.53 0)
+			(at 68.58 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4228,7 +4305,7 @@
 			)
 		)
 		(property "MFG P/N" "KGM05AR51A225MH"
-			(at 62.23 176.53 0)
+			(at 68.58 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4237,7 +4314,7 @@
 			)
 		)
 		(property "Part Link" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM05AR51A225MH/8019248"
-			(at 62.23 176.53 0)
+			(at 68.58 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4262,7 +4339,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 233.68 107.95 0)
+		(at 217.17 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4271,7 +4348,7 @@
 		(fields_autoplaced yes)
 		(uuid "6eaccafa-5cbf-451e-ad5b-034247bc1d54")
 		(property "Reference" "#PWR0120"
-			(at 233.68 111.76 0)
+			(at 217.17 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4280,7 +4357,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 233.68 102.87 0)
+			(at 217.17 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4288,7 +4365,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 107.95 0)
+			(at 217.17 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,7 +4374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 107.95 0)
+			(at 217.17 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4306,7 +4383,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.68 107.95 0)
+			(at 217.17 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4328,7 +4405,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 129.54 0)
+		(at 190.5 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4337,7 +4414,7 @@
 		(fields_autoplaced yes)
 		(uuid "7255f919-d085-42c9-90a4-a3459cbbe8b7")
 		(property "Reference" "#PWR0167"
-			(at 207.01 135.89 0)
+			(at 190.5 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4346,7 +4423,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 134.62 0)
+			(at 190.5 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,7 +4431,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 129.54 0)
+			(at 190.5 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4363,7 +4440,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 129.54 0)
+			(at 190.5 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4372,7 +4449,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 129.54 0)
+			(at 190.5 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,7 +4471,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 50.8 176.53 0)
+		(at 57.15 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4403,7 +4480,7 @@
 		(fields_autoplaced yes)
 		(uuid "729c9ab2-99e9-4eb3-873a-429c9e035a01")
 		(property "Reference" "C2"
-			(at 54.61 175.2599 0)
+			(at 60.96 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,7 +4489,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 54.61 177.7999 0)
+			(at 60.96 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,7 +4498,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 51.7652 180.34 0)
+			(at 58.1152 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4430,7 +4507,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 176.53 0)
+			(at 57.15 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,7 +4516,7 @@
 			)
 		)
 		(property "Description" "X5R/X7R 10-16V 20% 0603"
-			(at 50.8 176.53 0)
+			(at 57.15 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4448,7 +4525,7 @@
 			)
 		)
 		(property "MFG P/N" "0603ZD106KAT2A"
-			(at 50.8 176.53 0)
+			(at 57.15 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4457,7 +4534,7 @@
 			)
 		)
 		(property "Part Link" "https://www.digikey.com/en/products/detail/kyocera-avx/0603ZD106KAT2A/7536070"
-			(at 50.8 176.53 0)
+			(at 57.15 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,17 +4558,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+2V5")
-		(at 62.23 170.18 0)
+		(lib_id "power:GND")
+		(at 64.77 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7b31eabc-bf9d-474e-9733-27a7af1fa31c")
-		(property "Reference" "#PWR037"
-			(at 62.23 173.99 0)
+		(uuid "787b6b64-0869-4c8b-91e7-ca3095436ed9")
+		(property "Reference" "#PWR0153"
+			(at 64.77 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,8 +4576,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+2V5"
-			(at 62.23 165.1 0)
+		(property "Value" "GND"
+			(at 64.77 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +4585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 170.18 0)
+			(at 64.77 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4517,7 +4594,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 170.18 0)
+			(at 64.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f46ca249-da53-4d9e-9748-ae7a3607e6a0")
+		)
+		(instances
+			(project ""
+				(path "/d60941e0-00fa-483d-8778-d43646235567/40126b40-7516-4e12-8e11-9d5f25ac5f3e"
+					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+2V5")
+		(at 68.58 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b31eabc-bf9d-474e-9733-27a7af1fa31c")
+		(property "Reference" "#PWR037"
+			(at 68.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2V5"
+			(at 68.58 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4526,7 +4669,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 62.23 170.18 0)
+			(at 68.58 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4548,7 +4691,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 97.79 97.79 0)
+		(at 111.76 63.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4558,7 +4701,7 @@
 		(fields_autoplaced yes)
 		(uuid "7dd09a63-e9ae-465c-820e-12acaa561abe")
 		(property "Reference" "J62"
-			(at 98.1074 91.44 0)
+			(at 112.0774 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4566,7 +4709,7 @@
 			)
 		)
 		(property "Value" "EXTREF"
-			(at 98.1074 93.98 0)
+			(at 112.0774 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,7 +4717,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 97.79 97.79 0)
+			(at 111.76 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4583,7 +4726,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 97.79 0)
+			(at 111.76 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,7 +4735,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 97.79 97.79 0)
+			(at 111.76 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,7 +4744,7 @@
 			)
 		)
 		(property "MFG P/N" "U.FL-R-SMT-1"
-			(at 97.79 97.79 0)
+			(at 111.76 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4610,7 +4753,7 @@
 			)
 		)
 		(property "Part Link" "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/U-FL-R-SMT-1-40/4285474"
-			(at 97.79 97.79 0)
+			(at 111.76 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4635,7 +4778,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 105.41 181.61 0)
+		(at 111.76 152.4 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4644,7 +4787,7 @@
 		(dnp no)
 		(uuid "84bed832-5ab2-4007-8680-1b8c69606847")
 		(property "Reference" "C13"
-			(at 102.87 180.34 0)
+			(at 109.22 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4653,7 +4796,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 102.87 182.88 0)
+			(at 109.22 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4662,7 +4805,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 104.4448 185.42 0)
+			(at 110.7948 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4671,7 +4814,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 181.61 0)
+			(at 111.76 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4680,7 +4823,7 @@
 			)
 		)
 		(property "Description" "X5R/X7R 10-16V 20% 0603"
-			(at 105.41 181.61 0)
+			(at 111.76 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4689,7 +4832,7 @@
 			)
 		)
 		(property "MFG P/N" "0603ZD106KAT2A"
-			(at 105.41 181.61 0)
+			(at 111.76 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4698,7 +4841,7 @@
 			)
 		)
 		(property "Part Link" "https://www.digikey.com/en/products/detail/kyocera-avx/0603ZD106KAT2A/7536070"
-			(at 105.41 181.61 0)
+			(at 111.76 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4723,7 +4866,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 31.75 177.8 0)
+		(at 38.1 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4732,7 +4875,7 @@
 		(fields_autoplaced yes)
 		(uuid "85c963c1-3162-4e1e-8ac6-9d8479b7a3da")
 		(property "Reference" "C1"
-			(at 27.94 176.5299 0)
+			(at 34.29 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4742,7 +4885,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 27.94 179.0699 0)
+			(at 34.29 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4752,7 +4895,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 32.7152 181.61 0)
+			(at 39.0652 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,7 +4904,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 177.8 0)
+			(at 38.1 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4770,7 +4913,7 @@
 			)
 		)
 		(property "Description" "X5R/X7R 10-16V 20% 0402"
-			(at 31.75 177.8 0)
+			(at 38.1 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4779,7 +4922,7 @@
 			)
 		)
 		(property "MFG P/N" "KGM05AR51A225MH"
-			(at 31.75 177.8 0)
+			(at 38.1 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4788,7 +4931,7 @@
 			)
 		)
 		(property "Part Link" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM05AR51A225MH/8019248"
-			(at 31.75 177.8 0)
+			(at 38.1 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4813,7 +4956,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 95.25 177.8 0)
+		(at 101.6 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4821,7 +4964,7 @@
 		(dnp no)
 		(uuid "8d27d907-e888-4107-9468-5e96c7e84198")
 		(property "Reference" "C10"
-			(at 97.79 173.99 0)
+			(at 104.14 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4830,7 +4973,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 97.79 176.53 0)
+			(at 104.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4839,7 +4982,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 96.2152 181.61 0)
+			(at 102.5652 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4848,7 +4991,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 177.8 0)
+			(at 101.6 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4857,7 +5000,7 @@
 			)
 		)
 		(property "Description" "X5R/X7R 10-16V 20% 0603"
-			(at 95.25 177.8 0)
+			(at 101.6 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4866,7 +5009,7 @@
 			)
 		)
 		(property "MFG P/N" "0603ZD106KAT2A"
-			(at 95.25 177.8 0)
+			(at 101.6 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4875,7 +5018,7 @@
 			)
 		)
 		(property "Part Link" "https://www.digikey.com/en/products/detail/kyocera-avx/0603ZD106KAT2A/7536070"
-			(at 95.25 177.8 0)
+			(at 101.6 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4900,7 +5043,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 143.51 182.88 0)
+		(at 149.86 153.67 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4909,7 +5052,7 @@
 		(dnp no)
 		(uuid "9e997b45-4ba6-4d24-9e58-5a31fc9971c0")
 		(property "Reference" "C24"
-			(at 146.05 181.61 0)
+			(at 152.4 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4918,7 +5061,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 146.05 184.15 0)
+			(at 152.4 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4927,7 +5070,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 142.5448 186.69 0)
+			(at 148.8948 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4936,7 +5079,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 182.88 0)
+			(at 149.86 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4945,7 +5088,7 @@
 			)
 		)
 		(property "Description" "X5R/X7R 10-16V 20% 0402"
-			(at 143.51 182.88 0)
+			(at 149.86 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4954,7 +5097,7 @@
 			)
 		)
 		(property "MFG P/N" "KGM05AR51A225MH"
-			(at 143.51 182.88 0)
+			(at 149.86 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4963,7 +5106,7 @@
 			)
 		)
 		(property "Part Link" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM05AR51A225MH/8019248"
-			(at 143.51 182.88 0)
+			(at 149.86 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +5131,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 92.71 116.84 90)
+		(at 106.68 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4997,7 +5140,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0541e35-c987-42ac-a95b-61201dfc4fd9")
 		(property "Reference" "JP1"
-			(at 90.17 115.5699 90)
+			(at 104.14 81.2799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5006,7 +5149,7 @@
 			)
 		)
 		(property "Value" "GBSEL"
-			(at 90.17 118.1099 90)
+			(at 104.14 83.8199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5015,7 +5158,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
-			(at 92.71 116.84 0)
+			(at 106.68 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5024,7 +5167,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 116.84 0)
+			(at 106.68 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,7 +5176,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 92.71 116.84 0)
+			(at 106.68 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5061,7 +5204,7 @@
 	)
 	(symbol
 		(lib_id "power:-2V5")
-		(at 147.32 172.72 180)
+		(at 153.67 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5070,7 +5213,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae0183c6-45d3-44ce-b769-b7233da25c14")
 		(property "Reference" "#PWR050"
-			(at 147.32 168.91 0)
+			(at 153.67 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5079,7 +5222,7 @@
 			)
 		)
 		(property "Value" "-2V5"
-			(at 147.32 177.8 0)
+			(at 153.67 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5087,7 +5230,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 172.72 0)
+			(at 153.67 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5096,7 +5239,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 172.72 0)
+			(at 153.67 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5105,7 +5248,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-2V5\""
-			(at 147.32 172.72 0)
+			(at 153.67 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,7 +5270,7 @@
 	)
 	(symbol
 		(lib_id "dcmini:MAX1735EUK25")
-		(at 120.65 173.99 0)
+		(at 127 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5136,7 +5279,7 @@
 		(fields_autoplaced yes)
 		(uuid "c32092b0-dcf3-4238-b2f4-2e7b0103ed52")
 		(property "Reference" "U4"
-			(at 120.65 165.1 0)
+			(at 127 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5144,7 +5287,7 @@
 			)
 		)
 		(property "Value" "MAX1735EUK25"
-			(at 120.65 167.64 0)
+			(at 127 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5152,7 +5295,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 120.65 189.23 0)
+			(at 127 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5161,7 +5304,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX1735.pdf"
-			(at 120.65 186.69 0)
+			(at 127 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5170,7 +5313,7 @@
 			)
 		)
 		(property "Description" "Linear Voltage Regulator IC Negative Adjustable (Fixed) 1 Output 200mA SOT-23-5"
-			(at 120.65 173.99 0)
+			(at 127 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5179,7 +5322,7 @@
 			)
 		)
 		(property "MFG P/N" "MAX1735EUK25+T"
-			(at 120.65 173.99 0)
+			(at 127 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5188,7 +5331,7 @@
 			)
 		)
 		(property "Part Link" "https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX1735EUK25-T/1517851"
-			(at 120.65 173.99 0)
+			(at 127 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5222,7 +5365,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 123.19 102.87 0)
+		(at 137.16 68.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5231,7 +5374,7 @@
 		(dnp no)
 		(uuid "c38e3fb8-a30c-4b29-834c-c77168e11517")
 		(property "Reference" "J23"
-			(at 120.65 101.6 0)
+			(at 134.62 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5241,7 +5384,7 @@
 			)
 		)
 		(property "Value" "2N"
-			(at 120.65 104.14 0)
+			(at 134.62 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5250,7 +5393,7 @@
 			)
 		)
 		(property "Footprint" "dcmini:4mm female snap 3 legs"
-			(at 123.19 102.87 0)
+			(at 137.16 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5259,7 +5402,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 102.87 0)
+			(at 137.16 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5268,7 +5411,7 @@
 			)
 		)
 		(property "Description" "4mm PCB mount 3 leg snap connector"
-			(at 123.19 102.87 0)
+			(at 137.16 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,7 +5420,7 @@
 			)
 		)
 		(property "MFG P/N" "H-4111801"
-			(at 123.19 102.87 0)
+			(at 137.16 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5286,7 +5429,7 @@
 			)
 		)
 		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
-			(at 123.19 102.87 0)
+			(at 137.16 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5308,7 +5451,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 113.03 90.17 0)
+		(at 127 55.88 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5317,7 +5460,7 @@
 		(dnp no)
 		(uuid "c88b63cf-a020-4593-9007-08bce2b9ea54")
 		(property "Reference" "J12"
-			(at 110.49 88.9 0)
+			(at 124.46 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5327,7 +5470,7 @@
 			)
 		)
 		(property "Value" "1P"
-			(at 110.49 91.44 0)
+			(at 124.46 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5336,7 +5479,7 @@
 			)
 		)
 		(property "Footprint" "dcmini:4mm female snap 3 legs"
-			(at 113.03 90.17 0)
+			(at 127 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5345,7 +5488,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 90.17 0)
+			(at 127 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5354,7 +5497,7 @@
 			)
 		)
 		(property "Description" "4mm PCB mount 3 leg snap connector"
-			(at 113.03 90.17 0)
+			(at 127 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5363,7 +5506,7 @@
 			)
 		)
 		(property "MFG P/N" "H-4111801"
-			(at 113.03 90.17 0)
+			(at 127 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5372,7 +5515,7 @@
 			)
 		)
 		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
-			(at 113.03 90.17 0)
+			(at 127 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5394,7 +5537,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 76.2 97.79 0)
+		(at 90.17 63.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5403,7 +5546,7 @@
 		(dnp no)
 		(uuid "c9e8b240-9d73-4457-9da5-781f0254a658")
 		(property "Reference" "J18"
-			(at 73.66 96.52 0)
+			(at 87.63 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5413,7 +5556,7 @@
 			)
 		)
 		(property "Value" "RB2"
-			(at 73.66 99.06 0)
+			(at 87.63 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5422,7 +5565,7 @@
 			)
 		)
 		(property "Footprint" "dcmini:4mm female snap 3 legs"
-			(at 76.2 97.79 0)
+			(at 90.17 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5431,7 +5574,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 97.79 0)
+			(at 90.17 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5440,7 +5583,7 @@
 			)
 		)
 		(property "Description" "4mm PCB mount 3 leg snap connector"
-			(at 76.2 97.79 0)
+			(at 90.17 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5449,7 +5592,7 @@
 			)
 		)
 		(property "MFG P/N" "H-4111801"
-			(at 76.2 97.79 0)
+			(at 90.17 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +5601,7 @@
 			)
 		)
 		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
-			(at 76.2 97.79 0)
+			(at 90.17 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5480,7 +5623,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 123.19 97.79 0)
+		(at 137.16 63.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5489,7 +5632,7 @@
 		(dnp no)
 		(uuid "ca91a0df-887f-4202-a040-f46df0ecd787")
 		(property "Reference" "J25"
-			(at 120.65 96.52 0)
+			(at 134.62 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,7 +5642,7 @@
 			)
 		)
 		(property "Value" "3N"
-			(at 120.65 99.06 0)
+			(at 134.62 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5508,7 +5651,7 @@
 			)
 		)
 		(property "Footprint" "dcmini:4mm female snap 3 legs"
-			(at 123.19 97.79 0)
+			(at 137.16 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5517,7 +5660,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 97.79 0)
+			(at 137.16 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5526,7 +5669,7 @@
 			)
 		)
 		(property "Description" "4mm PCB mount 3 leg snap connector"
-			(at 123.19 97.79 0)
+			(at 137.16 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5535,7 +5678,7 @@
 			)
 		)
 		(property "MFG P/N" "H-4111801"
-			(at 123.19 97.79 0)
+			(at 137.16 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5544,7 +5687,7 @@
 			)
 		)
 		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
-			(at 123.19 97.79 0)
+			(at 137.16 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,7 +5709,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 91.44 97.79 0)
+		(at 105.41 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5575,7 +5718,7 @@
 		(fields_autoplaced yes)
 		(uuid "d149a560-4086-48b0-9d2a-dbe61f30167d")
 		(property "Reference" "J61"
-			(at 91.1225 91.44 0)
+			(at 105.0925 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5583,7 +5726,7 @@
 			)
 		)
 		(property "Value" "EXTREF"
-			(at 91.1225 93.98 0)
+			(at 105.0925 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5591,7 +5734,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 91.44 97.79 0)
+			(at 105.41 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5600,7 +5743,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 97.79 0)
+			(at 105.41 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5609,7 +5752,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 91.44 97.79 0)
+			(at 105.41 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5618,7 +5761,7 @@
 			)
 		)
 		(property "MFG P/N" "U.FL-R-SMT-1"
-			(at 91.44 97.79 0)
+			(at 105.41 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5627,7 +5770,7 @@
 			)
 		)
 		(property "Part Link" "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/U-FL-R-SMT-1-40/4285474"
-			(at 91.44 97.79 0)
+			(at 105.41 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5652,7 +5795,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 55.88 97.79 0)
+		(at 69.85 63.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5661,7 +5804,7 @@
 		(dnp no)
 		(uuid "d6131c5a-126a-431c-9a1f-376397ee4cd1")
 		(property "Reference" "J14"
-			(at 53.34 96.52 0)
+			(at 67.31 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5671,7 +5814,7 @@
 			)
 		)
 		(property "Value" "4N"
-			(at 53.34 99.06 0)
+			(at 67.31 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5680,7 +5823,7 @@
 			)
 		)
 		(property "Footprint" "dcmini:4mm female snap 3 legs"
-			(at 55.88 97.79 0)
+			(at 69.85 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5689,7 +5832,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 97.79 0)
+			(at 69.85 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5698,7 +5841,7 @@
 			)
 		)
 		(property "Description" "4mm PCB mount 3 leg snap connector"
-			(at 55.88 97.79 0)
+			(at 69.85 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5707,7 +5850,7 @@
 			)
 		)
 		(property "MFG P/N" "H-4111801"
-			(at 55.88 97.79 0)
+			(at 69.85 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5716,7 +5859,7 @@
 			)
 		)
 		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
-			(at 55.88 97.79 0)
+			(at 69.85 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5738,7 +5881,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 55.88 102.87 0)
+		(at 69.85 68.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5747,7 +5890,7 @@
 		(dnp no)
 		(uuid "d8efc50b-8ded-4a5f-883b-55c9cca695f7")
 		(property "Reference" "J10"
-			(at 53.34 101.6 0)
+			(at 67.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5757,7 +5900,7 @@
 			)
 		)
 		(property "Value" "1N"
-			(at 53.34 104.14 0)
+			(at 67.31 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,7 +5909,7 @@
 			)
 		)
 		(property "Footprint" "dcmini:4mm female snap 3 legs"
-			(at 55.88 102.87 0)
+			(at 69.85 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5775,7 +5918,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 102.87 0)
+			(at 69.85 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,7 +5927,7 @@
 			)
 		)
 		(property "Description" "4mm PCB mount 3 leg snap connector"
-			(at 55.88 102.87 0)
+			(at 69.85 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5793,7 +5936,7 @@
 			)
 		)
 		(property "MFG P/N" "H-4111801"
-			(at 55.88 102.87 0)
+			(at 69.85 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5802,7 +5945,7 @@
 			)
 		)
 		(property "Part Link" "https://www.alibaba.com/product-detail/PCB-Board-Soldering-3-Claw-4_1600686722383.html"
-			(at 55.88 102.87 0)
+			(at 69.85 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5824,7 +5967,7 @@
 	)
 	(symbol
 		(lib_id "dcmini:TLV70025DDCT")
-		(at 41.91 173.99 0)
+		(at 48.26 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5833,7 +5976,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1b2d390-5304-4f96-a464-7edf0299574b")
 		(property "Reference" "U1"
-			(at 41.91 165.1 0)
+			(at 48.26 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5841,7 +5984,7 @@
 			)
 		)
 		(property "Value" "TLV70025DDCT"
-			(at 41.91 167.64 0)
+			(at 48.26 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5849,7 +5992,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 41.91 187.96 0)
+			(at 48.26 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5858,7 +6001,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv700.pdf"
-			(at 41.91 185.42 0)
+			(at 48.26 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5867,7 +6010,7 @@
 			)
 		)
 		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 200mA SOT-23-THIN"
-			(at 41.91 173.99 0)
+			(at 48.26 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5876,7 +6019,7 @@
 			)
 		)
 		(property "MFG P/N" "TLV70025DDCT"
-			(at 41.91 173.99 0)
+			(at 48.26 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5885,7 +6028,7 @@
 			)
 		)
 		(property "Part Link" "https://www.digikey.com/en/products/detail/texas-instruments/TLV70025DDCT/2197027"
-			(at 41.91 173.99 0)
+			(at 48.26 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +6063,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 31.75 187.96 0)
+		(at 38.1 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5929,7 +6072,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2d69ce4-187f-470b-9271-41cc450b60e7")
 		(property "Reference" "#PWR030"
-			(at 31.75 194.31 0)
+			(at 38.1 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5938,7 +6081,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 193.04 0)
+			(at 38.1 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5946,7 +6089,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 187.96 0)
+			(at 38.1 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5955,7 +6098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 187.96 0)
+			(at 38.1 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5964,7 +6107,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 187.96 0)
+			(at 38.1 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5986,7 +6129,7 @@
 	)
 	(symbol
 		(lib_id "power:VDDA")
-		(at 68.58 166.37 0)
+		(at 74.93 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5995,7 +6138,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7ef7ba2-ceae-4b64-a62c-799810ce0b7e")
 		(property "Reference" "#PWR010"
-			(at 68.58 170.18 0)
+			(at 74.93 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6004,7 +6147,7 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 68.58 161.29 0)
+			(at 74.93 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6012,7 +6155,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 166.37 0)
+			(at 74.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6021,7 +6164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 166.37 0)
+			(at 74.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6030,7 +6173,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 68.58 166.37 0)
+			(at 74.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6051,8 +6194,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 55.88 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8493d6d-8a7c-4019-9da4-ceeb631e0bc0")
+		(property "Reference" "JP2"
+			(at 55.88 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SHIELD_SEL"
+			(at 55.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
+			(at 55.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 55.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e517c299-214f-49c6-bf41-0f03f6648a3f")
+		)
+		(pin "2"
+			(uuid "4a1b0d88-ad25-41ec-b057-65f518738a98")
+		)
+		(pin "3"
+			(uuid "2478b33b-b12e-4487-8a17-36b50652971c")
+		)
+		(instances
+			(project ""
+				(path "/d60941e0-00fa-483d-8778-d43646235567/40126b40-7516-4e12-8e11-9d5f25ac5f3e"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDDA")
-		(at 31.75 166.37 0)
+		(at 38.1 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6061,7 +6275,7 @@
 		(fields_autoplaced yes)
 		(uuid "e965d428-4c58-44e3-9d82-ed6aca83d965")
 		(property "Reference" "#PWR04"
-			(at 31.75 170.18 0)
+			(at 38.1 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6070,7 +6284,7 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 31.75 161.29 0)
+			(at 38.1 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6078,7 +6292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 166.37 0)
+			(at 38.1 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6087,7 +6301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 166.37 0)
+			(at 38.1 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6096,7 +6310,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 31.75 166.37 0)
+			(at 38.1 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
