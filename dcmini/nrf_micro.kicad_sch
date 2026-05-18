@@ -17759,6 +17759,28 @@
 				)
 			)
 		)
+		(property "MFG P/N" "MX25R1635FZUIL0"
+			(at 181.61 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Link" "https://www.digikey.com/en/products/detail/macronix/MX25R1635FZUIL0/8416960"
+			(at 181.61 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "30dfa3fd-7b9c-44bb-99c3-1d52aa3afc42")
 		)
