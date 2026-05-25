@@ -2139,7 +2139,7 @@
 	)
 	(text "Schematic based on Adafruit USB Isolator\nhttps://github.com/adafruit/Adafruit-USB-Isolator-PCB\nSubstituted ADUM6000 in place of ADUM5000\nADUM6000 provides 80mA/5kV isolation instead of 100mA/2.5kV\nLimited to USB Full-Speed (12 Mbps)\nLimited to ~80ma supply current on VBUS"
 		(exclude_from_sim no)
-		(at 179.578 174.244 0)
+		(at 216.662 152.654 0)
 		(effects
 			(font
 				(size 1.27 1.27)
